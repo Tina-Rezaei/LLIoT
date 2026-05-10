@@ -39,8 +39,9 @@ If you use this code or dataset in your research, please cite:
 @inproceedings{rezaei2025lliot,
   title={SoK: Understanding the state of IoT-specific vulnerabilities via CVE characterization with LLIoT},
   author={Rezaei, Tina and Bayhan, Suzan and Continella, Andrea and van der Ham-de Vos, Jeroen and van Rijswijk-Deij, Roland},
-  booktitle={Proceedings of the IEEE Symposium on Security and Privacy},
-  year={2025}
+  booktitle={2026 IEEE 11th European Symposium on Security and Privacy (EuroS\&P)},
+  year={2026},
+  organization={IEEE}
 }
 ```
 
@@ -55,13 +56,15 @@ If you use this code or dataset in your research, please cite:
 ### Configuration
 Copy `env.example` to `.env` and update credentials if preferred.
 
-### Installation
-
+### Database Setup & dataset restore
 ```bash
-# Start the PostgreSQL database and restore dump
+# Start the PostgreSQL database and restore data dump
 sudo docker compose up -d
-# Wait until dump restore is completed. You can check with `sudo docker compose logs`
+# Wait until dump restore is completed. You can check with `sudo docker compose logs`. You can 
+```
 
+# Installation
+```bash
 # Make a virtual environment
 python3 -m venv .venv
 source .venv/bin/activate
