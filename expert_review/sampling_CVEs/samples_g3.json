@@ -1,0 +1,867 @@
+[
+  {
+    "cve_id": "CVE-2024-58251",
+    "vendor_product": [
+      "BusyBox:BusyBox"
+    ],
+    "description": "In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.",
+    "cveIndex": 0
+  },
+  {
+    "cve_id": "CVE-2023-7060",
+    "vendor_product": [
+      "zephyrproject-rtos:Zephyr",
+      "zephyrproject:zephyr"
+    ],
+    "description": "Zephyr OS IP packet handling does not properly drop IP packets arriving on an external interface with a source address equal to 127.0.01 or the destination address.",
+    "cveIndex": 1
+  },
+  {
+    "cve_id": "CVE-2019-19391",
+    "vendor_product": [
+      "luajit:luajit",
+      "moonjit_project:moonjit"
+    ],
+    "description": "In LuaJIT through 2.0.5, as used in Moonjit before 2.1.2 and other products, debug.getinfo has a type confusion issue that leads to arbitrary memory write or read operations, because certain cases involving valid stack levels and > options are mishandled. NOTE: The LuaJIT project owner states that the debug libary is unsafe by definition and that this is not a vulnerability. When LuaJIT was originally developed, the expectation was that the entire debug library had no security guarantees and thus it made no sense to assign CVEs. However, not all users of later LuaJIT derivatives share this perspective",
+    "cveIndex": 2
+  },
+  {
+    "cve_id": "CVE-2024-7392",
+    "vendor_product": [
+      "ChargePoint:Home Flex"
+    ],
+    "description": "ChargePoint Home Flex Bluetooth Low Energy Denial-of-Service Vulnerability. This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of ChargePoint Home Flex charging devices. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the connection handling of the Bluetooth Low Energy interface. The issue results from limiting the number of active connections to the product. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Was ZDI-CAN-21455.",
+    "cveIndex": 3
+  },
+  {
+    "cve_id": "CVE-2016-10527",
+    "vendor_product": [
+      "riot.js:riot-compiler"
+    ],
+    "description": "The riot-compiler version version 2.3.21 has an issue in a regex (Catastrophic Backtracking) thats make it unusable under certain conditions.",
+    "cveIndex": 4
+  },
+  {
+    "cve_id": "CVE-2024-0363",
+    "vendor_product": [
+      "PHPGurukul:Hospital Management System",
+      "phpgurukul:hospital_management_system"
+    ],
+    "description": "A vulnerability, which was classified as critical, has been found in PHPGurukul Hospital Management System 1.0. Affected by this issue is some unknown functionality of the file admin/patient-search.php. The manipulation of the argument searchdata leads to sql injection. The exploit has been disclosed to the public and may be used. VDB-250130 is the identifier assigned to this vulnerability.",
+    "cveIndex": 5
+  },
+  {
+    "cve_id": "CVE-2019-10664",
+    "vendor_product": [
+      "domoticz:domoticz"
+    ],
+    "description": "Domoticz before 4.10578 allows SQL Injection via the idx parameter in CWebServer::GetFloorplanImage in WebServer.cpp.",
+    "cveIndex": 6
+  },
+  {
+    "cve_id": "CVE-2023-44107",
+    "vendor_product": [
+      "Huawei:HarmonyOS",
+      "huawei:harmonyos"
+    ],
+    "description": " Vulnerability of defects introduced in the design process in the screen projection module.Successful exploitation of this vulnerability may affect service availability and integrity.",
+    "cveIndex": 7
+  },
+  {
+    "cve_id": "CVE-2023-34488",
+    "vendor_product": [
+      "emqx:nanomq"
+    ],
+    "description": "NanoMQ 0.17.5 is vulnerable to heap-buffer-overflow in the conn_handler function of mqtt_parser.c when it processes malformed messages.",
+    "cveIndex": 8
+  },
+  {
+    "cve_id": "CVE-2017-11632",
+    "vendor_product": [
+      "-:wireless_ip_camera_360"
+    ],
+    "description": "An issue was discovered on Wireless IP Camera 360 devices. A root account with a known SHA-512 password hash exists, which makes it easier for remote attackers to obtain administrative access via a TELNET session.",
+    "cveIndex": 9
+  },
+  {
+    "cve_id": "CVE-2024-31799",
+    "vendor_product": [
+      "gncchome:gc2"
+    ],
+    "description": "Information Disclosure in GNCC's GC2 Indoor Security Camera 1080P allows an attacker with physical access to read the WiFi passphrase via the UART Debugging Port.",
+    "cveIndex": 10
+  },
+  {
+    "cve_id": "CVE-2017-1534",
+    "vendor_product": [
+      "IBM:Security Access Manager"
+    ],
+    "description": "IBM Security Access Manager Appliance 8.0.0 and 9.0.0 could allow a remote attacker to conduct phishing attacks, using an open redirect attack. By persuading a victim to visit a specially-crafted Web site, a remote attacker could exploit this vulnerability to spoof the URL displayed to redirect a user to a malicious Web site that would appear to be trusted. This could allow the attacker to obtain highly sensitive information or conduct further attacks against the victim. IBM X-Force ID: 130676.",
+    "cveIndex": 11
+  },
+  {
+    "cve_id": "CVE-2016-5055",
+    "vendor_product": [
+      "n/a:OSRAM SYLVANIA Osram Lightify Pro before 2016-07-26"
+    ],
+    "description": "OSRAM SYLVANIA Osram Lightify Pro before 2016-07-26 has XSS in the username field and Wireless Client Mode configuration page.",
+    "cveIndex": 12
+  },
+  {
+    "cve_id": "CVE-2017-16744",
+    "vendor_product": [
+      "ICS-CERT:Niagara AX Framework and Niagara 4 Framework",
+      "tridium:niagara",
+      "tridium:niagara_ax_framework"
+    ],
+    "description": "A path traversal vulnerability in Tridium Niagara AX Versions 3.8 and prior and Niagara 4 systems Versions 4.4 and prior installed on Microsoft Windows Systems can be exploited by leveraging valid platform (administrator) credentials.",
+    "cveIndex": 13
+  },
+  {
+    "cve_id": "CVE-2018-8725",
+    "vendor_product": [
+      "k7computing:antivrius",
+      "k7computing:enterprise_security",
+      "k7computing:total_security",
+      "k7computing:ultimate_security"
+    ],
+    "description": "K7Computing Pvt Ltd K7AntiVirus Premium 15.01.00.53 is affected by: Buffer Overflow. The impact is: execute arbitrary code (local). The component is: K7TSMngr.exe.",
+    "cveIndex": 14
+  },
+  {
+    "cve_id": "CVE-2016-5053",
+    "vendor_product": [
+      "n/a:OSRAM SYLVANIA Osram Lightify Home before 2016-07-26"
+    ],
+    "description": "OSRAM SYLVANIA Osram Lightify Home before 2016-07-26 allows remote attackers to execute arbitrary commands via TCP port 4000.",
+    "cveIndex": 15
+  },
+  {
+    "cve_id": "CVE-2017-11023",
+    "vendor_product": [
+      "Qualcomm, Inc.:Android for MSM, Firefox OS for MSM, QRD Android"
+    ],
+    "description": "In android for MSM, Firefox OS for MSM, QRD Android, with all Android releases from CAF using the Linux kernel, there is a possibility of out-of-bound buffer accesses due to no synchronization in accessing global variables by multiple threads.",
+    "cveIndex": 16
+  },
+  {
+    "cve_id": "CVE-2025-25305",
+    "vendor_product": [
+      "home-assistant:core"
+    ],
+    "description": "Home Assistant Core is an open source home automation that puts local control and privacy first. Affected versions are subject to a potential man-in-the-middle attacks due to missing SSL certificate verification in the project codebase and used third-party libraries. In the past, `aiohttp-session`/`request` had the parameter `verify_ssl` to control SSL certificate verification. This was a boolean value. In `aiohttp` 3.0, this parameter was deprecated in favor of the `ssl` parameter. Only when `ssl` is set to `None` or provided with a correct configured SSL context the standard SSL certificate verification will happen. When migrating integrations in Home Assistant and libraries used by Home Assistant, in some cases the `verify_ssl` parameter value was just moved to the new `ssl` parameter. This resulted in these integrations and 3rd party libraries using `request.ssl = True`, which unintentionally turned off SSL certificate verification and opened up a man-in-the-middle attack vector. This issue has been addressed in version 2024.1.6 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+    "cveIndex": 17
+  },
+  {
+    "cve_id": "CVE-2025-24807",
+    "vendor_product": [
+      "eProsima:Fast-DDS",
+      "eprosima:fast_dds"
+    ],
+    "description": "eprosima Fast DDS is a C++ implementation of the DDS (Data Distribution Service) standard of the OMG (Object Management Group). Prior to versions 2.6.10, 2.10.7, 2.14.5, 3.0.2, 3.1.2, and 3.2.0, per design, PermissionsCA is not full chain validated, nor is the expiration date validated. Access control plugin validates only the S/MIME signature which causes an expired PermissionsCA to be taken as valid. Even though this issue is responsible for allowing `governance/permissions` from an expired PermissionsCA and having the system crash when PermissionsCA is not self-signed and contains the full-chain, the impact is low. Versions 2.6.10, 2.10.7, 2.14.5, 3.0.2, 3.1.2, and 3.2.0 contain a fix for the issue.",
+    "cveIndex": 18
+  },
+  {
+    "cve_id": "CVE-2021-31664",
+    "vendor_product": [
+      "riot-os:riot"
+    ],
+    "description": "RIOT-OS 2021.01 before commit 44741ff99f7a71df45420635b238b9c22093647a contains a buffer overflow which could allow attackers to obtain sensitive information.",
+    "cveIndex": 19
+  },
+  {
+    "cve_id": "CVE-2024-3135",
+    "vendor_product": [
+      "mudler:localai",
+      "mudler:mudler/localai"
+    ],
+    "description": "A Cross-Site Request Forgery (CSRF) vulnerability exists in the mudler/localai application, allowing attackers to craft malicious webpages that, when visited by a victim, perform unauthorized actions on the victim's local LocalAI instance without their consent. This vulnerability enables attackers to exhaust system resources, consume credits, and fill disk space by making numerous resource-intensive API calls, such as generating images or uploading files. The vulnerability stems from the application's acceptance of simple request content-types without requiring CSRF tokens or implementing other CSRF mitigation measures. Successful exploitation does not require network access to the vulnerable LocalAI environment.",
+    "cveIndex": 20
+  },
+  {
+    "cve_id": "CVE-2023-43981",
+    "vendor_product": [
+      "presto-changeo:test_site_creator"
+    ],
+    "description": "Presto Changeo testsitecreator up to 1.1.1 was discovered to contain a deserialization vulnerability via the component delete_excluded_folder.php.",
+    "cveIndex": 21
+  },
+  {
+    "cve_id": "CVE-2022-21882",
+    "vendor_product": [
+      "microsoft:windows_10_1809",
+      "microsoft:windows_10_1909",
+      "microsoft:windows_10_20h2",
+      "microsoft:windows_10_21h1",
+      "microsoft:windows_10_21h2",
+      "microsoft:windows_11_21h2",
+      "microsoft:windows_server_2019",
+      "microsoft:windows_server_2022",
+      "microsoft:windows_server_20h2"
+    ],
+    "description": null,
+    "cveIndex": 22
+  },
+  {
+    "cve_id": "CVE-2021-36189",
+    "vendor_product": [
+      "Fortinet:Fortinet FortiClientEMS",
+      "fortinet:forticlient_enterprise_management_server"
+    ],
+    "description": "A missing encryption of sensitive data in Fortinet FortiClientEMS version 7.0.1 and below, version 6.4.4 and below allows attacker to information disclosure via inspecting browser decrypted data",
+    "cveIndex": 23
+  },
+  {
+    "cve_id": "CVE-2021-31571",
+    "vendor_product": [
+      "amazon:freertos"
+    ],
+    "description": "The kernel in Amazon Web Services FreeRTOS before 10.4.3 has an integer overflow in queue.c for queue creation.",
+    "cveIndex": 24
+  },
+  {
+    "cve_id": "CVE-2020-7558",
+    "vendor_product": [
+      "n/a:IGSS Definition (Def.exe) version 14.0.0.20247 and prior",
+      "schneider-electric:interactive_graphical_scada_system"
+    ],
+    "description": "A CWE-787 Out-of-bounds Write vulnerability exists in IGSS Definition (Def.exe) version 14.0.0.20247 that could cause Remote Code Execution when malicious CGF (Configuration Group File) file is imported to IGSS Definition.",
+    "cveIndex": 25
+  },
+  {
+    "cve_id": "CVE-2023-1384",
+    "vendor_product": [
+      "Amazon:Fire TV Stick 3rd gen",
+      "Insignia:TV with FireOS "
+    ],
+    "description": "The setMediaSource function on the amzn.thin.pl service does not sanitize the \"source\" parameter allowing for arbitrary javascript code to be run\n\nThis issue affects:\n\nAmazon Fire TV Stick 3rd gen\u00a0versions prior to 6.2.9.5.\nInsignia TV with FireOS\u00a0versions prior to 7.6.3.3.",
+    "cveIndex": 26
+  },
+  {
+    "cve_id": "CVE-2021-45099",
+    "vendor_product": [
+      "ssh_\\&_web_terminal_project:ssh_\\&_web_terminal"
+    ],
+    "description": "The addon.stdin service in addon-ssh (aka Home Assistant Community Add-on: SSH & Web Terminal) before 10.0.0 has an attack surface that requires social engineering. NOTE: the vendor does not agree that this is a vulnerability; however, addon.stdin was removed as a defense-in-depth measure against complex social engineering situations",
+    "cveIndex": 27
+  },
+  {
+    "cve_id": "CVE-2020-9282",
+    "vendor_product": [
+      "mahara:mahara"
+    ],
+    "description": "In Mahara 18.10 before 18.10.5, 19.04 before 19.04.4, and 19.10 before 19.10.2, certain personal information is discoverable inspecting network responses on the 'Edit access' screen when sharing portfolios.",
+    "cveIndex": 28
+  },
+  {
+    "cve_id": "CVE-2017-1359",
+    "vendor_product": [
+      "IBM:Rational Engineering Lifecycle Manager"
+    ],
+    "description": "IBM RELM 4.0, 5.0, and 6.0 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 126686.",
+    "cveIndex": 29
+  },
+  {
+    "cve_id": "CVE-2018-3863",
+    "vendor_product": [
+      "Samsung:SmartThings Hub STH-ETH-250"
+    ],
+    "description": "On Samsung SmartThings Hub STH-ETH-250 devices with firmware version 0.20.17, the video-core process incorrectly extracts fields from a user-controlled JSON payload, leading to a buffer overflow on the stack. An attacker can send an HTTP request to trigger this vulnerability. A strcpy overflows the destination buffer, which has a size of 40 bytes. An attacker can send an arbitrarily long \"user\" value in order to exploit this vulnerability.",
+    "cveIndex": 30
+  },
+  {
+    "cve_id": "CVE-2024-29862",
+    "vendor_product": [
+      "chirpstack:gateway-bridge",
+      "chirpstack:mqtt-forwarder"
+    ],
+    "description": "The Kerlink firewall in ChirpStack chirpstack-mqtt-forwarder before 4.2.1 and chirpstack-gateway-bridge before 4.0.11 wrongly accepts certain TCP packets when a connection is not in the ESTABLISHED state.",
+    "cveIndex": 31
+  },
+  {
+    "cve_id": "CVE-2020-3531",
+    "vendor_product": [
+      "Cisco:Cisco IoT Field Network Director (IoT-FND)",
+      "cisco:iot_field_network_director"
+    ],
+    "description": "A vulnerability in the REST API of Cisco IoT Field Network Director (FND) could allow an unauthenticated, remote attacker to access the back-end database of an affected system. The vulnerability exists because the affected software does not properly authenticate REST API calls. An attacker could exploit this vulnerability by obtaining a cross-site request forgery (CSRF) token and then using the token with REST API requests. A successful exploit could allow the attacker to access the back-end database of the affected device and read, alter, or drop information.",
+    "cveIndex": 32
+  },
+  {
+    "cve_id": "CVE-2019-15702",
+    "vendor_product": [
+      "riot-os:riot"
+    ],
+    "description": "In the TCP implementation (gnrc_tcp) in RIOT through 2019.07, the parser for TCP options does not terminate on all inputs, allowing a denial-of-service, because sys/net/gnrc/transport_layer/tcp/gnrc_tcp_option.c has an infinite loop for an unknown zero-length option.",
+    "cveIndex": 33
+  },
+  {
+    "cve_id": "CVE-2022-29455",
+    "vendor_product": [
+      "Elementor:Elementor Website Builder (WordPress plugin)",
+      "elementor:website_builder"
+    ],
+    "description": "DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elementor Website Builder plugin <= 3.5.5 versions.",
+    "cveIndex": 34
+  },
+  {
+    "cve_id": "CVE-2023-38048",
+    "vendor_product": [
+      "easyappointments:easyappointments"
+    ],
+    "description": "A BOLA vulnerability in GET, PUT, DELETE /providers/{providerId} allows a low privileged user to fetch, modify or delete a privileged user (provider). This results in unauthorized access and unauthorized data manipulation.",
+    "cveIndex": 35
+  },
+  {
+    "cve_id": "CVE-2024-1545",
+    "vendor_product": [
+      "WolfSSL:wolfCrypt",
+      "wolfssl:wolfcrypt"
+    ],
+    "description": "Fault Injection vulnerability in RsaPrivateDecryption function in wolfssl/wolfcrypt/src/rsa.c in WolfSSL wolfssl5.6.6 on Linux/Windows allows remote attacker\u00a0co-resides in the same system with a victim process to\u00a0disclose information and escalate privileges via Rowhammer fault injection to the RsaKey structure.",
+    "cveIndex": 36
+  },
+  {
+    "cve_id": "CVE-2019-15021",
+    "vendor_product": [
+      "n/a:Palo Alto Networks Zingbox Inspector"
+    ],
+    "description": "A security vulnerability exists in the Zingbox Inspector versions 1.294 and earlier, that can allow an attacker to easily identify instances of Zingbox Inspectors in a local area network.",
+    "cveIndex": 37
+  },
+  {
+    "cve_id": "CVE-2022-32509",
+    "vendor_product": [
+      "nuki:bridge_v1",
+      "nuki:bridge_v2",
+      "nuki:smart_lock_v3_pro"
+    ],
+    "description": "An issue was discovered on certain Nuki Home Solutions devices. Lack of certificate validation on HTTP communications allows attackers to intercept and tamper data. This affects Nuki Smart Lock 3.0 before 3.3.5, Nuki Bridge v1 before 1.22.0 and Nuki Bridge v2 before 2.13.2.",
+    "cveIndex": 38
+  },
+  {
+    "cve_id": "CVE-2021-3617",
+    "vendor_product": [
+      "Lenovo:Smart Camera X3, X5, and C2E firmware"
+    ],
+    "description": "A vulnerability was reported in Lenovo Smart Camera X3, X5, and C2E that could allow command injection by setting a specially crafted network configuration. This vulnerability is the same as CNVD-2020-68652.",
+    "cveIndex": 39
+  },
+  {
+    "cve_id": "CVE-2023-24818",
+    "vendor_product": [
+      "riot-os:riot",
+      "RIOT-OS:RIOT"
+    ],
+    "description": "RIOT-OS, an operating system that supports Internet of Things devices, contains a network stack with the ability to process 6LoWPAN frames. Prior to version 2022.10, an attacker can send a crafted frame to the device resulting in a NULL pointer dereference. During forwarding of a fragment an uninitialized entry in the reassembly buffer is used. The NULL pointer dereference triggers a hard fault exception resulting in denial of service. Version 2022.10 fixes this issue. As a workaround, disable support for fragmented IP datagrams or apply the patches manually.",
+    "cveIndex": 40
+  },
+  {
+    "cve_id": "CVE-2019-15480",
+    "vendor_product": [
+      "domoticz:domoticz"
+    ],
+    "description": "Domoticz 4.10717 has XSS via item.Name.",
+    "cveIndex": 41
+  },
+  {
+    "cve_id": "CVE-2024-31211",
+    "vendor_product": [
+      "WordPress:wordpress-develop"
+    ],
+    "description": "WordPress is an open publishing platform for the Web. Unserialization of instances of the `WP_HTML_Token` class allows for code execution via its `__destruct()` magic method. This issue was fixed in WordPress 6.4.2 on December 6th, 2023. Versions prior to 6.4.0 are not affected.",
+    "cveIndex": 42
+  },
+  {
+    "cve_id": "CVE-2019-0222",
+    "vendor_product": [
+      "oracle:enterprise_repository"
+    ],
+    "description": "In Apache ActiveMQ 5.0.0 - 5.15.8, unmarshalling corrupt MQTT frame can lead to broker Out of Memory exception making it unresponsive.",
+    "cveIndex": 43
+  },
+  {
+    "cve_id": "CVE-2021-40773",
+    "vendor_product": [
+      "Adobe:Prelude"
+    ],
+    "description": "Adobe Prelude version 10.1 (and earlier) is affected by a null pointer dereference vulnerability when parsing a specially crafted file. An unauthenticated attacker could leverage this vulnerability to achieve an application denial-of-service in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+    "cveIndex": 44
+  },
+  {
+    "cve_id": "CVE-2023-48682",
+    "vendor_product": [
+      "Acronis:Acronis Cyber Protect 16"
+    ],
+    "description": "Stored cross-site scripting (XSS) vulnerability in unit name. The following products are affected: Acronis Cyber Protect 16 (Linux, Windows) before build 37391.",
+    "cveIndex": 45
+  },
+  {
+    "cve_id": "CVE-2022-33211",
+    "vendor_product": [
+      "qualcomm:9205_lte_modem_firmware",
+      "qualcomm:9206_lte_modem_firmware",
+      "qualcomm:9207_lte_modem_firmware",
+      "Qualcomm, Inc.:Snapdragon",
+      "qualcomm:mdm8207_firmware",
+      "qualcomm:qca4004_firmware",
+      "qualcomm:qts110_firmware",
+      "qualcomm:snapdragon_1100_wearable_platform_firmware",
+      "qualcomm:snapdragon_1200_wearable_platform_firmware",
+      "qualcomm:snapdragon_wear_1300_platform_firmware",
+      "qualcomm:snapdragon_x5_lte_modem_firmware",
+      "qualcomm:wcd9306_firmware",
+      "qualcomm:wcd9330_firmware"
+    ],
+    "description": "memory corruption in modem due to improper check while calculating size of serialized CoAP message",
+    "cveIndex": 46
+  },
+  {
+    "cve_id": "CVE-2024-12078",
+    "vendor_product": [
+      "ECOVACS:Unspecified robots"
+    ],
+    "description": "ECOVACS robot lawn mowers and vacuums use a shared, static secret key to encrypt BLE GATT messages. An unauthenticated attacker within BLE range can control any robot using the same key.",
+    "cveIndex": 47
+  },
+  {
+    "cve_id": "CVE-2021-43022",
+    "vendor_product": [
+      "Adobe:Premiere Rush"
+    ],
+    "description": "Adobe Premiere Rush version 1.5.16 (and earlier) is affected by a memory corruption vulnerability due to insecure handling of a malicious PNG file, potentially resulting in arbitrary code execution in the context of the current user. User interaction is required to exploit this vulnerability.",
+    "cveIndex": 48
+  },
+  {
+    "cve_id": "CVE-2023-20177",
+    "vendor_product": [
+      "Cisco:Cisco Firepower Threat Defense Software",
+      "cisco:firepower_threat_defense"
+    ],
+    "description": "A vulnerability in the SSL file policy implementation of Cisco Firepower Threat Defense (FTD) Software that occurs when the SSL/TLS connection is configured with a URL Category and the Snort 3 detection engine could allow an unauthenticated, remote attacker to cause the Snort 3 detection engine to unexpectedly restart. This vulnerability exists because a logic error occurs when a Snort 3 detection engine inspects an SSL/TLS connection that has either a URL Category configured on the SSL file policy or a URL Category configured on an access control policy with TLS server identity discovery enabled. Under specific, time-based constraints, an attacker could exploit this vulnerability by sending a crafted SSL/TLS connection through an affected device. A successful exploit could allow the attacker to trigger an unexpected reload of the Snort 3 detection engine, resulting in either a bypass or denial of service (DoS) condition, depending on device configuration. The Snort 3 detection engine will restart automatically. No manual intervention is required.",
+    "cveIndex": 49
+  },
+  {
+    "cve_id": "CVE-2017-8039",
+    "vendor_product": [
+      "n/a:Spring Web Flow Spring Web Flow 2.4.0 to 2.4.5 and Older unsupported versions are also affected"
+    ],
+    "description": "An issue was discovered in Pivotal Spring Web Flow through 2.4.5. Applications that do not change the value of the MvcViewFactoryCreator useSpringBinding property which is disabled by default (i.e., set to 'false') can be vulnerable to malicious EL expressions in view states that process form submissions but do not have a sub-element to declare explicit data binding property mappings. NOTE: this issue exists because of an incomplete fix for CVE-2017-4971.",
+    "cveIndex": 50
+  },
+  {
+    "cve_id": "CVE-2020-3392",
+    "vendor_product": [
+      "Cisco:Cisco IoT Field Network Director (IoT-FND)",
+      "cisco:iot_field_network_director"
+    ],
+    "description": "A vulnerability in the API of Cisco IoT Field Network Director (FND) could allow an unauthenticated, remote attacker to view sensitive information on an affected system. The vulnerability exists because the affected software does not properly authenticate API calls. An attacker could exploit this vulnerability by sending API requests to an affected system. A successful exploit could allow the attacker to view sensitive information on the affected system, including information about the devices that the system manages, without authentication.",
+    "cveIndex": 51
+  },
+  {
+    "cve_id": "CVE-2020-15509",
+    "vendor_product": [
+      "nordicsemi:android_ble_library",
+      "nordicsemi:dfu_library"
+    ],
+    "description": "Nordic Semiconductor Android BLE Library through 2.2.1 and DFU Library through 1.10.4 for Android (as used by nRF Connect and other applications) can engage in unencrypted communication while showing the user that the communication is purportedly encrypted. The problem is in bond creation (e.g., internalCreateBond in BleManagerHandler).",
+    "cveIndex": 52
+  },
+  {
+    "cve_id": "CVE-2024-5424",
+    "vendor_product": [
+      "gallerycreator:Gallery Blocks with Lightbox. Image Gallery, (HTML5 video , YouTube, Vimeo) Video Gallery and Lightbox for native gallery"
+    ],
+    "description": "The Gallery Blocks with Lightbox. Image Gallery, (HTML5 video , YouTube, Vimeo) Video Gallery and Lightbox for native gallery plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018galleryID\u2019 and 'className' parameters in all versions up to, and including, 3.2.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+    "cveIndex": 53
+  },
+  {
+    "cve_id": "CVE-2023-41899",
+    "vendor_product": [
+      "home-assistant:core",
+      "home-assistant:home-assistant"
+    ],
+    "description": "Home assistant is an open source home automation. In affected versions the `hassio.addon_stdin` is vulnerable to a partial Server-Side Request Forgery where an attacker capable of calling this service (e.g.: through GHSA-h2jp-7grc-9xpp) may be able to invoke any Supervisor REST API endpoints with a POST request. An attacker able to exploit will be able to control the data dictionary, including its addon and input key/values. This issue has been addressed in version 2023.9.0 and all users are advised to upgrade. There are no known workarounds for this vulnerability. This issue is also tracked as GitHub Security Lab (GHSL) Vulnerability Report: `GHSL-2023-162`.",
+    "cveIndex": 54
+  },
+  {
+    "cve_id": "CVE-2022-21503",
+    "vendor_product": [
+      "Oracle Corporation:Oracle Cloud Infrastructure",
+      "oracle:cloud_infrastructure"
+    ],
+    "description": "Vulnerability in the Oracle Cloud Infrastructure product of Oracle Cloud Services. Easily exploitable vulnerability allows high privileged attacker with network access to compromise Oracle Cloud Infrastructure. Successful attacks of this vulnerability can result in unauthorized access to Oracle Cloud Infrastructure accessible data. All affected customers were notified of CVE-2022-21503 by Oracle. CVSS 3.1 Base Score 4.9 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N)",
+    "cveIndex": 55
+  },
+  {
+    "cve_id": "CVE-2018-1000517",
+    "vendor_product": [
+      "busybox:busybox",
+      "canonical:ubuntu_linux",
+      "debian:debian_linux"
+    ],
+    "description": "BusyBox project BusyBox wget version prior to commit 8e2174e9bd836e53c8b9c6e00d1bc6e2a718686e contains a Buffer Overflow vulnerability in Busybox wget that can result in heap buffer overflow. This attack appear to be exploitable via network connectivity. This vulnerability appears to have been fixed in after commit 8e2174e9bd836e53c8b9c6e00d1bc6e2a718686e.",
+    "cveIndex": 56
+  },
+  {
+    "cve_id": "CVE-2020-10063",
+    "vendor_product": [
+      "zephyrproject:zephyr"
+    ],
+    "description": "A remote adversary with the ability to send arbitrary CoAP packets to be parsed by Zephyr is able to cause a denial of service. This issue affects: zephyrproject-rtos zephyr version 2.2.0 and later versions.",
+    "cveIndex": 57
+  },
+  {
+    "cve_id": "CVE-2024-9475",
+    "vendor_product": [
+      "ays-pro:Poll Maker \u2013 Versus Polls, Anonymous Polls, Image Polls"
+    ],
+    "description": "The Poll Maker \u2013 Versus Polls, Anonymous Polls, Image Polls plugin for WordPress is vulnerable to generic SQL Injection via the order_by parameter in all versions up to, and including, 5.4.6  due to insufficient escaping on the user-supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with administrator-level permissions and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+    "cveIndex": 58
+  },
+  {
+    "cve_id": "CVE-2024-2103",
+    "vendor_product": [
+      "SEL-710-5 Motor Protection Relay:SEL-710-5 Motor Protection Relay",
+      "Schweitzer Engineering Laboratories: SEL-700G Generator Protection Relay",
+      "Schweitzer Engineering Laboratories:SEL-700BT Motor Bus Transfer Relay",
+      "Schweitzer Engineering Laboratories:SEL-751 Feeder Protection Relay",
+      "Schweitzer Engineering Laboratories:SEL-787-2/-3/-4 Transformer Protection Relay",
+      "Schweitzer Engineering Laboratories:SEL-787Z High-Impedance Differential Relay"
+    ],
+    "description": "\nInclusion of undocumented features vulnerability accessible when logged on with a privileged access level on the following Schweitzer Engineering Laboratories relays could allow the relay to behave unpredictably:\nSEL-700BT Motor Bus Transfer Relay, SEL-700G Generator Protection Relay, SEL-710-5 Motor Protection Relay, SEL-751 Feeder Protection Relay, SEL-787-2/-3/-4 Transformer Protection Relay, SEL-787Z High-Impedance Differential Relay\n\n. See product instruction manual appendix A dated 20240308 for more details regarding the SEL-751 Feeder Protection Relay. For more information for the other affected products, see their instruction manuals dated 20240329.\n\n",
+    "cveIndex": 59
+  },
+  {
+    "cve_id": "CVE-2018-3926",
+    "vendor_product": [
+      "Talos:Samsung"
+    ],
+    "description": "An exploitable integer underflow vulnerability exists in the ZigBee firmware update routine of the hubCore binary of the Samsung SmartThings Hub STH-ETH-250 - Firmware version 0.20.17. The hubCore process incorrectly handles malformed files existing in its data directory, leading to an infinite loop, which eventually causes the process to crash. An attacker can send an HTTP request to trigger this vulnerability.",
+    "cveIndex": 60
+  },
+  {
+    "cve_id": "CVE-2018-3875",
+    "vendor_product": [
+      "Samsung:SmartThings Hub STH-ETH-250"
+    ],
+    "description": "An exploitable buffer overflow vulnerability exists in the credentials handler of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250-Firmware version 0.20.17. The video-core process incorrectly extracts fields from a user-controlled JSON payload, leading to a buffer overflow on the stack. The strncpy overflows the destination buffer, which has a size of 2,000 bytes. An attacker can send an arbitrarily long \"sessionToken\" value in order to exploit this vulnerability.",
+    "cveIndex": 61
+  },
+  {
+    "cve_id": "CVE-2019-5014",
+    "vendor_product": [
+      "n/a:Winco Firefly"
+    ],
+    "description": "An exploitable improper access control vulnerability exists in the bluetooth low energy functionality of Winco Fireworks FireFly FW-1007 V2.0. An attacker can connect to the device to trigger this vulnerability.",
+    "cveIndex": 62
+  },
+  {
+    "cve_id": "CVE-2017-11633",
+    "vendor_product": [
+      "-:wireless_ip_camera_360"
+    ],
+    "description": "An issue was discovered on Wireless IP Camera 360 devices. Remote attackers can discover RTSP credentials by connecting to TCP port 9527 and reading the InsertConnect field.",
+    "cveIndex": 63
+  },
+  {
+    "cve_id": "CVE-2025-40907",
+    "vendor_product": [
+      "ETHER:FCGI"
+    ],
+    "description": "FCGI versions 0.44 through 0.82, for Perl, include a vulnerable version of the FastCGI fcgi2 (aka fcgi) library.\n\nThe included FastCGI library is affected by  CVE-2025-23016, causing an integer overflow (and resultant heap-based buffer overflow) via crafted nameLen or valueLen values in data to the IPC socket. This occurs in ReadParams in fcgiapp.c.",
+    "cveIndex": 64
+  },
+  {
+    "cve_id": "CVE-2020-26072",
+    "vendor_product": [
+      "cisco:iot_field_network_director"
+    ],
+    "description": "A vulnerability in the SOAP API of Cisco IoT Field Network Director (FND) could allow an authenticated, remote attacker to access and modify information on devices that belong to a different domain. The vulnerability is due to insufficient authorization in the SOAP API. An attacker could exploit this vulnerability by sending SOAP API requests to affected devices for devices that are outside their authorized domain. A successful exploit could allow the attacker to access and modify information on devices that belong to a different domain.",
+    "cveIndex": 65
+  },
+  {
+    "cve_id": "CVE-2025-21535",
+    "vendor_product": [
+      "Oracle Corporation:Oracle WebLogic Server"
+    ],
+    "description": "Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+    "cveIndex": 66
+  },
+  {
+    "cve_id": "CVE-2020-26078",
+    "vendor_product": [
+      "cisco:iot_field_network_director"
+    ],
+    "description": "A vulnerability in the file system of Cisco IoT Field Network Director (FND) could allow an authenticated, remote attacker to overwrite files on an affected system. The vulnerability is due to insufficient file system protections. An attacker could exploit this vulnerability by crafting API requests and sending them to an affected system. A successful exploit could allow the attacker to overwrite files on an affected system.",
+    "cveIndex": 67
+  },
+  {
+    "cve_id": "CVE-2023-35974",
+    "vendor_product": [
+      "Hewlett Packard Enterprise (HPE):Aruba Mobility Conductor (formerly Mobility Master); Aruba Mobility Controllers; WLAN Gateways and SD-WAN Gateways managed by Aruba Central"
+    ],
+    "description": "Authenticated command injection vulnerabilities exist in\u00a0the ArubaOS command line interface. Successful exploitation\u00a0of these vulnerabilities result in the ability to execute\u00a0arbitrary commands as a privileged user on the underlying\u00a0operating system.",
+    "cveIndex": 68
+  },
+  {
+    "cve_id": "CVE-2022-34020",
+    "vendor_product": [
+      "resiot:iot_platform_and_lorawan_network_server"
+    ],
+    "description": "Cross Site Request Forgery (CSRF) vulnerability in ResIOT ResIOT IOT Platform + LoRaWAN Network Server through 4.1.1000114 allows attackers to add new admin users to the platform or other unspecified impacts.",
+    "cveIndex": 69
+  },
+  {
+    "cve_id": "CVE-2024-2128",
+    "vendor_product": [
+      "wpdeveloper:embedpress",
+      "wpdevteam:EmbedPress \u2013 Embed PDF, Google Docs, Vimeo, Wistia, Embed YouTube Videos, Audios, Maps & Embed Any Documents in Gutenberg & Elementor"
+    ],
+    "description": "The EmbedPress \u2013 Embed PDF, Google Docs, Vimeo, Wistia, Embed YouTube Videos, Audios, Maps & Embed Any Documents in Gutenberg & Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's embed widget in all versions up to, and including, 3.9.10 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+    "cveIndex": 70
+  },
+  {
+    "cve_id": "CVE-2020-8761",
+    "vendor_product": [
+      "intel:converged_security_and_manageability_engine",
+      "n/a:Intel(R) CSME"
+    ],
+    "description": "Inadequate encryption strength in subsystem for Intel(R) CSME versions before 13.0.40 and 13.30.10 may allow an unauthenticated user to potentially enable information disclosure via physical access.",
+    "cveIndex": 71
+  },
+  {
+    "cve_id": "CVE-2018-20605",
+    "vendor_product": [
+      "txjia:imcat"
+    ],
+    "description": "imcat 4.4 allows remote attackers to execute arbitrary PHP code by using root/run/adm.php to modify the boot/bootskip.php file.",
+    "cveIndex": 72
+  },
+  {
+    "cve_id": "CVE-2023-24069",
+    "vendor_product": [
+      "signal:signal-desktop"
+    ],
+    "description": "Signal Desktop before 6.2.0 on Windows, Linux, and macOS allows an attacker to obtain potentially sensitive attachments sent in messages from the attachments.noindex directory. Cached attachments are not effectively cleared. In some cases, even after a self-initiated file deletion, an attacker can still recover the file if it was previously replied to in a conversation. (Local filesystem access is needed by the attacker.) NOTE: the vendor disputes the relevance of this finding because the product is not intended to protect against adversaries with this degree of local access.",
+    "cveIndex": 73
+  },
+  {
+    "cve_id": "CVE-2025-30597",
+    "vendor_product": [
+      "iografica:IG Shortcodes"
+    ],
+    "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in iografica IG Shortcodes allows DOM-Based XSS. This issue affects IG Shortcodes: from n/a through 3.1.",
+    "cveIndex": 74
+  },
+  {
+    "cve_id": "CVE-2024-5267",
+    "vendor_product": [
+      "sonos:era_100",
+      "Sonos:Era 100"
+    ],
+    "description": "Sonos Era 100 SMB2 Message Handling Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Sonos Era 100 smart speakers. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the handling of SMB2 messages. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-22384.",
+    "cveIndex": 75
+  },
+  {
+    "cve_id": "CVE-2019-1957",
+    "vendor_product": [
+      "Cisco:Cisco IoT Field Network Director (IoT-FND)"
+    ],
+    "description": "A vulnerability in the web interface of Cisco IoT Field Network Director could allow an unauthenticated, remote attacker to trigger high CPU usage, resulting in a denial of service (DoS) condition on an affected device. The vulnerability is due to improper handling of Transport Layer Security (TLS) renegotiation requests. An attacker could exploit this vulnerability by sending renegotiation requests at a high rate. A successful exploit could increase the resource usage on the system, eventually leading to a DoS condition.",
+    "cveIndex": 76
+  },
+  {
+    "cve_id": "CVE-2017-2846",
+    "vendor_product": [
+      "Foscam:Indoor IP Camera C1 Series"
+    ],
+    "description": "In the web management interface in Foscam C1 Indoor HD cameras with application firmware 2.52.2.37, a specially crafted HTTP request can allow for a user to inject arbitrary shell characters during manual network configuration resulting in command injection. An attacker can simply send an HTTP request to the device to trigger this vulnerability.",
+    "cveIndex": 77
+  },
+  {
+    "cve_id": "CVE-2013-20003",
+    "vendor_product": [
+      "Sierra Designs:Z-Wave",
+      "Silicon Labs:Z-Wave"
+    ],
+    "description": "Z-Wave devices from Sierra Designs (circa 2013) and Silicon Labs (using S0 security) may use a known, shared network key of all zeros, allowing an attacker within radio range to spoof Z-Wave traffic.",
+    "cveIndex": 78
+  },
+  {
+    "cve_id": "CVE-2025-21322",
+    "vendor_product": [
+      "microsoft:pc_manager"
+    ],
+    "description": "Microsoft PC Manager Elevation of Privilege Vulnerability",
+    "cveIndex": 79
+  },
+  {
+    "cve_id": "CVE-2020-3162",
+    "vendor_product": [
+      "Cisco:Cisco IoT Field Network Director (IoT-FND)"
+    ],
+    "description": "A vulnerability in the Constrained Application Protocol (CoAP) implementation of Cisco IoT Field Network Director could allow an unauthenticated remote attacker to cause a denial of service (DoS) condition on an affected device. The vulnerability is due to insufficient input validation of incoming CoAP traffic. An attacker could exploit this vulnerability by sending a malformed CoAP packet to an affected device. A successful exploit could allow the attacker to force the CoAP server to stop, interrupting communication to the IoT endpoints.",
+    "cveIndex": 80
+  },
+  {
+    "cve_id": "CVE-2017-3223",
+    "vendor_product": [
+      "Dahua:IP Camera"
+    ],
+    "description": "Dahua IP camera products using firmware versions prior to V2.400.0000.14.R.20170713 include a version of the Sonia web interface that may be vulnerable to a stack buffer overflow. Dahua IP camera products include an application known as Sonia (/usr/bin/sonia) that provides the web interface and other services for controlling the IP camera remotely. Versions of Sonia included in firmware versions prior to DH_IPC-Consumer-Zi-Themis_Eng_P_V2.408.0000.11.R.20170621 do not validate input data length for the 'password' field of the web interface. A remote, unauthenticated attacker may submit a crafted POST request to the IP camera's Sonia web interface that may lead to out-of-bounds memory operations and loss of availability or remote code execution. The issue was originally identified by the researcher in firmware version DH_IPC-HX1X2X-Themis_EngSpnFrn_N_V2.400.0000.30.R.20160803.",
+    "cveIndex": 81
+  },
+  {
+    "cve_id": "CVE-2021-22502",
+    "vendor_product": [
+      "microfocus:operation_bridge_reporter",
+      "n/a:Operation Bridge Reporter."
+    ],
+    "description": "Remote Code execution vulnerability in Micro Focus Operation Bridge Reporter (OBR) product, affecting version 10.40. The vulnerability could be exploited to allow Remote Code Execution on the OBR server.",
+    "cveIndex": 82
+  },
+  {
+    "cve_id": "CVE-2023-48828",
+    "vendor_product": [
+      "phpjabbers:time_slots_booking_calendar"
+    ],
+    "description": "Time Slots Booking Calendar 4.0 is vulnerable to Multiple Stored Cross-Site Scripting (XSS) issues via the name, plugin_sms_api_key, plugin_sms_country_code, calendar_id, title, country name, or customer_name parameter.",
+    "cveIndex": 83
+  },
+  {
+    "cve_id": "CVE-2022-20916",
+    "vendor_product": [
+      "Cisco:Cisco IoT Control Center"
+    ],
+    "description": "A vulnerability in the web-based management interface of Cisco IoT Control Center could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface. This vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.",
+    "cveIndex": 84
+  },
+  {
+    "cve_id": "CVE-2021-24612",
+    "vendor_product": [
+      "Unknown:Sociable",
+      "sociable_project:sociable"
+    ],
+    "description": "The Sociable WordPress plugin through 4.3.4.1 does not sanitise or escape some of its settings before outputting them in the admins dashboard, allowing high privilege users to perform Cross-Site Scripting attacks against other users even when the unfiltered_html capability is disallowed",
+    "cveIndex": 85
+  },
+  {
+    "cve_id": "CVE-2024-2245",
+    "vendor_product": [
+      "mozilo:mozilocms",
+      "moziloCMS:moziloCMS"
+    ],
+    "description": "Cross-Site Scripting vulnerability in moziloCMS version 2.0. By sending a POST request to the '/install.php' endpoint, a JavaScript payload could be executed in the 'username' parameter.",
+    "cveIndex": 86
+  },
+  {
+    "cve_id": "CVE-2020-7476",
+    "vendor_product": [
+      "n/a:ZigBee Installation Toolkit (Versions prior to 1.0.1)",
+      "schneider-electric:ulti_zigbee_installation_toolkit"
+    ],
+    "description": "A CWE-426: Untrusted Search Path vulnerability exists in ZigBee Installation Kit (Versions prior to 1.0.1), which could cause execution of malicious code when a malicious file is put in the search path.",
+    "cveIndex": 87
+  },
+  {
+    "cve_id": "CVE-2023-0689",
+    "vendor_product": [
+      "wpmet:metform_elementor_contact_form_builder",
+      "xpeedstudio:Metform Elementor Contact Form Builder"
+    ],
+    "description": "The Metform Elementor Contact Form Builder for WordPress is vulnerable to Information Disclosure via the 'mf_first_name' shortcode in versions up to, and including, 3.3.1. This allows authenticated attackers, with subscriber-level capabilities or above to obtain sensitive information about arbitrary form submissions, including the submitter's first name.",
+    "cveIndex": 88
+  },
+  {
+    "cve_id": "CVE-2020-26077",
+    "vendor_product": [
+      "cisco:iot_field_network_director"
+    ],
+    "description": "A vulnerability in the access control functionality of Cisco IoT Field Network Director (FND) could allow an authenticated, remote attacker to view lists of users from different domains that are configured on an affected system. The vulnerability is due to improper access control. An attacker could exploit this vulnerability by sending an API request that alters the domain for a requested user list on an affected system. A successful exploit could allow the attacker to view lists of users from different domains on the affected system.",
+    "cveIndex": 89
+  },
+  {
+    "cve_id": "CVE-2017-16631",
+    "vendor_product": [
+      "sapphireims:sapphireims"
+    ],
+    "description": "In SapphireIMS 4097_1, a guest user is able to change the password of an administrative user by utilizing an Insecure Direct Object Reference (IDOR) in the \"Account Password Reset\" functionality.",
+    "cveIndex": 90
+  },
+  {
+    "cve_id": "CVE-2019-17206",
+    "vendor_product": [
+      "redis_wrapper_project:redis_wrapper"
+    ],
+    "description": "Uncontrolled deserialization of a pickled object in models.py in Frost Ming rediswrapper (aka Redis Wrapper) before 0.3.0 allows attackers to execute arbitrary scripts.",
+    "cveIndex": 91
+  },
+  {
+    "cve_id": "CVE-2018-0270",
+    "vendor_product": [
+      "n/a:Cisco IoT Field Network Director"
+    ],
+    "description": "A vulnerability in the web-based management interface of Cisco IoT Field Network Director (IoT-FND) could allow an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack and alter the data of existing users and groups on an affected device. The vulnerability is due to insufficient CSRF protections for the web-based management interface on an affected device. An attacker could exploit this vulnerability by persuading a user of the interface to follow a malicious link. A successful exploit could allow the attacker to perform arbitrary actions with the privilege level of the affected user. If the user has administrative privileges, the attacker could create a new, privileged account to obtain full control over the device interface. This vulnerability affects Connected Grid Network Management System, if running a software release prior to IoT-FND Release 3.0; and IoT Field Network Director, if running a software release prior to IoT-FND Release 4.1.1-6 or 4.2.0-123. Cisco Bug IDs: CSCvi02448.",
+    "cveIndex": 92
+  },
+  {
+    "cve_id": "CVE-2025-0158",
+    "vendor_product": [
+      "IBM:EntireX"
+    ],
+    "description": "IBM EntireX 11.1 could allow a local user to cause a denial of service due to an unhandled error and fault isolation.",
+    "cveIndex": 93
+  },
+  {
+    "cve_id": "CVE-2017-6780",
+    "vendor_product": [
+      "n/a:Cisco IoT Field Network Director"
+    ],
+    "description": "A vulnerability in the TCP throttling process for Cisco IoT Field Network Director (IoT-FND) could allow an unauthenticated, remote attacker to cause the system to consume additional memory, eventually forcing the device to restart, aka Memory Exhaustion. The vulnerability is due to insufficient rate-limiting protection. An attacker could exploit this vulnerability by sending a high rate of TCP packets to a specific group of open listening ports on a targeted device. An exploit could allow the attacker to cause the system to consume additional memory. If enough available memory is consumed, the system will restart, creating a temporary denial of service (DoS) condition. The DoS condition will end after the device has finished the restart process. This vulnerability affects the following Cisco products: Connected Grid Network Management System, if running a software release prior to IoT-FND Release 4.0; IoT Field Network Director, if running a software release prior to IoT-FND Release 4.0. Cisco Bug IDs: CSCvc77164.",
+    "cveIndex": 94
+  },
+  {
+    "cve_id": "CVE-2021-25065",
+    "vendor_product": [
+      "Unknown:Smash Balloon Social Post Feed",
+      "smashballoon:smash_balloon_social_post_feed"
+    ],
+    "description": "The Smash Balloon Social Post Feed WordPress plugin before 4.1.1 was affected by a reflected XSS in custom-facebook-feed in cff-top admin page.",
+    "cveIndex": 95
+  },
+  {
+    "cve_id": "CVE-2020-18734",
+    "vendor_product": [
+      "eclipse:cyclone_data_distribution_service:0.1.0"
+    ],
+    "description": "A stack buffer overflow in /ddsi/q_bitset.h of Eclipse IOT Cyclone DDS Project v0.1.0 causes the DDS subscriber server to crash.",
+    "cveIndex": 96
+  },
+  {
+    "cve_id": "CVE-2024-20514",
+    "vendor_product": [
+      "Cisco:Cisco Evolved Programmable Network Manager (EPNM)",
+      "Cisco:Cisco Prime Infrastructure"
+    ],
+    "description": "A vulnerability in the web-based management interface of Cisco Evolved Programmable Network Manager (EPNM) and Cisco Prime Infrastructure could allow an authenticated, low-privileged, remote attacker to conduct a stored cross-site scripting (XSS) attack against a user of the interface.\r\n\r\nThis vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by injecting malicious code into a specific page of the interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive browser-based information. To exploit this vulnerability, the attacker must have at least a low-privileged account on an affected device.",
+    "cveIndex": 97
+  },
+  {
+    "cve_id": "CVE-2025-29787",
+    "vendor_product": [
+      "zip-rs:zip2"
+    ],
+    "description": "`zip` is a zip library for rust which supports reading and writing of simple ZIP files. In the archive extraction routine of affected versions of the `zip` crate starting with version 1.3.0 and prior to version 2.3.0, symbolic links earlier in the archive are allowed to be used for later files in the archive without validation of the final canonicalized path, allowing maliciously crafted archives to overwrite arbitrary files in the file system when extracted. Users who extract untrusted archive files using the following high-level API method may be affected and critical files on the system may be overwritten with arbitrary file permissions, which can potentially lead to code execution. Version 2.3.0 fixes the issue.",
+    "cveIndex": 98
+  },
+  {
+    "cve_id": "CVE-2019-15016",
+    "vendor_product": [
+      "n/a:Palo Alto Networks Zingbox Inspector",
+      "zingbox:inspector"
+    ],
+    "description": "An SQL injection vulnerability exists in the management interface of Zingbox Inspector versions 1.288 and earlier, that allows for unsanitized data provided by an authenticated user to be passed from the web UI into the database.",
+    "cveIndex": 99
+  }
+]

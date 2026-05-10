@@ -1,0 +1,354 @@
+[
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2021-45969",
+    "mismatch_reason": "label mismatch (FN)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "Insyde InsydeH2O is a BIOS update utility mostly for general purpose computers, not IoT devices."
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2020-27275",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "It is an IoT design software run on general purpose computers, but it is not an active part of the IoT ecosystem and does not affect IoT ecosystem"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2024-32134",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "a web-forms plugin that can affect some IoT products such as IFTTT but it's general and not specifically deigned for IoT",
+    "notes": ""
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2018-20679",
+    "mismatch_reason": "label mismatch (FN)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "busybox is a general-purpose unix utility that is also used in embedded devices, but is not specific to IoT devices"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2022-31544",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "The vulnerability is related to python flask framework/some sort of generic scientific library for computer tomography"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2016-6769",
+    "mismatch_reason": "label mismatch (FN)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "The vulnerability is related to smart lock feature of the android mobile devices not a smart lock device"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2019-4420",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "IoT specific",
+    "affected_component": "",
+    "notes": "IBM Intelligent Operations Center (IOC) is a software platform that pulls data from various sources, including IoT devices, to provide insights and analytics for smart cities and IoT ecosystems."
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2021-39229",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "apprise is a generic library for sending notifications, although it includes an IFTTT plugin that might affect IoT ecosystem,but it is not specifically designed for IoT"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2024-58251",
+    "mismatch_reason": "label mismatch (FN)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "busybox is a general-purpose unix utility that is also used in embedded devices, but is not specific to IoT devices"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2023-44107",
+    "mismatch_reason": "label mismatch (FN)",
+    "manual_review_label": "IoT specific",
+    "affected_component": "",
+    "notes": "HarmonyOS is a SmartTV OS (among other things)"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2017-16744",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "IoT specific",
+    "affected_component": "application",
+    "notes": "a framework for manage workflows in smart buildings, data centers, industrial processes. "
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2025-24807",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "IoT specific",
+    "affected_component": "",
+    "notes": "DDS is a Data Distribution Service based on publish-subscriber model, mostly used in robotics, and industrial iot."
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2022-33211",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "IoT specific",
+    "affected_component": "device",
+    "notes": "this vulnerability affects MDM9207,mdm9206 are specifically designed to enable connectivity for devices and systems within the Internet of Things. "
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2020-15509",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "a library related to ble on android devices"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2018-1000517",
+    "mismatch_reason": "label mismatch (FN)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "busybox is a general-purpose unix utility that is also used in embedded devices, but is not specific to IoT devices"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2024-1578",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "IoT specific",
+    "affected_component": "device",
+    "notes": "MiCard PLUS BLE has bluetooth connectivity and can be considered as IoT."
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2019-12763",
+    "mismatch_reason": "label mismatch (FN)",
+    "manual_review_label": "IoT specific",
+    "affected_component": "",
+    "notes": "It is an application that can turn a smartphone into a smart security camera"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2020-7558",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "IoT specific",
+    "affected_component": "application",
+    "notes": "a software system used in industrial IoT for monitoring and controlling industrial processes."
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2024-1545",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "a general-purpose cryptographic library used in various environments, not exclusively in IoT systems"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2019-15021",
+    "mismatch_reason": "label mismatch (FN)",
+    "manual_review_label": "IoT specific",
+    "affected_component": "",
+    "notes": "zingbox inspector is used to monitor IoT devices, the vulnerability can disclose information about IoT devices."
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2024-2103",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "IoT specific",
+    "affected_component": "",
+    "notes": "relays, which are purpose-built for industrial IoT"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2022-28391",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "busybox is a general-purpose unix utility that is also used in embedded devices, but is not specific to IoT devices"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2024-25092",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "vulnerability in WordPress plugin"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2023-37034",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "a general-purpose mobile core element for mobile networks."
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2017-14436",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "Vulnerability in a router which is not IoT"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2023-40146",
+    "mismatch_reason": "label mismatch (FN)",
+    "manual_review_label": "IoT specific",
+    "affected_component": "device",
+    "notes": "Peplink Smart Reader is a smart NFC reader, an iot device"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2024-8456",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "Ethernet switches—general-purpose network infrastructure devices, not iot"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2024-25507",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "a chinese office-automation web application"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2018-20605",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "PHP-based content management"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2022-42764",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "vulnerability in WLAN driver of Unisoc mobile phone chipsets used in smartphones"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2022-47344",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "a vullnerability in Unisoc chipsets that are mostly used in android devices"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2018-13415",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "a general-purpose media software"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2024-34946",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "tenda router, network infrastructure device, not IoT specific"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2019-20391",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "a general-purpose parsing library"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2022-20860",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "cisco network management systems, not necessarily IoT specific"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2022-1399",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "a management application for the general IT assets"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2024-37632",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "wireless router, network infrastructure device, not IoT specific"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2024-32287",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "vulnerability is in a wireless router, network infrastructure device, not IoT specific"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2021-20642",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "vulnerability is in a LAN router, network infrastructure device, not IoT specific"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2016-10527",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": " it is a general-purpose JavaScript template compiler"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2024-3135",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "Local AI agent management platform which is not IoT"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2023-43981",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "a site creator, so non-iot"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2023-35974",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "",
+    "notes": "networking OS, this vulnerability affects general-purpose network infrastructure devices"
+  },
+  {
+    "username": "tie_breaker",
+    "cve_id": "CVE-2019-17206",
+    "mismatch_reason": "label mismatch (FP)",
+    "manual_review_label": "Not IoT related ",
+    "affected_component": "",
+    "notes": "vulnerability related to redis database, not iot"
+  }
+]

@@ -1,0 +1,22 @@
+services:
+  dbiot:
+    image: postgres:17
+    container_name: LLIoT_eurosp2026
+    command: postgres -c 'max_connections=1000'
+    restart: always
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER:  ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - db_lliot:/var/lib/postgresql/data
+      - ./initdb:/docker-entrypoint-initdb.d
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    env_file: .env
+
+
+volumes:
+  db_lliot:
+    driver: local
+

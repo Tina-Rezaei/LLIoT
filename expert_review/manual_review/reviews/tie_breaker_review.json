@@ -1,0 +1,407 @@
+[
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 0,
+    "cve_id": "CVE-2022-33217",
+    "manual_review_label": "Not IoT related",
+    "notes": "Snapdragon Mobile is a modem for cell phones, and as such this CVE is for a cell phone platform"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 1,
+    "cve_id": "CVE-2023-36161",
+    "manual_review_label": "IoT specific",
+    "affected_component": "device",
+    "notes": "This CVE is for a smart plug device"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 2,
+    "cve_id": "CVE-2021-3616",
+    "manual_review_label": "IoT specific",
+    "affected_component": "device",
+    "notes": "Firmware for IoT cameras"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 3,
+    "cve_id": "CVE-2018-16598",
+    "manual_review_label": "IoT specific",
+    "affected_component": "unsure",
+    "notes": "FreeRTOS is a generic operating system for microcontrollers, so not sure this matches any specific component"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 4,
+    "cve_id": "CVE-2019-12101",
+    "manual_review_label": "IoT specific",
+    "affected_component": "application",
+    "notes": "This is a library used for embedded devices"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 5,
+    "cve_id": "CVE-2022-28391",
+    "manual_review_label": "Not IoT related",
+    "affected_component": "device",
+    "notes": "BusyBox is mostly used in embedded settings, but the CVE is very generic"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 6,
+    "cve_id": "CVE-2022-42764",
+    "manual_review_label": "Not IoT related",
+    "notes": "This seems to be a camera used in cellphones(Android is mentioned in the CVE description)"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 7,
+    "cve_id": "CVE-2020-36517",
+    "manual_review_label": "IoT specific",
+    "affected_component": "application",
+    "notes": "Home Assistant is an application to control smart homes"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 8,
+    "cve_id": "CVE-2018-1632",
+    "manual_review_label": "Not IoT related",
+    "notes": "This is a generic database"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 9,
+    "cve_id": "CVE-2024-39792",
+    "manual_review_label": "Not IoT related",
+    "notes": "nginx is generic software, and while MQTT is used for IoT applications, it is also used more broadly, not that much specific to IoT "
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 10,
+    "cve_id": "CVE-2022-47344",
+    "manual_review_label": "Not IoT related",
+    "notes": "The affected devices seem to be cameras for use in smart phones or tablets"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 11,
+    "cve_id": "CVE-2019-5432",
+    "manual_review_label": "IoT specific",
+    "affected_component": "cloud backend",
+    "notes": "MQTT is the message bus used for many IoT applications. Note: MQTT is also used beyond IoT."
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 12,
+    "cve_id": "CVE-2021-40831",
+    "manual_review_label": "IoT specific",
+    "affected_component": "communication",
+    "notes": "This vulnerability allows traffic interception for MQTT data for systems on which it is installed"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 13,
+    "cve_id": "CVE-2017-18144",
+    "manual_review_label": "Not IoT related",
+    "notes": "Snapdragon processors are for mobile phones and smart watches. seems to be more for mobile phones"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 14,
+    "cve_id": "CVE-2022-33224",
+    "manual_review_label": "Not IoT related",
+    "notes": "Snapdragon processors are mostly used in mobile phones"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 15,
+    "cve_id": "CVE-2021-40829",
+    "manual_review_label": "IoT specific",
+    "affected_component": "communication",
+    "notes": "This concerns an IoT development kit, the vulnerability affects communication as it allows traffic interception through misconfiguration"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 16,
+    "cve_id": "CVE-2024-22472",
+    "manual_review_label": "IoT specific",
+    "affected_component": "communication",
+    "notes": "Concerns a vulnerability in the Z-Wave communication module"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 17,
+    "cve_id": "CVE-2022-34022",
+    "manual_review_label": "IoT specific",
+    "affected_component": "cloud backend",
+    "notes": "This seems to be a backend system for processing LoRaWAN data"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 18,
+    "cve_id": "CVE-2021-22547",
+    "manual_review_label": "IoT specific",
+    "affected_component": "device",
+    "notes": "Given the vulnerability is for the embedded SDK, I think this vulnerability affects devices"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 19,
+    "cve_id": "CVE-2023-26494",
+    "manual_review_label": "IoT specific",
+    "affected_component": "cloud backend",
+    "notes": "This appears to be a vulnerability affecting a LoRaWAN backend server"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 20,
+    "cve_id": "CVE-2019-0741",
+    "manual_review_label": "IoT specific",
+    "affected_component": "cloud backend",
+    "notes": "Seems to be an issue in the Azure IoT backend development kit"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 21,
+    "cve_id": "CVE-2019-10678",
+    "manual_review_label": "IoT specific",
+    "affected_component": "application",
+    "notes": "Domoticz is smart home software"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 22,
+    "cve_id": "CVE-2018-3878",
+    "manual_review_label": "IoT specific",
+    "affected_component": "device",
+    "notes": "The vulnerability affects software running on Samsung smart home devices"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 23,
+    "cve_id": "CVE-2020-27275",
+    "manual_review_label": "Not IoT related",
+    "notes": "This is a development platform for PLC software"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 24,
+    "cve_id": "CVE-2020-26076",
+    "manual_review_label": "IoT specific",
+    "affected_component": "unsure",
+    "notes": "The vulnerability affects a management system for IoT networks, I don't think that fits in any of the categories"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 25,
+    "cve_id": "CVE-2018-20679",
+    "manual_review_label": "IoT specific",
+    "affected_component": "unsure",
+    "notes": "Busybox is a generic Linux distribution, which is used for IoT, I don't think it fits neatly in any of the categories"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 26,
+    "cve_id": "CVE-2018-8531",
+    "manual_review_label": "IoT specific",
+    "affected_component": "cloud backend",
+    "notes": "This software allows client devices to connect to Azure cloud backends"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 27,
+    "cve_id": "CVE-2022-31544",
+    "manual_review_label": "Not IoT related",
+    "notes": "This is some sort of generic scientific library for computer tomography"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 28,
+    "cve_id": "CVE-2023-0896",
+    "manual_review_label": "IoT specific",
+    "affected_component": "device",
+    "notes": "The vulnerability allows unauthorised access to the device"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 29,
+    "cve_id": "CVE-2019-14458",
+    "manual_review_label": "IoT specific",
+    "affected_component": "communication",
+    "notes": "The device can be attacked using specific HTTP requests"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 30,
+    "cve_id": "CVE-2022-39865",
+    "manual_review_label": "IoT specific",
+    "affected_component": "unsure",
+    "notes": "From the description it isn't clear what component is affected, either device or communication"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 31,
+    "cve_id": "CVE-2019-10244",
+    "manual_review_label": "IoT specific",
+    "affected_component": "application",
+    "notes": "The vulnerability affects an IoT edge device SDK"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 32,
+    "cve_id": "CVE-2019-5160",
+    "manual_review_label": "IoT specific",
+    "affected_component": "communication",
+    "notes": "Vulnerability exploited through crafted HTTP requests"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 33,
+    "cve_id": "CVE-2019-16754",
+    "manual_review_label": "IoT specific",
+    "affected_component": "communication",
+    "notes": "Exploit uses crafted MQTT messages"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 34,
+    "cve_id": "CVE-2020-26080",
+    "manual_review_label": "IoT specific",
+    "affected_component": "application",
+    "notes": "Exploit makes use of manipulating input data to the IoT network management software"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 35,
+    "cve_id": "CVE-2017-9315",
+    "manual_review_label": "IoT specific",
+    "affected_component": "application",
+    "notes": "Apparently it is possible to get a reset link for a device password if you know some information about the device"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 36,
+    "cve_id": "CVE-2025-0960",
+    "manual_review_label": "IoT specific",
+    "affected_component": "device",
+    "notes": "This is an interface panel for (I think) industrial automation that can be crashed through improper function calls"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 37,
+    "cve_id": "CVE-2022-34021",
+    "manual_review_label": "IoT specific",
+    "affected_component": "cloud backend",
+    "notes": "XSS vulnerability in LoRaWAN backend server"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 38,
+    "cve_id": "CVE-2019-12496",
+    "manual_review_label": "IoT specific",
+    "affected_component": "communication",
+    "notes": "Allows breaching MQTT communication (as certificates are not checked)"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 39,
+    "cve_id": "CVE-2018-8479",
+    "manual_review_label": "IoT specific",
+    "affected_component": "communication",
+    "notes": "Allows server impersonation in highly specific scenarios"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 40,
+    "cve_id": "CVE-2019-15015",
+    "manual_review_label": "IoT specific",
+    "affected_component": "unsure",
+    "notes": "This concerns some sort of IoT management device"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 41,
+    "cve_id": "CVE-2021-21266",
+    "manual_review_label": "IoT specific",
+    "affected_component": "application",
+    "notes": "This is home automation software with integrations for specific device vendors"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 42,
+    "cve_id": "CVE-2020-26079",
+    "manual_review_label": "IoT specific",
+    "affected_component": "unsure",
+    "notes": "It's unclear from the description whether the vulnerability allows recovery of passwords of the Cisco device or of the devices it manages"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 43,
+    "cve_id": "CVE-2018-18985",
+    "manual_review_label": "IoT specific",
+    "affected_component": "unsure",
+    "notes": "It seems to be management software for physical access control devices, so it could also be classified as IoT backend"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 44,
+    "cve_id": "CVE-2024-25507",
+    "manual_review_label": "Not IoT related",
+    "notes": "Some Googling suggests that this is some sort of office application from China"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 45,
+    "cve_id": "CVE-2020-21990",
+    "manual_review_label": "IoT specific",
+    "affected_component": "communication",
+    "notes": "This is an API vulnerability in some sort of Domoticz (related) API"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 46,
+    "cve_id": "CVE-2023-44107",
+    "manual_review_label": "IoT specific",
+    "affected_component": "device",
+    "notes": "HarmonyOS is a SmartTV OS (among other things)"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 47,
+    "cve_id": "CVE-2016-5053",
+    "manual_review_label": "IoT specific",
+    "affected_component": "application",
+    "notes": "a companion app Lightify Home for smart lights"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 48,
+    "cve_id": "CVE-2023-1384",
+    "manual_review_label": "IoT specific",
+    "affected_component": "device",
+    "notes": "related to a smart TV, thus iot specific"
+  },
+  {
+    "username": "Tie_breaker",
+    "cveIndex": 49,
+    "cve_id": "CVE-2020-3531",
+    "manual_review_label": "IoT specific",
+    "affected_component": "application",
+    "notes": "an IoT-focused orchestration/management platform"
+  },
+    {
+    "username": "Tie_breaker",
+    "cveIndex": 50,
+    "cve_id": "CVE-2024-1545",
+    "manual_review_label": "Not IoT related",
+    "notes": "a general-purpose cryptographic library used in various environments, not exclusively in IoT systems."
+  },
+    {
+    "username": "Tie_breaker",
+    "cveIndex": 51,
+    "cve_id": "CVE-2020-3392",
+    "manual_review_label": "IoT specific",
+    "affected_component": "application",
+    "notes": " a software for management of IoT devices."
+  }
+]

@@ -1,0 +1,425 @@
+{
+    "CCS":[
+            {
+                "title": "Blacktooth: Breaking through the Defense of Bluetooth in Silence",
+                "year": 2022,
+                "category": "IoT Communication",
+                "theme": "Bluetooth",
+                "keywords": ["Blutooth security", "spoofing", "permission escalation"],
+                "IoT keywords": ["Bluetooth"],
+                "cve-related": false
+            },
+            {
+                "title": "Discovering IoT Physical Channel Vulnerabilities",
+                "year": 2022,
+                "category": "IoT Interaction",
+                "theme": "Smart Home",
+                "keywords": ["Smart Homes", "Security Analysis", "Physical Channel Vulnerabilities"],
+                "IoT keywords": ["Smart Home"],
+                "cve-related": false
+            },
+            {
+                "title": "Don’t Kick Over the Beehive: Attacks and Security Analysis on Zigbee",
+                "year": 2022,
+                "category": "IoT Protocol",
+                "theme": "Zigbee",
+                "keywords": ["Security", "Zigbee", "Semantic-aware Fuzzing"],
+                "IoT keywords": ["Zigbee"],
+                "cve-related": true
+
+            },
+            {
+                "title": "HeatDeCam: Detecting Hidden Spy Cameras via Thermal Emissions",
+                "year": 2022,
+                "category": "IoT Device",
+                "theme": "Camera",
+                "keywords": ["Spy Camera Detection", "Privacy", "Cyber-physical Security", "Thermal"],
+                "IoT keywords": ["Camera"],
+                "cve-related": false
+            },
+            {
+                "title": "Location Heartbleeding: The Rise of Wi-Fi Spoofing Attack Via Geolocation API",
+                "year": 2022,
+                "category": "IoT Communication",
+                "theme": "Wi-Fi",
+                "keywords": ["Wi-Fi Localization", "Localization Attacks", "Geolocation APIs"],
+                "IoT keywords": ["Wi-Fi"],
+                "cve-related": false
+            },
+            {
+                "title": "P-Verifier: Understanding and Mitigating Security Risks in Cloud-based IoT Access Policies",
+                "year": 2022,
+                "category": "IoT Cloud",
+                "theme": "Cloud",
+                "keywords": ["IoT", "Formal Verification", "Access Control Policy", "Cloud"],
+                "IoT keywords": [],
+                "cve-related": false
+            },
+            {
+                "title": "Perils and Mitigation of Security Risks of Cooperation in Mobile-as-a-Gateway IoT",
+                "year": 2022,
+                "category": "IoT Communication",
+                "theme": "MaaG",
+                "keywords": ["IoT", "Access Control", "Attack", "Protocol", "Formal Proof"],
+                "IoT keywords": ["Gateway"],
+                "cve-related": true
+            },
+            {
+                "title": "TickTock: Detecting Microphone Status in Laptops Leveraging Electromagnetic Leakage of Clock Signals",
+                "year": 2022,
+                "category": "IoT Device",
+                "theme": "Microphone",
+                "keywords": ["Electromagnetic Side Channels"," Audio Privacy", "Speech Privacy", "Side-channel based Defense", "Sensor Usage Detection"],
+                "IoT keywords": ["Microphone", "Sensor"],
+                "cve-related": false
+            },
+            {
+                "title": "Understanding IoT Security from a Market-Scale Perspective",
+                "year": 2022,
+                "category": "IoT App",
+                "theme": "App",
+                "keywords": ["IoT security", "mobile-IoT app identification", "cryptographic API misuse", "third-parity library vulnerability"],
+                "IoT keywords": [],
+                "cve-related": true
+            },
+            {
+                "title": "What Your Firmware Tells You Is Not How You Should Emulate It: A Specification-Guided Approach for Firmware Emulation",
+                "year": 2022,
+                "category": "IoT Device",
+                "theme": "Firmware",
+                "keywords": ["firmware emulation", "microcontroller", "NLP", "fuzzing"],
+                "IoT keywords": ["Firmware", "Microcontroller"],
+                "cve-related": false
+            },
+            {
+                "title": "When Good Becomes Evil: Tracking Bluetooth Low Energy Devices via Allowlist-based Side Channel and Its Countermeasure",
+                "year": 2022,
+                "category": "IoT Communication",
+                "theme": "Bluetooth",
+                "keywords": ["Bluetooth Security", "Wireless Security", "Bluetooth Privacy", "Identity Resolution Key (IRK)", "Side Channel Attacks; Replay Attacks"],
+                "IoT keywords": ["Bluetooth Low Energy"],
+                "cve-related": true
+            }
+    ],
+    "NDSS":[
+        {
+            "title": "A Lightweight IoT Cryptojacking Detection Mechanism in Heterogeneous Smart Home Networks",
+            "year": 2022,
+            "category": "IoT Interaction",
+            "theme": "Cryptojacking",
+            "keywords": [],
+            "IoT keywords": ["Smart Home"],
+            "cve-related": true
+        },
+        {
+            "title": "FANDEMIC: Firmware Attack Construction and Deployment on Power Management Integrated Circuit and Impacts on IoT Applications",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Firmware",
+            "keywords": [],
+            "IoT keywords": ["Firmware", "Circuit"],
+            "cve-related": true
+        },
+        {
+            "title": "FIRMWIRE: Transparent Dynamic Analysis for Cellular Baseband Firmware",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Firmware",
+            "keywords": [],
+            "IoT keywords": ["Firmware"],
+            "cve-related": true
+        },
+        {
+            "title": "RVPLAYER: Robotic Vehicle Forensics by Replay with What-if Reasoning",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Vehicle",
+            "keywords": [],
+            "IoT keywords": ["Robot", "Vehicle"],
+            "cve-related": false
+        },
+        {
+            "title": "SemperFi: Anti-spoofing GPS Receiver for UAVs",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "UAV",
+            "keywords": [],
+            "IoT keywords": ["UAV"],
+            "cve-related": false
+        },
+        {
+            "title": "Too Afraid to Drive: Systematic Discovery of Semantic DoS Vulnerability in Autonomous Driving Planning under Physical-World Attacks",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Autonomous Driving",
+            "keywords": [],
+            "IoT keywords": ["Autonomous Driving"],
+            "cve-related": false
+        }
+    ],
+    "S&P":[
+        {
+            "title": "Attacks on Wireless Coexistence: Exploiting Cross-Technology Performance Features for Inter-Chip Privilege Escalation",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Chip",
+            "keywords": [],
+            "IoT keywords": ["Chip"],
+            "cve-related": true
+        },
+        {
+            "title": "Delay Wreaks Havoc on Your Smart Home: Delay-based Automation Interference Attacks",
+            "year": 2022,
+            "category": "IoT Interaction",
+            "theme": "Smart Home",
+            "keywords": [],
+            "IoT keywords": ["Smart Home"],
+            "cve-related": false
+        },
+        {
+            "title": "Evaluating Physical-Layer BLE Location Tracking Attacks on Mobile Devices",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Mobile",
+            "keywords": [],
+            "IoT keywords": ["BLE"],
+            "cve-related": false
+        },
+        {
+            "title": "Exposed Infrastructures: Discovery, Attacks and Remediation of Insecure ICS Remote Management Devices",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "ICS",
+            "keywords": [],
+            "IoT keywords": ["ICS"],
+            "cve-related": true
+        },
+        {
+            "title": "Finding SMM Privilege-Escalation Vulnerabilities in UEFI Firmware with Protocol-Centric Static Analysis",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Firmware",
+            "keywords": ["UEFI", "SMM", "Static Analysis", "Protocol-Centric Analysis", "Privilege Escalation Vulnerabilities"],
+            "IoT keywords": ["UEFI"],
+            "cve-related": true
+        },
+        {
+            "title": "Formal Model-Driven Discovery of Bluetooth Protocol Design Vulnerabilities",
+            "year": 2022,
+            "category": "IoT Communication",
+            "theme": "Bluetooth",
+            "keywords": [],
+            "IoT keywords": ["Bluetooth"],
+            "cve-related": false
+        },
+        {
+            "title": "Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Touchscreen",
+            "keywords": [],
+            "IoT keywords": ["Bluetooth"],
+            "cve-related": false
+        },
+        {
+            "title": "IRQDebloat: Reducing Driver Attack Surface in Embedded Devices",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Embedded",
+            "keywords": [],
+            "IoT keywords": [],
+            "cve-related": true
+        },
+        {
+            "title": "IRShield: A Countermeasure Against Adversarial Physical-Layer Wireless Sensing",
+            "year": 2022,
+            "category": "IoT Communication",
+            "theme": "Wireless Communication",
+            "keywords": [],
+            "IoT keywords": [],
+            "cve-related": false
+        },
+        {
+            "title": "mmSpy: Spying Phone Calls using mmWave Radars",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Radar",
+            "keywords": [],
+            "IoT keywords": ["Radar"],
+            "cve-related": false
+        },
+        {
+            "title": "Peekaboo: A Hub-Based Approach to Enable Transparency in Data Processing within Smart Homes",
+            "year": 2022,
+            "category": "IoT Interaction",
+            "theme": "Smart Home",
+            "keywords": [],
+            "IoT keywords": ["Hub", "Smart Home"],
+            "cve-related": false
+        },
+        {
+            "title": "PGPATCH: Policy-Guided Logic Bug Patching for Robotic Vehicles",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Vehicle",
+            "keywords": [],
+            "IoT keywords": ["Robot", "Vehicle"],
+            "cve-related": false
+        }
+    ],
+    "Security":[
+        {
+            "title": "An Experimental Study of GPS Spoofing and Takeover Attacks on UAVs",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "UAV",
+            "keywords": [],
+            "IoT keywords": ["UAV"],
+            "cve-related": false
+        },
+        {
+            "title": "CamShield: Securing Smart Cameras through Physical Replication and Isolation",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Camera",
+            "keywords": [],
+            "IoT keywords": ["Camera"],
+            "cve-related": false
+        },
+        {
+            "title": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
+            "year": 2022,
+            "category": "IoT Communication",
+            "theme": "LTE",
+            "keywords": [],
+            "IoT keywords": ["LTE"],
+            "cve-related": true
+        },
+        {
+            "title": "DoubleStar: Long-Range Attack Towards Depth Estimation based Obstacle Avoidance in Autonomous Systems",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Vehicle",
+            "keywords": [],
+            "IoT keywords": ["LTE"],
+            "cve-related": false
+        },
+        {
+            "title": "Drifuzz: Harvesting Bugs in Device Drivers from Golden Seeds",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Driver",
+            "keywords": [],
+            "IoT keywords": [],
+            "cve-related": true
+        },
+        {
+            "title": "GAROTA: Generalized Active Root-Of-Trust Architecture (for Tiny Embedded Devices)",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Embedded",
+            "keywords": [],
+            "IoT keywords": [],
+            "cve-related": false
+        },
+        {
+            "title": "Lamphone: Passive Sound Recovery from a Desk Lamp’s Light Bulb Vibrations",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Lamphone",
+            "keywords": [],
+            "IoT keywords": ["Lamp", "Bulb"],
+            "cve-related": false
+        },
+        {
+            "title": "Lumos: Identifying and Localizing Diverse Hidden IoT Devices in an Unfamiliar Environment",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Snoop",
+            "keywords": [],
+            "IoT keywords": [],
+            "cve-related": false
+        },
+        {
+            "title": "MaDIoT 2.0: Modern High-Wattage IoT Botnet Attacks and Defenses",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Botnet",
+            "keywords": [],
+            "IoT keywords": ["Botnet"],
+            "cve-related": false
+        },
+        {
+            "title": "Physical-Layer Attacks Against Pulse Width Modulation-Controlled Actuators",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Actuator",
+            "keywords": [],
+            "IoT keywords": ["Actuator"],
+            "cve-related": false
+        },
+        {
+            "title": "PROFACTORY: Improving IoT Security via Formalized Protocol Customization",
+            "year": 2022,
+            "category": "IoT Protocol",
+            "theme": "Bluetooth",
+            "keywords": [],
+            "IoT keywords": [],
+            "cve-related": true
+        },
+        {
+            "title": "RapidPatch: Firmware Hotpatching for Real-Time Embedded Devices",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Embedded",
+            "keywords": [],
+            "IoT keywords": ["Firmware"],
+            "cve-related": true
+        },
+        {
+            "title": "SCRAPS: Scalable Collective Remote Attestation for Pub-Sub IoT Networks with Untrusted Proxy Verifier",
+            "year": 2022,
+            "category": "IoT Communication",
+            "theme": "Remote Attestation",
+            "keywords": [],
+            "IoT keywords": [],
+            "cve-related": false
+        },
+        {
+            "title": "Security Analysis of Camera-LiDAR Fusion Against Black-Box Attacks on Autonomous Vehicles",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Autonomous Driving",
+            "keywords": [],
+            "IoT keywords": ["LiDAR", "Autonomous Vehicle"],
+            "cve-related": false
+        },
+        {
+            "title": "Smart Home Privacy Policies Demystified: A Study of Availability, Content, and Coverage",
+            "year": 2022,
+            "category": "IoT Interaction",
+            "theme": "Smart Home",
+            "keywords": [],
+            "IoT keywords": ["Smart Home"],
+            "cve-related": false
+        },
+        {
+            "title": "V’CER: Efficient Certificate Validation in Constrained Networks",
+            "year": 2022,
+            "category": "IoT Communication",
+            "theme": "Constrained Network",
+            "keywords": [],
+            "IoT keywords": [],
+            "cve-related": false
+        },
+        {
+            "title": "Your Microphone Array Retains Your Identity: A Robust Voice Liveness Detection System for Smart Speakers",
+            "year": 2022,
+            "category": "IoT Device",
+            "theme": "Speaker",
+            "keywords": [],
+            "IoT keywords": ["Microphone", "Speaker"],
+            "cve-related": false
+        }
+    ]
+}

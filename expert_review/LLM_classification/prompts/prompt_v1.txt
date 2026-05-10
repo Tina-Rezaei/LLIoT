@@ -1,0 +1,46 @@
+
+{definition}
+We define the IoT ecosystem as comprising the following four components:
+1-Device layer: Physical devices that often have limited power, memory, computational capacity and
+either collect sensory data or perform actuation tasks. These devices also interact with other devices
+directly or indirectly using communication technologies with limited or no human intervention. Exam-
+ples include smart thermostats, Amazon Echo, motion sensors, smart cameras, smart TVs and hardware internals
+of IoT devices such as Broadcom Wi-Fi SoCs. Typical vulnerabilities of this component originate from
+the hardware, firmware, or embedded OSes/software (e.g., FreeRTOS, TinyOS, Busybox, RIOT-OS).
+Examples include insecure update mechanisms, memory-safety flaws (e.g., buffer overflows in embed-
+ded code), exposed debug ports (UART, JTAG), hardcoded credentials, and side-channel attacks (e.g.,
+electromagnetic leakage or fault injection) to extract secrets.
+2-Communication layer: This layer includes any protocol that facilitates data transfer and connectivity
+between devices within the local network or outside of the network. It involves specialized low-power
+protocols (BLE, ZigBee). Typical vulnerabilities of this component are the flaws in the protocol design,
+implementation or configuration bugs in protocol stacks (e.g., unencrypted data exchange, lack of
+authentication).
+3-Application layer: This layer includes mobile applications, user interfaces, orchestration systems/local
+controllers that sit above the hardware and enable user-space services. Examples include IoT-focused
+platforms and applications/companion applications (Home Assistant, SmartThings, IFTTT). Typical vulnerabilities arise from
+flaws in the design or implementation logic of these platforms and applications.
+4-Cloud layer:  Remote or public cloud endpoints offering public IoT-focused services, device management or remote
+control. Examples include AWS IoT, Azure IoT, Google Cloud IoT, IBM Watson IoT. Typical vulner-
+abilities of this component are the flaws in the configuration of the infrastructure, vulnerable services,
+insecure cloud APIs or tokens, and improper input validation on the server side.
+
+Given the above definition of the IoT ecosystem, we classify CVEs into two categories:
+first)IoT-specific CVE: Vulnerabilities that affect technologies belonging to the device, communication,
+application of the IoT ecosystem, where these technologies are explicitly designed
+for IoT systems and are primarily or exclusively deployed within IoT contexts.
+second)Non-IoT CVE: Vulnerabilities that do not fit within the above definition and affect technologies
+outside the defined IoT ecosystem. Smartphone, computer, or tablets are considered as Non-IoT. Network infrastructures
+such as routers are considered as non-IoT.
+Classify the following CVEs:
+
+Description: {description}
+Affected Products: {products}
+
+    Respond in the following JSON format:
+
+    {{
+      "label": "IoT" or "nonIoT",
+      "component": "device" or "communication" or "application" or "cloud backend" or "unsure" or "",
+      "reason": "Your explanation and reasoning"
+    }}
+)

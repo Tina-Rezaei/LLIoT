@@ -1,0 +1,1533 @@
+{
+  "label_accuracy": 97.58,
+  "component_accuracy": 0.0,
+  "per_component_accuracy": {
+    "unsure": 0.0,
+    "cloud backend": 0.0,
+    "communication": 0.0,
+    "device": 0.0,
+    "application": 0.0
+  },
+  "label_total": 289,
+  "component_total": 134,
+  "true_positives": 141,
+  "false_positives": 2,
+  "false_negatives": 4,
+  "precision": 98.6,
+  "recall": 97.24,
+  "f1_score": 97.92,
+  "mismatches": {
+    "CVE-2020-26076": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure"
+      }
+    },
+    "CVE-2018-8531": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2018-16523": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2020-12884": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2021-27697": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2021-40830": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2023-0896": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2019-14458": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2022-39865": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure"
+      }
+    },
+    "CVE-2019-10244": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2024-3043": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2016-5054": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2020-18735": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2018-20161": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2019-12763": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": ""
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2018-16242": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2019-5160": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2019-16754": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2017-7911": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2021-3152": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2020-26080": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2021-40828": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2018-6692": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2017-9315": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2025-0960": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2016-6769": {
+      "reason": "label mismatch (FN)",
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2019-11777": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2022-34021": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2022-30620": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2019-12496": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2018-8479": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2024-5269": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2023-1385": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2020-11915": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2022-29556": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2024-29195": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2023-40146": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2023-5310": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2019-15015": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure"
+      }
+    },
+    "CVE-2024-7322": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2021-21266": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2020-26079": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure"
+      }
+    },
+    "CVE-2019-7728": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2018-18985": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure"
+      }
+    },
+    "CVE-2023-7009": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2021-21280": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2023-41895": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2020-21990": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2019-9004": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2019-12259": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2019-1644": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2020-10276": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2019-9750": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2022-39368": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2023-50124": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2023-38372": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2023-36161": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2021-3616": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2024-35344": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2018-16598": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure"
+      }
+    },
+    "CVE-2019-12101": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2019-15023": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2018-9070": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2018-8119": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2024-42468": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2023-46892": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2020-36517": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2020-4207": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2023-24822": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2018-25029": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2020-27276": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2021-45969": {
+      "reason": "label mismatch (FN)",
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2019-5432": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2023-1383": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2022-32506": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2021-40831": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2023-41894": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2024-46959": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2020-26701": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2020-26081": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2024-48544": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2016-9155": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2021-40829": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2019-0729": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2024-22472": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2016-5058": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2022-34022": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2021-27427": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2022-48681": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2021-22547": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2020-26075": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2023-26494": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2019-0741": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2019-10678": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2018-3878": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2024-1578": {
+      "reason": "label mismatch (FP)",
+      "human": {
+        "manual_review_label": "Not IoT related"
+      }
+    },
+    "CVE-2021-31662": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2016-5056": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2024-48786": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2023-7060": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2024-7392": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2019-10664": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2023-34488": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2024-31799": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2016-5053": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2021-31664": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2021-31571": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2020-7558": {
+      "reason": "label mismatch (FP)",
+      "human": {
+        "manual_review_label": "Not IoT related"
+      }
+    },
+    "CVE-2023-1384": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2021-45099": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2024-29862": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2019-15702": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2022-32509": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2021-3617": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2023-24818": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2022-33211": {
+      "reason": "label mismatch (FP)",
+      "human": {
+        "manual_review_label": "Not IoT related"
+      }
+    },
+    "CVE-2020-3392": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2023-41899": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2017-11633": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2022-34020": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2024-5267": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2017-2846": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2013-20003": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2019-15016": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2017-16744": {
+      "reason": "label mismatch (FP)",
+      "human": {
+        "manual_review_label": "Not IoT related"
+      }
+    },
+    "CVE-2017-3223": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2020-7476": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2020-3531": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2017-11632": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2025-25305": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2018-3863": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "device"
+      }
+    },
+    "CVE-2019-15480": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2024-12078": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2019-5014": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2020-26072": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2020-3162": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication"
+      }
+    },
+    "CVE-2020-26078": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2022-20916": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend"
+      }
+    },
+    "CVE-2020-26077": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    },
+    "CVE-2018-0270": {
+      "reason": "component mismatch",
+      "IoT specific": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      },
+      "human": {
+        "manual_review_label": "IoT specific",
+        "affected_component": "application"
+      }
+    }
+  }
+}

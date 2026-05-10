@@ -1,0 +1,1800 @@
+[{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects a web application script (PHPJabbers Fundraising Script) which is not specifically designed for IoT purposes. It is a general-purpose web application and does not belong to any of the defined IoT ecosystem components such as the device, communication, application, or cloud backend layers. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2023-40751"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The affected product, MiR100, is a mobile industrial robot, which is a type of IoT device. It collects sensory data and performs actuation tasks, thus fitting the definition of the device layer in the IoT ecosystem. The vulnerability involves a safety PLC (Programmable Logic Controller), which is a key component in the operation and safety of the IoT device. The use of a default password makes it easy to manipulate the device's operation, impacting the safety features. This vulnerability is specific to the IoT product and fits the criteria for an IoT-specific CVE.",
+  "cve_id": "CVE-2020-10276"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The CVE affects IoTivity, a specific IoT middleware framework designed to facilitate communication between IoT devices using the CoAP protocol. CoAP is a specialized protocol commonly adopted in IoT deployments for constrained environments. The vulnerability involves the CoAP server interface, which is an integral part of the communication layer in the IoT ecosystem, making it relevant to IoT usage.",
+  "cve_id": "CVE-2019-9750"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The description indicates a vulnerability in a product called ContiNew Admin, specifically related to SQL injection in its BaseController. There is no evidence or mention of this product being purpose-built for IoT or commonly adopted in IoT deployments. It appears to be a general-purpose administrative tool rather than an active, functional element of an IoT system. Therefore, it does not significantly impact the IoT ecosystem as defined by the classification criteria.",
+  "cve_id": "CVE-2024-8155"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "Eclipse Californium is a Java implementation of the Constrained Application Protocol (CoAP), which is specifically designed for IoT applications. CoAP is a specialized protocol used for communication in IoT environments, particularly in constrained networks and devices. The vulnerability affects the communication layer of the IoT ecosystem as it is directly related to the protocol used for data transfer in IoT deployments. The affected product is an active, functional element of an IoT system, as it is purpose-built for IoT cloud services.",
+  "cve_id": "CVE-2022-39368"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability is related to Qualcomm Snapdragon Mobile, which is a general-purpose hardware platform primarily used in smartphones. Since smartphones are classified as non-IoT devices according to the given criteria, this CVE does not pertain to an IoT-specific technology or deployment. Hence, it is classified as non-IoT.",
+  "cve_id": "CVE-2022-33217"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The CVE pertains to the Intel Unite Client for Windows, which is a general-purpose application used for wireless content sharing and collaboration, typically in enterprise or meeting environments. It is not specifically purpose-built for IoT nor is it commonly adopted in IoT deployments. Additionally, the description mentions the client for Windows, which is a general-purpose operating system and not specifically related to IoT. Therefore, the vulnerability does not significantly impact the IoT ecosystem.",
+  "cve_id": "CVE-2021-0112"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The CVE involves a vulnerability in Picklescan, which is a general-purpose library for scanning Python pickles for unsafe deserialization. There is no indication that Picklescan is a technology purpose-built for IoT or commonly adopted in IoT deployments. The description does not specify any relevance to devices, communication protocols, application platforms, or cloud services typically found in the IoT ecosystem. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2025-46417"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability is found in the Flient Smart Door Lock, which is a physical device designed for IoT ecosystems. It is an active, functional element of an IoT system as it directly performs actuation tasks (unlocking the door) and collects sensory data (fingerprint scanner). The issue with default credentials on a debug interface directly impacts the security of this IoT-specific device.",
+  "cve_id": "CVE-2023-50124"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects the Microsoft Windows graphics component, which is a general-purpose software component used in various versions of the Windows operating system. This component is not specifically designed for IoT devices nor is it commonly adopted in IoT deployments. The affected products, such as Windows Server and Windows operating systems, are typically used in general computing environments rather than IoT-specific environments. Therefore, this vulnerability is classified as non-IoT.",
+  "cve_id": "CVE-2017-8720"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The vulnerability affects the IBM Watson IoT Platform, which is a cloud-based service specifically designed for IoT applications. The CVE involves the misuse of a security token within this platform, indicating a flaw in the cloud layer, which is a core component of the IoT ecosystem. This platform is purpose-built for IoT services, making it relevant to the IoT ecosystem.",
+  "cve_id": "CVE-2023-38372"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The CVE affects the Qubo Smart Plug, a device that is an active, functional element of the IoT ecosystem. It is specifically a smart plug, which fits into the device layer of the IoT ecosystem as it performs actuation tasks and interacts over Wi-Fi. The vulnerability involves a Wi-Fi deauthentication issue, which is relevant to the communication aspect of the IoT device, but the primary affected component is the device itself.",
+  "cve_id": "CVE-2023-36161"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects Lenovo Smart Camera X3, X5, and C2E, which are IoT devices. These smart cameras are purpose-built for IoT, serving as physical devices with limited computational capacity and performing sensory data collection tasks. The vulnerability involves unauthorized access to device information and firmware, which is directly relevant to the device layer of the IoT ecosystem.",
+  "cve_id": "CVE-2021-3616"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability specifically affects firmware of Anpviz IP cameras, which are physical devices used in IoT ecosystems for tasks such as video surveillance. These cameras are IoT devices as they collect sensory data and can be part of a broader IoT deployment. The issue with the hardcoded cryptographic key indicates a security flaw at the device layer, which is critical in IoT contexts.",
+  "cve_id": "CVE-2024-35344"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects NetGain Systems Enterprise Manager, which is a network management and monitoring software. The description does not indicate that it is purpose-built for IoT or commonly adopted specifically for IoT deployments. It appears to be general-purpose network management software, which does not align with the IoT-specific criteria. Therefore, this CVE is classified as non-IoT.",
+  "cve_id": "CVE-2017-16601"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects FreeRTOS, which is a real-time operating system designed for microcontrollers and small, resource-constrained devices, commonly used in IoT applications. FreeRTOS is often part of the device layer in the IoT ecosystem. The issue involves the TCP/IP stack, which is critical for network communication in IoT devices, making it relevant to the IoT ecosystem.",
+  "cve_id": "CVE-2018-16598"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability described affects PDF-XChange Editor, which is a general-purpose software application used for editing PDF files. This software is not purpose-built for IoT or commonly adopted in IoT deployments. It requires user interaction, such as visiting a malicious page or opening a malicious file, which is not typical for IoT devices that often operate with limited human intervention. Therefore, there is insufficient evidence to classify this as an IoT-specific CVE.",
+  "cve_id": "CVE-2023-27341"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "LibNyoci is a lightweight library for the CoAP (Constrained Application Protocol), which is a protocol specifically designed for resource-constrained devices in the IoT ecosystem. The vulnerability in LibNyoci directly affects how CoAP packets are decoded, making it relevant to the communication layer of IoT systems. CoAP is a purpose-built protocol commonly adopted in IoT deployments, thus classifying this CVE as IoT-specific.",
+  "cve_id": "CVE-2019-12101"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects Zingbox Inspector, which is a product designed for IoT security and management. This makes it relevant to the IoT ecosystem, particularly in the application layer, as it deals with the orchestration and management of IoT devices. The issue of storing passwords in cleartext affects the security and functionality of IoT systems.",
+  "cve_id": "CVE-2019-15023"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects the Lenovo Smart Assistant Android app, which is a companion application for an Amazon Alexa-enabled smart speaker. This places it within the application layer of the IoT ecosystem. The app is specifically designed to interact with a smart IoT device (the Lenovo Smart Assistant), making it a purpose-built technology for the IoT ecosystem. Therefore, it is classified as an IoT-specific CVE.",
+  "cve_id": "CVE-2018-9070"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "cPanel is a web hosting control panel software used primarily for managing web hosting services. It is not purpose-built for IoT nor commonly adopted in IoT deployments. The vulnerability affects web server management software that is not an active, functional element of an IoT system. Therefore, this CVE is classified as non-IoT.",
+  "cve_id": "CVE-2018-20930"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The vulnerability affects the Azure IoT SDK, which is purpose-built for IoT deployments as it provides the necessary tools and libraries for IoT devices to communicate with the Azure IoT cloud services. The issue is specifically related to the improper validation of certificates over the AMQP protocol within the Azure IoT Device Provisioning AMQP Transport library. This vulnerability impacts the cloud layer of the IoT ecosystem, as it involves cloud interaction and management for IoT devices.",
+  "cve_id": "CVE-2018-8119"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "BusyBox is a general-purpose software suite that provides several Unix utilities in a single executable file. It is often used in embedded systems, but not exclusively in IoT. It can be used in various environments beyond IoT, such as routers, appliances, and other embedded Linux systems. The CVE does not specifically target IoT use cases or components of the IoT ecosystem as defined, so it is classified as non-IoT.",
+  "cve_id": "CVE-2022-28391"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability is found in the Blood Bank Management System, which is a software application not specifically designed for IoT purposes. The description does not mention any IoT-specific technologies or functions, nor does it indicate that the product is an active, functional element of an IoT system. Therefore, it does not fit the criteria for an IoT-specific CVE.",
+  "cve_id": "CVE-2025-2033"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects Foxit Reader, a general-purpose software application used for viewing PDF documents. It does not belong to any of the IoT-specific layers such as device, communication, application, or cloud backend within the IoT ecosystem. Since Foxit Reader is not purpose-built for IoT nor commonly adopted in IoT deployments, it is classified as non-IoT.",
+  "cve_id": "CVE-2017-16583"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The vulnerability is associated with the NotFound AppReview, which is a general-purpose application and not specific to IoT. There is no evidence provided that this application is purpose-built for IoT or commonly adopted in IoT deployments. Thus, it is classified as non-IoT, even though it falls under the application component for general software categorization.",
+  "cve_id": "CVE-2025-23714"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects openHAB, which is an open-source home automation software platform. Home automation is a common application of IoT, and openHAB is specifically designed to manage IoT devices within a smart home ecosystem. The CometVisu add-on is part of the application layer that provides visualization capabilities, which directly aligns with user interfaces and orchestration systems in the IoT ecosystem. Therefore, this CVE is classified as IoT-specific and related to the application component.",
+  "cve_id": "CVE-2024-42468"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The CVE describes a vulnerability in the radio frequency communication protocol used by the Meross MSH30Q, a thermostat, which is a physical device commonly used in IoT deployments. The vulnerability allows replay attacks, impacting how IoT devices communicate, thus it relates to the communication layer of the IoT ecosystem.",
+  "cve_id": "CVE-2023-46892"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The CVE pertains to a WLAN driver vulnerability, which is part of the communication layer in the IoT ecosystem. The affected products are Unisoc chipsets, which are commonly used in IoT devices for wireless communication. These chipsets are purpose-built for IoT or are commonly adopted in IoT deployments, especially in devices that require wireless communication capabilities. Therefore, this vulnerability is classified as IoT-specific and falls under the communication component.",
+  "cve_id": "CVE-2022-42764"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects Home Assistant, which is a platform specifically designed for managing smart home IoT devices. It falls under the application layer as it involves software that enables user-space services for IoT systems. The vulnerability is relevant to the IoT ecosystem as it impacts the configuration of DNS, which can affect the overall security and operation of IoT devices managed by the Home Assistant.",
+  "cve_id": "CVE-2020-36517"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects IBM Informix Dynamic Server Enterprise Edition, which is a general-purpose database server software. There is no clear evidence of its specific relevance to IoT usage or that it significantly impacts the IoT ecosystem. The product is not an active, functional element of an IoT system as it is not purpose-built for IoT or commonly adopted in IoT deployments.",
+  "cve_id": "CVE-2018-1632"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The CVE concerns NGINX Plus with the MQTT pre-read module. While MQTT is a protocol often used in IoT communications, NGINX Plus is a general-purpose software used for web serving, reverse proxying, caching, load balancing, media streaming, and more. As such, it is not purpose-built for IoT, nor is it a functional element of an IoT system. Thus, the vulnerability does not fit the criteria for an IoT-specific CVE based on the defined classification categories.",
+  "cve_id": "CVE-2024-39792"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The affected products, such as Unisoc chipsets, are commonly used in general-purpose consumer electronics like smartphones. The CVE description does not provide evidence that these chipsets are specifically used in IoT devices or environments. Therefore, it is classified as non-IoT, as the vulnerability does not significantly impact the IoT ecosystem.",
+  "cve_id": "CVE-2022-47344"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "Apache Ozone is a distributed storage system and does not specifically cater to IoT purposes. It is a general-purpose storage solution and is not inherently linked to any IoT-specific technology or functionality. The vulnerability described does not pertain to a device, communication protocol, application, or cloud service that is purpose-built or commonly adopted in IoT deployments. Therefore, it is classified as a non-IoT CVE.",
+  "cve_id": "CVE-2023-39196"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "Plex Media Server is a general-purpose media server software that can be used on various platforms like PCs, Macs, and network-attached storage devices. It is not specifically designed for IoT purposes, nor is it commonly adopted in IoT deployments. The vulnerability pertains to the XML parsing engine for SSDP/UPnP functionality, which is more relevant to media streaming applications and not specifically to IoT ecosystems. Therefore, this CVE is classified as nonIoT.",
+  "cve_id": "CVE-2018-13415"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability pertains to Admidio, which is a user management system for websites of organizations and groups. This is not specific to IoT technologies or commonly adopted in IoT deployments. The affected product does not serve as an active, functional element of an IoT system, but rather as a general-purpose web application. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2024-38529"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The CVE affects IBM Watson IoT Message Gateway, which is a component of the IBM Watson IoT platform, a cloud-based solution specifically designed for IoT services and management. This vulnerability impacts the cloud layer of the IoT ecosystem as it deals with a remote service used for managing IoT devices. The affected product is an active, functional element of an IoT system, making the CVE IoT-specific.",
+  "cve_id": "CVE-2020-4207"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "RIOT-OS is an operating system designed specifically for Internet of Things (IoT) devices, making it an integral part of the IoT ecosystem. The vulnerability described affects the network stack's ability to process 6LoWPAN frames, which is a communication protocol commonly used in IoT deployments. Therefore, this CVE is classified as IoT-specific and pertains to the communication component of the IoT ecosystem.",
+  "cve_id": "CVE-2023-24822"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability described affects 'phpkobo AjaxNewTicker', which is a web application component and not specifically designed for IoT systems. It does not appear to be a technology purpose-built for IoT or commonly adopted in IoT deployments. Additionally, there is no indication that the affected product is an active, functional element of an IoT system. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2023-41448"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The Tenda FH1206 is a router, which is categorized as part of the network infrastructure. Though routers themselves are generally considered non-IoT, in this context, the device appears to be purpose-built for IoT or commonly adopted in IoT deployments as it facilitates communication and connectivity between IoT devices within a local network. The stack-based buffer overflow vulnerability affects the device's firmware, which plays a crucial role in the communication layer of the IoT ecosystem.",
+  "cve_id": "CVE-2024-34946"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability is associated with the GoPro GPMF-parser, which is a software library used for parsing metadata from GoPro cameras. While GoPro cameras can be considered part of the broader IoT ecosystem due to their connectivity features, the parser is a general-purpose software library and not specifically an IoT technology. Additionally, the description does not specify any IoT-specific usage or impact on IoT systems. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2019-20088"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability involves the Z-Wave specification, which is a communication protocol specifically designed for IoT devices, particularly for home automation systems. The ability to downgrade S2 security to a less secure protocol directly impacts the IoT device's communication layer, making it an IoT-specific CVE. The affected product, Silicon Labs' Z-Wave, is purpose-built for IoT deployments, further confirming its relevance to the IoT ecosystem.",
+  "cve_id": "CVE-2018-25029"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability pertains to the communication protocol of an insulin pump and its associated mobile apps, which are used for IoT healthcare devices. The issue involves inadequate authentication measures during key exchange, allowing eavesdropping via Bluetooth Low Energy (BLE). BLE is a specialized low-power protocol commonly used in IoT deployments, particularly for medical devices. Therefore, this CVE affects the communication layer of the IoT ecosystem.",
+  "cve_id": "CVE-2020-27276"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The CVE describes a vulnerability in the System Management Mode (SMM) of InsydeH2O firmware, which is a general-purpose firmware used in a wide range of computing devices, including PCs and laptops. There is no specific mention of IoT-specific technologies or use cases that would indicate this vulnerability is relevant to the IoT ecosystem. Therefore, it is classified as non-IoT because it does not specifically target or impact the IoT ecosystem as defined.",
+  "cve_id": "CVE-2021-45969"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "MQTT is a lightweight messaging protocol commonly used in the IoT ecosystem for communication between devices and services. The vulnerability affects the mqtt-packet module, which is part of the MQTT protocol stack. Since MQTT is purpose-built for IoT and widely adopted in IoT deployments, the CVE is relevant to the communication layer of the IoT ecosystem.",
+  "cve_id": "CVE-2019-5432"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The CVE affects Amazon Fire TV Stick and Insignia TV with FireOS, which are smart TV devices that operate within the IoT ecosystem. These devices perform tasks with limited human intervention and can be considered part of the device layer in an IoT system. The vulnerability impacts the functionality of these devices, making it IoT-specific.",
+  "cve_id": "CVE-2023-1383"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects Nuki Home Solutions devices, specifically smart locks and bridges, which are designed for IoT purposes and are integral components of an IoT ecosystem. The issue involves physical access to the circuit board, allowing an attacker to control code execution and access memory, which directly impacts the device layer of the IoT ecosystem.",
+  "cve_id": "CVE-2022-32506"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The vulnerability affects the Ultimate Flipbox Addon for Elementor, which is a plugin used for web development and design within the WordPress ecosystem. This plugin is not purpose-built for IoT nor is it commonly adopted in IoT deployments. It is mainly used in general web development rather than any specific IoT application, device, or service. Therefore, it classifies as non-IoT.",
+  "cve_id": "CVE-2024-51870"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The vulnerability affects the AWS IoT Device SDK v2 for multiple programming languages, which is specifically designed for use in IoT systems. These SDKs are purpose-built for IoT applications and are used to connect IoT devices to AWS IoT services, which reside in the cloud. The vulnerability involves issues with TLS handshakes and CA verification, which are critical for secure communication between IoT devices and cloud services. Therefore, this CVE is relevant to the cloud layer of the IoT ecosystem.",
+  "cve_id": "CVE-2021-40831"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability is related to the ZigBee ZCL dissector in Wireshark. ZigBee is a low-power communication protocol commonly used in IoT devices for wireless communication. Since ZigBee is purpose-built for IoT and is frequently adopted in IoT deployments, this vulnerability is IoT-specific. Wireshark's role in analyzing and dissecting ZigBee communications makes it relevant to the communication layer of the IoT ecosystem.",
+  "cve_id": "CVE-2018-19628"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The CVE pertains to a vulnerability in Qualcomm Snapdragon processors used in Android devices, specifically affecting the WPA supplicant process. While Snapdragon processors can be found in IoT devices, the description does not provide sufficient evidence that this vulnerability is specific to or predominantly impacts IoT devices. It is more related to general-purpose mobile and wearable technology, which is considered non-IoT according to the given classification. Moreover, the affected products are classified as smartphones and wearables, which align with non-IoT categories.",
+  "cve_id": "CVE-2017-18144"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The affected product is a Qualcomm Snapdragon processor, which is commonly used in a variety of general-purpose devices such as smartphones, tablets, and other consumer electronics. These are not inherently IoT-specific devices. There is no clear evidence in the description indicating that this vulnerability is specific to an IoT deployment or significantly impacts the IoT ecosystem. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2022-33224"
+},
+{
+  "label": "nonIoT",
+  "component": "cloud backend",
+  "reason": "The described CVE affects IBM QRadar Suite Software and IBM Cloud Pak for Security, which are general-purpose security and analytics solutions, not specifically purpose-built for IoT deployments. While the vulnerability lies in the cloud backend component, there is insufficient evidence that these products are integral to the IoT ecosystem or commonly adopted in IoT-specific environments.",
+  "cve_id": "CVE-2024-28782"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The CVE pertains to a NULL Pointer Dereference vulnerability in the Packet Forwarding Engine (PFE) of Juniper Networks Junos OS on QFX5000 Series and MX Series. These are network infrastructure devices, such as switches and routers, which are considered general-purpose hardware and are not specific to the IoT ecosystem. Since the affected products are primarily used in networking environments rather than IoT-specific contexts, this CVE is classified as nonIoT.",
+  "cve_id": "CVE-2022-22210"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects the Home Assistant platform, which is an IoT-focused application used for home automation. The issue is related to the webhook component of Home Assistant, which is part of the application layer as it involves user-space services and orchestration systems. Home Assistant is commonly adopted in IoT deployments, making this CVE IoT-specific.",
+  "cve_id": "CVE-2023-41894"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects an indoor security camera specifically designed for monitoring, which is a typical example of an IoT device. The vulnerability involves a default password allowing unauthorized access to video and audio streams, demonstrating its relevance to the device layer of the IoT ecosystem.",
+  "cve_id": "CVE-2024-46959"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The vulnerability is found in the Kaa IoT Platform, which is an IoT-focused platform that serves as a backend service for managing IoT devices and data. The presence of the vulnerability in the Dashboards section implies that it is part of the application or cloud layer, specifically related to remote cloud endpoints offering IoT-focused services. This makes it an IoT-specific CVE as it affects a technology that is purpose-built for IoT and is a functional element of an IoT system.",
+  "cve_id": "CVE-2020-26701"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The CVE affects libyang, which is a library used for parsing YANG data models. While YANG is used in network infrastructure management and can be part of IoT systems, it is not exclusive to IoT. The description does not provide sufficient evidence to conclude that this vulnerability is specific to IoT purposes. Therefore, it is classified as non-IoT impacting an application layer component.",
+  "cve_id": "CVE-2019-20391"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects Cisco IoT Field Network Director (IoT-FND), which is explicitly designed for managing IoT networks and devices. The vulnerability is in the web UI, which is part of the application layer as it involves user interfaces and orchestration systems for IoT management. The affected product is an active, functional element of the IoT system, and the vulnerability directly impacts the IoT ecosystem by targeting IoT-specific management software.",
+  "cve_id": "CVE-2020-26081"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability is in the firmware update and download processes of the Sylvania Smart Home system, which is an IoT product. The vulnerability is related to incorrect access control in the application's APK file, which is a part of the application layer used for managing the device. Since the affected product is an active, functional element of an IoT system, it fits the definition of an IoT-specific CVE.",
+  "cve_id": "CVE-2024-48544"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects SIEMENS-branded IP Cameras, which are physical devices that collect sensory data and interact with other devices, fitting the device layer definition of the IoT ecosystem. These cameras are purpose-built for IoT deployments and are active, functional elements of an IoT system. The vulnerability relates to obtaining administrative credentials via network access to the web server on these IoT devices.",
+  "cve_id": "CVE-2016-9155"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The CVE is related to an online ordering system, which does not specifically pertain to any of the four components of the IoT ecosystem as defined. There is no indication that this online ordering system is purpose-built for IoT or commonly adopted in IoT deployments. It seems to be a general-purpose application unrelated to IoT-specific technologies or systems.",
+  "cve_id": "CVE-2022-31355"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability is found in libming, a library used for processing SWF (Shockwave Flash) files. This library is not specifically designed for IoT devices and is typically used in general-purpose computing environments for handling multimedia content. There is no indication that this vulnerability directly affects any of the IoT-specific components such as device, communication, application, or cloud backend layers of the IoT ecosystem. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2018-5251"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The CVE affects AWS IoT Device SDKs, which are explicitly used for IoT purposes. The SDKs are part of AWS's cloud services that facilitate IoT device management and interaction, making it part of the cloud layer in the IoT ecosystem. The issue relates to the verification process during a TLS handshake in these SDKs, indicating a vulnerability in cloud-related security processes. Therefore, this vulnerability is relevant to the IoT ecosystem and falls under the cloud backend component.",
+  "cve_id": "CVE-2021-40829"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The CVE affects the Azure IoT Java SDK, which is a technology purpose-built for IoT. The vulnerability impacts the generation of symmetric keys used for encryption within the Azure IoT ecosystem. Azure IoT is a cloud-based service that fits into the cloud layer of the IoT ecosystem as it provides IoT-focused services and device management. Therefore, this CVE is classified as IoT-specific and pertains to the cloud backend component.",
+  "cve_id": "CVE-2019-0729"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability affects Silicon Labs 500 Series Z-Wave devices, which are specifically designed for IoT ecosystems as a communication protocol. Z-Wave is a wireless communication protocol used in IoT for home automation devices. The fact that this vulnerability affects Z-Wave devices and their SDK implies a direct impact on the communication layer of the IoT ecosystem. Therefore, it is classified as an IoT-specific CVE affecting the communication component.",
+  "cve_id": "CVE-2024-22472"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects the MySQL Server component, which is a general-purpose database management system used in a variety of applications and environments, not specifically or uniquely tied to IoT. There is no indication that this vulnerability significantly impacts the IoT ecosystem or involves technologies that are purpose-built for IoT. Therefore, it does not fit the criteria for an IoT-specific CVE.",
+  "cve_id": "CVE-2019-2780"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability described affects TrustZone in a DRM routine on Android devices using the Linux kernel. TrustZone is a security technology used in smartphones and tablets, which are considered general-purpose hardware and not specific to IoT. Additionally, there is no indication that this vulnerability is purpose-built for IoT or commonly adopted in IoT deployments. Therefore, it falls under the category of non-IoT CVE.",
+  "cve_id": "CVE-2014-9935"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability affects the OSRAM SYLVANIA Osram Lightify Pro, which is an IoT lighting system. The issue is related to Zigbee, a communication protocol commonly used in IoT devices for low-power, wireless communication. Since Zigbee is specifically mentioned, it indicates a vulnerability in the communication layer of the IoT ecosystem.",
+  "cve_id": "CVE-2016-5058"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The vulnerability is found in the Product Management System 1.0 by code-projects, which is a general-purpose software application. There is no evidence or indication that this system is specifically designed for or commonly used within the IoT ecosystem. Therefore, it does not significantly impact the IoT ecosystem and is classified as non-IoT. The component affected is the application layer, as it involves the manipulation of a function within a software application.",
+  "cve_id": "CVE-2025-4069"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The CVE affects the ResIOT IoT Platform and LoRaWAN Network Server, which are purpose-built for IoT deployments. The vulnerability is found in the application layer due to an SQL injection in the platform's interface. This platform is integral to the IoT ecosystem as it manages IoT devices and networks, specifically using LoRaWAN, which is a communication protocol commonly used in IoT.",
+  "cve_id": "CVE-2022-34022"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "RIOT OS is a real-time operating system designed specifically for IoT devices. It is tailored to operate on resource-constrained devices, which are a fundamental part of the device layer in the IoT ecosystem. The vulnerability in the calloc function affects the operating system that directly interacts with IoT hardware. Therefore, this CVE is classified as IoT-specific and pertains to the device component.",
+  "cve_id": "CVE-2021-27427"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects Huawei smart speakers, which are physical devices used within the IoT ecosystem. These devices are purpose-built for IoT as they collect and process data and are typically part of a smart home setup. The vulnerability is related to memory overflow, which is a common issue in devices with limited computational resources, fitting the description of IoT-specific CVEs.",
+  "cve_id": "CVE-2022-48681"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The CVE affects the Google Cloud IoT Device SDK for Embedded C, which is a technology purpose-built for IoT. It is specifically designed to interact with Google Cloud IoT services, making it an active and functional element of an IoT system. The vulnerability relates to memory handling in the SDK used for IoT devices, hence it is classified as IoT-specific and associated with the cloud backend component because it involves a cloud service SDK.",
+  "cve_id": "CVE-2021-22547"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The CVE described affects an online eyewear shop application, which does not inherently relate to the IoT ecosystem as defined. The vulnerability is related to a web application's contact information page and is a classic cross-site scripting issue. Given that the affected product is an online shop and not an active, functional element of an IoT system, it does not fit the criteria for being IoT-specific. Therefore, this CVE is classified as non-IoT.",
+  "cve_id": "CVE-2024-9952"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability is found in Cisco IoT Field Network Director (FND), which is specifically designed for managing IoT devices and networks. Cisco IoT FND falls under the application layer as it is an orchestration system that sits above the hardware to enable user-space services for IoT. Since it is purpose-built for IoT and plays an active role in the IoT ecosystem, it is classified as an IoT-specific CVE. The vulnerability involves the REST API, which is a common element in the application layer for enabling communication between user interfaces or applications and the devices.",
+  "cve_id": "CVE-2020-26075"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The lorawan-stack is a network server specifically designed for managing LoRaWAN networks, which is a communication protocol used predominantly in IoT deployments for low-power, wide-area network (LPWAN) applications. The vulnerability is associated with the login page of this IoT-focused communication platform, which is purpose-built for IoT ecosystems. The open redirect vulnerability can impact the security of IoT systems using this communication layer, making this an IoT-specific CVE.",
+  "cve_id": "CVE-2023-26494"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The vulnerability affects the Azure IoT Java SDK, which is a component used to interact with Microsoft's Azure IoT cloud services. This SDK is purpose-built for IoT applications, enabling devices to communicate with Azure's cloud services. Since the SDK is an active, functional element of the IoT system and is directly related to the cloud layer of the IoT ecosystem, it falls under the 'IoT-specific CVE' category.",
+  "cve_id": "CVE-2019-0741"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects the Jenkins Active Choices Plugin, which is a tool primarily used for continuous integration and automation in software development environments. This is not specific to IoT technologies or commonly adopted in IoT deployments. Jenkins is generally used in broader software development contexts and does not pertain specifically to any of the four components of the IoT ecosystem defined here. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2021-21699"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "Domoticz is a home automation system that is commonly used in IoT deployments for controlling smart devices. It provides a user interface and orchestration for IoT devices, aligning with the definition of the application layer in the IoT ecosystem. The vulnerability affects Domoticz, which is an active, functional element of an IoT system, thus classifying it as an IoT-specific CVE.",
+  "cve_id": "CVE-2019-10678"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The affected products, such as Apple Safari, iOS, iPadOS, macOS, and iPhone OS, are primarily designed for general-purpose computing devices like smartphones, tablets, and computers, which are not considered IoT devices. These products do not specifically belong to the device, communication, application, or cloud backend components of the IoT ecosystem as defined. Additionally, there is no mention of any IoT-specific technology or functionality being affected by this vulnerability. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2021-30848"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability is found in the Samsung SmartThings Hub STH-ETH-250, which is a device specifically designed for IoT applications. It is an active, functional element of an IoT system as it serves as a central hub for connecting and managing various IoT devices. The vulnerability affects the video-core component of the SmartThings Hub, which is an integral part of its operation, making it IoT-specific. The buffer overflow vulnerability is related to the credentials handler of the device's HTTP server, which is directly part of the device layer in the IoT ecosystem.",
+  "cve_id": "CVE-2018-3878"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The MiCard PLUS Ci and MiCard PLUS BLE reader products are specialized devices with specific functions related to ID card reading and registration, which aligns with the characteristics of IoT devices in the device layer. These products are purpose-built for specific tasks in an IoT context, such as access control or identity verification, and involve minimal human intervention once deployed. The vulnerability directly affects the functionality and security of these IoT devices, making it an IoT-specific CVE.",
+  "cve_id": "CVE-2024-1578"
+},
+{
+  "label": "nonIoT",
+  "component": "communication",
+  "reason": "The vulnerability affects the SSL/TLS implementation of Cisco Nexus Dashboard, which is used to manage data center network infrastructures. The CVE description highlights its connection to network controllers and infrastructure management, rather than IoT-specific devices or services. Therefore, it is categorized as non-IoT since it is not purpose-built for IoT, nor is it a commonly adopted technology specifically in IoT deployments.",
+  "cve_id": "CVE-2022-20860"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The vulnerability is found in SourceCodester Simple Inventory System, which appears to be a generic web application and not purpose-built for IoT or commonly adopted in IoT deployments. There is no clear evidence provided that this system is relevant to the IoT ecosystem. The vulnerability affects a web application function leading to cross-site request forgery, a common web application security issue, and does not specifically impact any of the defined IoT ecosystem layers such as device, communication, application, or cloud backend. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2024-5097"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The CVE involves a stored XSS vulnerability in Datenstrom Yellow, a content management system. This software does not specifically cater to IoT applications and is not commonly adopted in IoT deployments. The vulnerability does not affect technologies purpose-built for the IoT ecosystem. Therefore, it is classified as non-IoT. The component is 'application' as it involves a content management system, which is an application layer element.",
+  "cve_id": "CVE-2018-10726"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects 'google:android', which is a general-purpose operating system primarily used in smartphones and tablets. These are considered non-IoT devices according to the classification. The description does not indicate that this vulnerability affects technologies purpose-built for IoT or commonly adopted in IoT deployments. Therefore, it falls under non-IoT CVEs.",
+  "cve_id": "CVE-2019-9412"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "Device42 CMDB is a configuration management database used for IT asset management and data center management. It does not specifically target or is purpose-built for IoT deployments. The vulnerability described affects a component of Device42 CMDB, which is not directly related to the IoT ecosystem as defined in the four components of the IoT ecosystem. Therefore, this CVE is classified as non-IoT.",
+  "cve_id": "CVE-2022-1399"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "RIOT-OS is an operating system designed for IoT devices with constrained resources, such as limited power, memory, and computational capacity. The vulnerability affects a technology that is purpose-built for IoT and is commonly used in IoT deployments. Since RIOT-OS is specifically tailored for IoT and the vulnerability could impact the security of IoT devices, it is classified as an IoT-specific CVE affecting the device layer.",
+  "cve_id": "CVE-2021-31662"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability described affects the Trellix ePolicy Orchestrator (ePO) on Premise, which is primarily an enterprise security management tool. This tool is not specifically designed for the IoT ecosystem and is not commonly adopted in IoT deployments. The vulnerability does not pertain to a device, communication protocol, application, or cloud service purpose-built for IoT. Therefore, it is classified as a non-IoT CVE.",
+  "cve_id": "CVE-2024-4844"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "Hyperledger Fabric is a distributed ledger framework primarily intended for enterprise-grade blockchain applications. It is not purpose-built for IoT nor is it commonly adopted in IoT-specific deployments. The vulnerability described does not pertain to any of the defined IoT ecosystem layers such as device, communication, application, or cloud backend specifically for IoT. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2022-36023"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability described affects the Linux kernel, which is a general-purpose operating system component. While Linux can be used in IoT devices, the description provided does not indicate that this vulnerability is specific to an IoT technology or that it significantly impacts the IoT ecosystem. It appears to be a general Linux kernel security issue, thus classifying it as non-IoT.",
+  "cve_id": "CVE-2022-49658"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The affected product, OSRAM SYLVANIA Osram Lightify Pro, is a smart lighting system, which is a typical IoT device. The vulnerability relates to the use of a weak PSK (Pre-Shared Key), which is a security aspect of the device layer. Smart lighting systems are part of the IoT ecosystem as they involve connected devices that perform actuation tasks with limited human intervention.",
+  "cve_id": "CVE-2016-5056"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "Delta Electronics DOPSoft is a software used for programming human-machine interfaces (HMIs) and not explicitly for IoT devices. While HMIs can be part of industrial IoT systems, DOPSoft itself is general-purpose software for interface programming and does not specifically target IoT deployments. The CVE affects software that is not purpose-built for IoT or commonly adopted in IoT deployments. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2020-27275"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability is related to TOTOLINK A3700R firmware, which is associated with a router. According to the given classification, network infrastructures such as routers are considered Non-IoT. Therefore, this CVE does not significantly impact the IoT ecosystem as defined.",
+  "cve_id": "CVE-2024-37632"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects the Palo Alto Networks GlobalProtect app, which is a VPN application commonly used for secure remote access by general-purpose computers and not specific to IoT devices or ecosystems. The vulnerability description and affected product do not indicate any relevance to IoT-specific technologies or implementations. Thus, it is classified as non-IoT.",
+  "cve_id": "CVE-2022-0021"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "JIZHICMS is a content management system (CMS) which is generally used for managing website content. This type of software is not specific to IoT ecosystems as it does not represent a purpose-built IoT technology nor is it commonly adopted in IoT deployments. The vulnerability in question, a CSRF in the admin interface, is more relevant to web or general software security rather than IoT-specific applications. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2019-17593"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects the SwitchBot firmware, which is a purpose-built IoT device used for automation and smart home applications. The SwitchBot is a physical device that interacts with other devices and performs tasks with limited human intervention, fitting the definition of the device layer in the IoT ecosystem.",
+  "cve_id": "CVE-2024-48786"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects Forms to Zapier, Integromat, IFTTT, Workato, Automate.io, elastic.io, Built.io, APIANT, and Webhook, which are integration and automation platforms that can interact with IoT services and devices. IFTTT, for example, is a widely used application in IoT environments for automating tasks between IoT devices and services. Given that the affected products facilitate automation and integration that are frequently used in IoT environments, the vulnerability is classified as IoT-specific, affecting the application layer of the IoT ecosystem.",
+  "cve_id": "CVE-2024-32134"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "Mattermost is a messaging platform primarily designed for team communication, similar to Slack. It is not purpose-built for IoT, nor is it commonly adopted in IoT deployments. The CVE describes a vulnerability related to the failure to enforce MFA on plugin endpoints, which does not pertain to any specific IoT component or technology within the defined IoT ecosystem. Therefore, this CVE is classified as non-IoT.",
+  "cve_id": "CVE-2025-25068"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability is related to Cisco Webex Meetings, which is a general-purpose video conferencing and collaboration application. It is not specifically designed for IoT systems nor is it commonly adopted within IoT deployments. As such, it does not fit into any of the four components of the IoT ecosystem defined above. Since Webex Meetings is not a purpose-built IoT technology nor an active, functional element of an IoT system, the CVE is classified as non-IoT.",
+  "cve_id": "CVE-2019-15960"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability is in Cisco IoT Field Network Director (FND), which is specifically designed for managing IoT devices and networks. This makes it a purpose-built technology for the IoT ecosystem, qualifying it as an IoT-specific CVE. The vulnerability affects the application layer as it involves accessing sensitive database information, which is part of the application logic and user-space services provided by the IoT-FND platform.",
+  "cve_id": "CVE-2020-26076"
+},
+{
+  "label": "nonIoT",
+  "component": "communication",
+  "reason": "BusyBox is a software suite that provides several Unix utilities in a single executable file and is commonly used in embedded systems, including IoT devices. However, it is not purpose-built for IoT, and its use is widespread across various general-purpose and embedded systems, not exclusively IoT. The vulnerability affects the udhcp components, which are related to DHCP functionality, a general-purpose networking utility, not specifically IoT-focused. Given that the affected products include general-purpose systems like Ubuntu Linux, this CVE is classified as non-IoT because it does not specifically or significantly impact the IoT ecosystem.",
+  "cve_id": "CVE-2018-20679"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The vulnerability affects the Azure IoT Hub Device Client SDK, which is specifically designed to facilitate communication and management of IoT devices through the Azure IoT platform. The Azure IoT Edge and Hub Device Client SDK are integral parts of the cloud layer in the IoT ecosystem. These services are purpose-built for IoT applications, making this an IoT-specific CVE.",
+  "cve_id": "CVE-2018-8531"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "Combodo iTop is a general-purpose IT Service Management tool used for managing IT services and operations. It is not specifically designed for IoT environments or commonly adopted in IoT deployments. The vulnerability described is a cross-site scripting (XSS) issue in the web interface, which does not specifically pertain to any IoT-specific technology or component. As such, it does not significantly impact the IoT ecosystem as defined.",
+  "cve_id": "CVE-2021-32664"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The vulnerability described is related to the XLPlugins NextMove Lite product, which appears to be a software application or plugin not specifically mentioned as part of the IoT ecosystem. There is no indication that it is purpose-built for IoT or commonly adopted in IoT deployments. Without clear evidence of its relevance to the IoT ecosystem or its classification as an active, functional element within an IoT system, it is classified as non-IoT.",
+  "cve_id": "CVE-2024-25092"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability affects FreeRTOS, which is an operating system commonly used in IoT devices for embedded systems. The mention of FreeRTOS+TCP suggests that the issue is related to the TCP/IP communication component, which is part of the communication layer. FreeRTOS is purpose-built for embedded and IoT systems, making it relevant to the IoT ecosystem.",
+  "cve_id": "CVE-2018-16523"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The vulnerability described affects SugarCRM Enterprise, which is a customer relationship management system. There is no indication that this product is purpose-built for IoT or commonly adopted in IoT deployments. It is primarily a general-purpose enterprise software application used for CRM purposes, not specifically for IoT systems. Consequently, this CVE does not appear to significantly impact the IoT ecosystem, thus classifying it as a non-IoT CVE.",
+  "cve_id": "CVE-2023-35808"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The vulnerability is related to the Secure Folder feature on Samsung mobile devices, which are general-purpose smartphones. Smartphones are considered non-IoT in this classification. The feature in question is part of the application layer on the device, but since it pertains to a general-purpose device, it does not qualify as an IoT-specific CVE.",
+  "cve_id": "CVE-2025-20973"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability is discovered in the CoAP library within Arm Mbed OS. CoAP (Constrained Application Protocol) is a specialized protocol designed for use in constrained environments, which is common in IoT devices. Arm Mbed OS is an operating system specifically designed for IoT devices. The CoAP parser's function is critical for communication in IoT systems. Given that the vulnerability affects a protocol commonly adopted in IoT deployments and is within an IoT-focused operating system, it is classified as IoT-specific, affecting the communication component.",
+  "cve_id": "CVE-2020-12884"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "RIOT-OS is an operating system designed specifically for IoT devices, particularly those with constrained resources. The vulnerability described affects the routing protocol implementation in RIOT-OS, which is used in IoT environments. The affected function is part of the network stack, indicating its relevance to the communication aspect of IoT devices. Since RIOT-OS is purpose-built for IoT and the vulnerability impacts an active element of the IoT system, this CVE is classified as IoT-specific.",
+  "cve_id": "CVE-2021-27697"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The vulnerability affects the AWS IoT Device SDK, which is specifically designed for IoT applications. The SDK facilitates communication and interaction between IoT devices and cloud services, making it an integral part of the IoT cloud layer. The vulnerability is related to TLS handshakes and certificate authority handling, which are crucial for secure communication in IoT deployments. Therefore, the CVE is classified as IoT-specific, and it primarily impacts the cloud backend component of the IoT ecosystem.",
+  "cve_id": "CVE-2021-40830"
+},
+{
+  "label": "Unsure",
+  "component": "unsure",
+  "reason": "The description mentions a GitHub repository 'meerstein/rbtm' and an absolute path traversal vulnerability in a Flask application. However, it lacks specific information about the nature of 'xtomo:robo-tom' and whether it is an active, functional element of an IoT system. Additionally, there is no detail on whether the technology is purpose-built for IoT or commonly adopted in IoT deployments. Without further context, it is difficult to classify it definitively as IoT-specific or non-IoT.",
+  "cve_id": "CVE-2022-31544"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "NVIDIA Triton Inference Server is a general-purpose server designed for deploying AI models for inference. It is not specifically purpose-built for IoT, nor is it commonly adopted as an active, functional element within the IoT ecosystem. The vulnerability does not seem to pertain to IoT-specific technology as defined in the IoT ecosystem components.",
+  "cve_id": "CVE-2024-0116"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The CVE affects GitLab Community Edition (CE) and Enterprise Edition (EE), which are general-purpose software platforms used for version control and collaboration. These products are not purpose-built for IoT or commonly adopted in IoT deployments, and they do not form an active, functional element of an IoT system. Therefore, the vulnerability is classified as non-IoT.",
+  "cve_id": "CVE-2019-15582"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability is related to the SourceCodester Lot Reservation Management System, which does not inherently seem to be part of an IoT ecosystem. It is a web application used for managing lot reservations, and there is no indication that it is purpose-built for IoT or commonly adopted in IoT deployments. Since it deals with a web application and SQL injection, it's more aligned with general-purpose software vulnerabilities rather than IoT-specific vulnerabilities.",
+  "cve_id": "CVE-2024-7281"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The affected product, Lenovo Smart Clock Essential with Alexa Built In, is an IoT device that falls within the device layer of the IoT ecosystem. It is purpose-built for IoT as it involves smart functionality and integration with Alexa, a voice-controlled assistant. The vulnerability involves a default password issue, which is a common security concern in IoT devices, specifically impacting the device component by potentially allowing unauthorized access.",
+  "cve_id": "CVE-2023-0896"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The described vulnerability affects a job recruitment software application ('code-projects Job Recruitment 1.0') which does not appear to be purpose-built for IoT or commonly adopted in IoT deployments. There is no indication that this software is an active or functional element of an IoT system. Therefore, it is classified as non-IoT based on the provided criteria.",
+  "cve_id": "CVE-2025-0934"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The CVE affects a VIVOTEK IP Camera, which is a physical device commonly used within IoT ecosystems for surveillance and monitoring purposes. The vulnerability involves a denial of service via a crafted HTTP header, directly impacting the device's functionality. As the camera is an active and functional element of an IoT system, it classifies as an IoT-specific CVE affecting the device layer.",
+  "cve_id": "CVE-2019-14458"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability is in the SmartThings application, which is an IoT-focused platform and application. SmartThings serves as an orchestration system/local controller, enabling user-space services for IoT devices. The vulnerability affects the application layer of the IoT ecosystem and is purpose-built for IoT, as the application is specifically intended for managing IoT devices.",
+  "cve_id": "CVE-2022-39865"
+},
+{
+  "label": "nonIoT",
+  "component": "communication",
+  "reason": "The vulnerability affects Libreswan, which is a software implementation of IPsec for VPNs. While Libreswan deals with communication protocols, it is not specific to IoT. It is a general-purpose technology used for secure communications in various contexts, not limited to IoT ecosystems. Therefore, it does not meet the criteria for being IoT-specific.",
+  "cve_id": "CVE-2024-3652"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The CVE affects Adobe Acrobat and Reader, which are general-purpose software applications used primarily on computers and tablets. These products are not purpose-built for IoT nor are they commonly adopted in IoT deployments. Therefore, it does not significantly impact the IoT ecosystem.",
+  "cve_id": "CVE-2019-7119"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The vulnerability is related to the Mobile Management Entity (MME) in Magma, which is a platform for building mobile networks. While Magma can be used in various scenarios, including IoT, the CVE description does not specifically mention any IoT-specific technology or indicate that the affected component is an active or functional element of an IoT system. Therefore, there is insufficient evidence to classify this as IoT-specific. Additionally, it seems more aligned with general network infrastructure rather than IoT, thus fitting the non-IoT category.",
+  "cve_id": "CVE-2023-37034"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "Eclipse Kura is an IoT gateway framework that provides services for edge computing, including device management and data services. The vulnerabilities mentioned pertain to the Web UI package and MQTT component, which are part of the application layer in the IoT ecosystem. These components facilitate user-space services and orchestration, fitting the criteria for IoT-specific CVEs as they impact technologies purpose-built for IoT.",
+  "cve_id": "CVE-2019-10244"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability described is related to a WordPress plugin, which is not specifically designed for IoT purposes. WordPress is a general-purpose content management system and does not inherently fit into the IoT ecosystem components like device, communication, application, or cloud backend as defined. Therefore, this CVE is classified as non-IoT.",
+  "cve_id": "CVE-2015-9470"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability affects Zigbee nodes, which are part of the communication layer in the IoT ecosystem. Zigbee is a specialized low-power protocol commonly used in IoT deployments for device communication. The affected products, 'Ember ZNet SDK' and 'emberznet_sdk' from Silabs, are specifically designed for IoT applications utilizing Zigbee technology. Therefore, this CVE is IoT-specific as it impacts the communication technology within IoT systems.",
+  "cve_id": "CVE-2024-3043"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The CVE describes a vulnerability in the OSRAM SYLVANIA Osram Lightify Home system, which is an IoT product used for smart lighting. The vulnerability involves the Zigbee protocol, a specialized low-power communication protocol commonly used in IoT deployments for device connectivity. Since the vulnerability directly affects a communication technology purpose-built for IoT, it is classified as an IoT-specific CVE and falls under the communication layer.",
+  "cve_id": "CVE-2016-5054"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability is in the Eclipse IoT Cyclone DDS Project, which is a data distribution service specifically designed for IoT applications. DDS (Data Distribution Service) is a middleware protocol that facilitates data transfer and connectivity, fitting into the communication layer of the IoT ecosystem. Since the affected product is part of an IoT-focused project, this CVE is classified as IoT-specific and relates to the communication component.",
+  "cve_id": "CVE-2020-18735"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "Apache Hive is a data warehousing tool that operates on top of Hadoop, primarily used for managing and querying large datasets in distributed storage. It is not purpose-built for IoT, nor is it commonly adopted specifically in IoT deployments. The vulnerability described affects a general-purpose data management software, which does not play an active role in an IoT ecosystem as defined by the device, communication, application, or cloud layers of IoT systems.",
+  "cve_id": "CVE-2021-34538"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The CVE described affects the JavaScript package 'mout', which is a general-purpose utility library for JavaScript applications. There is no indication that it is purpose-built for IoT or commonly adopted in IoT deployments. The description lacks any mention of IoT-specific technologies or use cases, and the affected product does not appear to be an active, functional element of an IoT system. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2022-21213"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects Blink For Home Sync Module, which is a part of a smart home security system. The Sync Module is responsible for managing the communication between Blink cameras and the network. This is clearly within the device layer of the IoT ecosystem as it relates to smart home security devices that perform specific IoT tasks such as managing video feeds and motion detection. The vulnerability impacts the functionality of the IoT system by allowing attackers to disable cameras, which directly affects the device's ability to perform its intended IoT functions.",
+  "cve_id": "CVE-2018-20161"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The Security Camera CZ application is related to a security camera system, which is a functional element of the IoT ecosystem. The vulnerability pertains to the storage of sensitive recorded video, which is an IoT-specific application concern as it involves user interfaces and mobile applications that are integral to IoT devices. The app's function is directly tied to an IoT device (security camera), and the vulnerability affects how data is managed within this context.",
+  "cve_id": "CVE-2019-12763"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects the Smart SEO Tool WordPress plugin, which is not a technology purpose-built for IoT or commonly adopted in IoT deployments. WordPress plugins are generally used for website management and SEO optimization, which are not specific to IoT ecosystems. Therefore, this CVE does not significantly impact the IoT ecosystem and is classified as non-IoT.",
+  "cve_id": "CVE-2021-24976"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The CVE affects the communication layer of the IoT ecosystem, specifically exploiting a vulnerability in the Bluetooth Low Energy (BLE) protocol, which is commonly used in IoT deployments for communication. The affected product, oBike's smart locker, is an active, functional element of an IoT system designed for smart bike-sharing. The vulnerability impacts the locking mechanism, which is integral to the IoT operation of the bike-sharing service.",
+  "cve_id": "CVE-2018-16242"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects Oracle Java SE and Java SE Embedded, which are general-purpose software platforms not specifically tailored for IoT ecosystems. While Java SE Embedded might be used in some IoT devices, the description does not provide sufficient evidence that the vulnerability is specific to IoT usage or significantly impacts the IoT ecosystem. Furthermore, the vulnerability primarily pertains to running untrusted code in sandboxed environments, a scenario common in various computing contexts, not exclusively IoT.",
+  "cve_id": "CVE-2017-10346"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The HPE Intelligent Management Center (IMC) is primarily used for managing network infrastructure and is not specifically purpose-built for IoT systems. It is used in general IT and network management contexts, which does not directly pertain to the IoT ecosystem as defined. Therefore, it should be classified as non-IoT.",
+  "cve_id": "CVE-2019-11961"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The vulnerability affects the Cloud Connectivity functionality of the WAGO PFC200 Firmware, which is related to connecting to an Azure IoT Hub. This indicates that the affected component is involved in the cloud layer of the IoT ecosystem, specifically in remote control or device management. Since the WAGO PFC200 is part of an IoT system, the vulnerability is classified as IoT-specific.",
+  "cve_id": "CVE-2019-5160"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "Apache Airflow is a platform used to programmatically author, schedule, and monitor workflows. It is a general-purpose tool used for data pipeline orchestration and is not specifically designed or commonly adopted for IoT deployments. Therefore, vulnerabilities in Apache Airflow do not directly impact the IoT ecosystem as defined, and it is classified as non-IoT.",
+  "cve_id": "CVE-2020-17513"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The vulnerability described affects the Open Microscopy Environment OMERO.server, which is a platform for managing and sharing microscopy images and metadata. There is no clear evidence that this server software is purpose-built for IoT or commonly adopted in IoT deployments. Therefore, it does not fit into any of the specific components of the IoT ecosystem as defined, such as the device, communication, application, or cloud layer. As a result, it is classified as non-IoT.",
+  "cve_id": "CVE-2018-1000634"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The CVE describes a vulnerability in the 'neos/forms' framework, which is used for building web forms. This framework is not specifically designed for IoT applications and does not appear to be commonly adopted in IoT deployments. The description does not provide any indication that the vulnerability directly affects any of the four components of the IoT ecosystem (device, communication, application, or cloud backend) as defined. Therefore, based on the provided classification criteria, this CVE is categorized as non-IoT.",
+  "cve_id": "CVE-2021-32697"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "RIOT is an operating system specifically designed for the Internet of Things (IoT) devices. The vulnerability involves the MQTT-SN implementation, which is a lightweight protocol for IoT communications. The affected component is directly related to facilitating communication between IoT devices, making it relevant to the communication layer of the IoT ecosystem. Since RIOT is purpose-built for IoT, the CVE is classified as IoT-specific.",
+  "cve_id": "CVE-2019-16754"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability is found in the CyberVision Kaa IoT Platform, which is explicitly named as an IoT platform. This indicates that it is purpose-built for the IoT ecosystem, fitting within the application layer where orchestration systems and user interfaces reside. The platform enables IoT functionalities, making it an active component of an IoT system.",
+  "cve_id": "CVE-2017-7911"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability is related to the Simplr Registration Form Plus+ Plugin for WordPress, which is a general-purpose web application component. It is not specifically designed for or commonly used in IoT systems. There is no indication that this plugin is an active, functional element of an IoT system. Therefore, it does not fit into any of the defined components of the IoT ecosystem.",
+  "cve_id": "CVE-2015-10107"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "Home Assistant is an orchestration platform commonly used in IoT deployments to integrate and manage various IoT devices and services. The vulnerability affects the application layer of the IoT ecosystem, as Home Assistant functions as an application that enables user-space services for IoT systems. The flaw in custom integrations can impact the overall security of an IoT system using Home Assistant.",
+  "cve_id": "CVE-2021-3152"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The Tenda W30E is a router, which is considered part of the general network infrastructure. According to the classification criteria provided, network infrastructures such as routers are classified as Non-IoT. The vulnerability affects the firmware of this router and does not specifically relate to IoT-specific technology or functionality.",
+  "cve_id": "CVE-2024-32287"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The CVE affects the Trusteer SDK for iOS and Android mobile platforms, which are general-purpose technologies not purpose-built for IoT. The SDKs run on smartphones, which are considered non-IoT devices according to the classification criteria. There is no indication that the SDK is specifically used within an IoT ecosystem, nor is it a functional element of an IoT system.",
+  "cve_id": "CVE-2022-42443"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability is associated with Cisco IoT Field Network Director, which is explicitly mentioned as an IoT product. It involves user management functionality, indicating its role in the application layer, facilitating user-space services and management within the IoT ecosystem. The vulnerability affects the management of user information across different domains, which aligns with the application layer's responsibilities in the IoT ecosystem.",
+  "cve_id": "CVE-2020-26080"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The CVE affects the AWS IoT Device SDK, which is a technology purpose-built for IoT deployments. The SDK is used to facilitate communication between IoT devices and AWS cloud services, fitting within the cloud layer of the IoT ecosystem. The vulnerability relates to the TLS handshake process in the SDK, which directly impacts the security of IoT devices relying on AWS IoT services.",
+  "cve_id": "CVE-2021-40828"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability is in the Belkin Wemo Insight Smart Plug, which is an IoT device as it is a smart plug that fits within the device layer of the IoT ecosystem. The vulnerability involves a stack-based buffer overflow in the libUPnPHndlr.so, which is directly related to the IoT device's functionality. It allows remote attackers to bypass local security protection, indicating the vulnerability is tied to the device's operation within the IoT ecosystem.",
+  "cve_id": "CVE-2018-6692"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects Dahua IP cameras and IP PTZ devices, which are physical devices typically used in IoT deployments. These devices collect sensory data and interact with other devices, fitting the definition of the device layer in the IoT ecosystem. The vulnerability involves the resetting of admin passwords via a mechanism that is potentially at risk of being compromised, which is a security concern directly related to the IoT device's functionality.",
+  "cve_id": "CVE-2017-9315"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The affected product, AutomationDirect C-more EA9 HMI, is a human-machine interface (HMI) device used in industrial automation, which is a common application of IoT technologies. The vulnerability affects the device layer as it involves a physical device with specific functions relevant to IoT systems. These HMI devices are purpose-built for IoT environments where they interact with other devices to monitor and control industrial processes, thus fitting the definition of an IoT-specific CVE.",
+  "cve_id": "CVE-2025-0960"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The vulnerability described pertains to the Android operating system, which is a general-purpose software platform used primarily in smartphones and tablets. Although Android can be used in some IoT devices, the context provided involves a feature (Smart Lock) on a smartphone, and there is no specific indication that this vulnerability impacts the IoT ecosystem significantly. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2016-6769"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability is related to the Eclipse Paho Java client library, which is used for MQTT communication. MQTT is a protocol commonly adopted in IoT deployments for messaging between devices, indicating its relevance to the IoT ecosystem. The CVE affects the communication layer as it pertains to the secure verification of MQTT server identities, which is crucial for ensuring the integrity and authenticity of IoT communications.",
+  "cve_id": "CVE-2019-11777"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The CVE affects the ResIOT IoT Platform and LoRaWAN Network Server, which are purpose-built technologies for IoT deployments. The platform is an active, functional element of an IoT system, specifically within the application layer, as it involves user interfaces and orchestration systems that enable user-space services. The vulnerability involves Cross Site Scripting (XSS) in the platform, which is a component commonly adopted in IoT ecosystems.",
+  "cve_id": "CVE-2022-34021"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects a specific IP PTZ Camera, which is a physical device that collects sensory data and is used for monitoring purposes. This type of camera is commonly adopted in IoT deployments, where it acts as a functional element of an IoT system. The vulnerability directly impacts the device layer of the IoT ecosystem, as it involves unauthorized privilege elevation on the camera's configuration interface.",
+  "cve_id": "CVE-2022-30620"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability is associated with Hybrid Group Gobot, which is a framework for robotics, physical computing, and Internet of Things (IoT). The issue lies in the mqtt subsystem, a communication protocol commonly used in IoT for connecting devices. The flaw in certificate verification suggests a potential security risk in the communication layer, making it relevant to IoT-specific CVEs.",
+  "cve_id": "CVE-2019-12496"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The affected products are general-purpose mobile devices and an Android operating system, which are not purpose-built for IoT or commonly adopted specifically in IoT deployments. While some IoT devices might use Android as their operating system, the context provided indicates it's for general mobile devices, which are classified as non-IoT.",
+  "cve_id": "CVE-2023-30680"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability is related to cpp-ethereum, which is a general-purpose blockchain implementation and not specifically tailored for IoT environments. Ethereum and its components are typically used in a wide range of applications beyond IoT. There is no evidence in the description to suggest that this technology is purpose-built for IoT or commonly adopted in IoT deployments, nor is it an active, functional element of an IoT system. Thus, it falls under the non-IoT CVE category.",
+  "cve_id": "CVE-2017-12114"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The CVE affects the Azure IoT Device Provisioning service for the C SDK library, which is a component of the cloud layer specifically designed for IoT use. Azure IoT services are purpose-built for managing IoT devices and facilitating their communication with the cloud. The fact that it is an SDK used for IoT device provisioning indicates its relevance to the IoT ecosystem. Therefore, it fits the criteria of an IoT-specific CVE affecting the cloud backend.",
+  "cve_id": "CVE-2018-8479"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects the Sonos Era 100 smart speaker, which is a physical device that performs specific functions in the IoT ecosystem. The speaker is an active, functional element of an IoT system, interacting with other devices and possibly with a cloud service for additional functionality. The vulnerability is related to the device layer as it pertains to the handling of SMB2 messages directly on the device, which is part of the device's software stack.",
+  "cve_id": "CVE-2024-5269"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects Amazon Fire TV Stick and Insignia TV with FireOS, both of which are smart devices and part of the IoT ecosystem. These devices are examples of IoT devices as they have limited computational capacity and interact with other devices or services. The issue involves unauthorized authentication to amzn.lightning services, which is related to the device layer. Therefore, it is classified as an IoT-specific CVE affecting the device component.",
+  "cve_id": "CVE-2023-1385"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The CVE affects the Moxa EDR-810, which is an industrial secure router commonly used in IoT deployments for network communication and management. The vulnerability is related to the web server functionality of the device, which is integral to its role in facilitating communication within an IoT ecosystem. Since the Moxa EDR-810 is purpose-built for IoT environments and its vulnerability directly impacts the communication layer, it is classified as an IoT-specific CVE.",
+  "cve_id": "CVE-2017-14436"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "Adobe Experience Manager is a general-purpose content management solution typically used for enterprise content management, web content management, and digital asset management. It is not purpose-built for IoT, nor is it a commonly adopted technology in IoT deployments. There is no indication that the affected product is an active, functional element of an IoT system. Therefore, the vulnerability does not significantly impact the IoT ecosystem.",
+  "cve_id": "CVE-2024-43716"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "IBM Intelligent Operations Center is a platform designed for managing city operations and emergencies. It is not specifically purpose-built for IoT, nor is it a commonly adopted IoT technology. The affected products do not appear to be active, functional elements of an IoT system. Thus, this CVE does not fall within the IoT-specific category. It is more aligned with general-purpose software used in operations management.",
+  "cve_id": "CVE-2019-4420"
+},
+{
+  "label": "nonIoT",
+  "component": "communication",
+  "reason": "The LOGITEC LAN-W300N/RS is a router, which is considered part of general-purpose network infrastructure rather than a specific IoT device. Routers provide connectivity and are not purpose-built for IoT ecosystems, thus this CVE is classified as non-IoT.",
+  "cve_id": "CVE-2021-20642"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability is related to a web application software called 'Textmetrics', which does not appear to be purpose-built for IoT or commonly adopted in IoT deployments. The description does not indicate any specific relevance to the IoT ecosystem, nor does it suggest that the affected product is an active, functional element of an IoT system. As such, it is classified as a non-IoT CVE.",
+  "cve_id": "CVE-2025-46229"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The vulnerability affects a WordPress plugin, which is a general-purpose software platform not specifically designed for IoT systems. The plugin is used for building web pages and does not directly relate to any of the IoT ecosystem components, such as device, communication, or cloud layers, that are purpose-built for IoT. Therefore, it does not significantly impact the IoT ecosystem.",
+  "cve_id": "CVE-2024-10322"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects the Svakom Siime Eye, which is a specific IoT device. The issue involves enabling a telnet interface that allows root access via a default password. This vulnerability directly involves the device layer as it pertains to the physical device's firmware and its security configuration. Since the product is an active, functional element of an IoT system with its own firmware, it is classified as an IoT-specific CVE.",
+  "cve_id": "CVE-2020-11915"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The vulnerability described is related to an SQL Injection in a web application, specifically the Helmet Store Showroom Site. This does not appear to be a purpose-built IoT technology or commonly adopted in IoT deployments. The affected product is a general-purpose web application for e-commerce, which doesn't fit into the defined IoT ecosystem components such as device, communication, application, or cloud backend that are purpose-built for IoT. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2022-46117"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The described vulnerability affects IBM Contract Management and IBM Emptoris Spend Analysis, which are enterprise software solutions used for contract and spend analysis management. These products are not specific to IoT systems and are not purpose-built for IoT. They do not belong to the device, communication, application, or cloud backend components of the IoT ecosystem as defined. Therefore, this CVE is classified as non-IoT.",
+  "cve_id": "CVE-2019-4483"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The vulnerability affects the iot-manager microservice in Northern.tech Mender, which is an IoT device management platform. The mention of Azure IoT Hub integration further indicates that this is part of the IoT ecosystem's cloud layer, focused on remote management and control of IoT devices. Since the vulnerability is specifically related to an IoT-focused microservice, it qualifies as an IoT-specific CVE.",
+  "cve_id": "CVE-2022-29556"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability described affects the Apprise library, which includes an IFTTT plugin. IFTTT is a platform often used for IoT orchestration, allowing users to create applets that connect different IoT devices and services. Since the vulnerability specifically targets the IFTTT plugin, which is commonly used in IoT deployments to enable automation and notifications, this CVE is classified as IoT-specific. The affected component is the application layer, as Apprise is a software library that facilitates user-space services for IoT.",
+  "cve_id": "CVE-2021-39229"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The vulnerability is in the azure-c-shared-utility, which is a C library used for AMQP/MQTT communication to Azure Cloud Services. This library is utilized by the Azure IoT C SDK for communication between IoT Hub and IoT Hub devices, indicating it is purpose-built for IoT. The vulnerability affects the communication mechanism used in IoT deployments, and the conditions for exploitation specifically involve IoT Hub services, which are integral to the IoT cloud component.",
+  "cve_id": "CVE-2024-29195"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The Peplink Smart Reader is an IoT device, specifically a smart reader, which is part of the device layer of the IoT ecosystem. The vulnerability described affects the device's login functionality, which is relevant to the IoT ecosystem as it involves a component that is purpose-built for IoT. The product is an active, functional element in the IoT system, and the vulnerability could affect its operation within an IoT deployment.",
+  "cve_id": "CVE-2023-40146"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The vulnerability affects the Jenkins Slack Notification Plugin, which is a general-purpose software tool used for continuous integration and delivery in software development processes. Jenkins and its plugins are not specifically designed for IoT systems nor are they commonly adopted in IoT deployments. Therefore, this vulnerability does not meet the criteria for being IoT-specific and is classified as non-IoT. The component is classified as 'application' since Jenkins Slack Notification Plugin is a software application.",
+  "cve_id": "CVE-2019-1003044"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability affects Silicon Labs Z-Wave controller and endpoint devices. Z-Wave is a communication protocol designed specifically for IoT devices, facilitating wireless communication between devices in smart home scenarios. As the affected products are part of the communication layer in the IoT ecosystem and are commonly adopted in IoT deployments, this CVE is classified as IoT-specific.",
+  "cve_id": "CVE-2023-5310"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects Zingbox Inspector, which is a product specifically designed for managing and monitoring IoT devices. As such, it is an active and functional element within the IoT ecosystem. The hardcoded credentials issue pertains to the application layer as it impacts the software responsible for interfacing with IoT devices and facilitating their management.",
+  "cve_id": "CVE-2019-15015"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The CVE affects IBM AIX, which is an operating system typically used in enterprise environments and not specifically designed for IoT devices. There is no clear evidence that this vulnerability is relevant to the IoT ecosystem or impacts IoT-specific technologies. Therefore, it is classified as Non-IoT.",
+  "cve_id": "CVE-2016-8972"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The vulnerability pertains to Mozilla Firefox, a general-purpose web browser, which is commonly used on personal computers and smartphones, rather than being a purpose-built IoT technology or a commonly adopted component in IoT deployments. Therefore, it does not significantly impact the IoT ecosystem as defined by the given classification.",
+  "cve_id": "CVE-2017-5393"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The vulnerability is related to Ansible Engine and Ansible Tower, which are general-purpose automation tools used for IT management and orchestration. These tools are not specifically designed for IoT systems and are commonly used in a wide range of IT environments. The CVE does not specify any impact on IoT-specific technologies or components such as device, communication, application, or cloud backend layers of an IoT ecosystem. Therefore, this CVE is classified as non-IoT.",
+  "cve_id": "CVE-2020-10685"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The described vulnerability affects a web platform, Grav, which is a general-purpose content management system (CMS) and not specifically designed or commonly adopted for use in IoT ecosystems. The CVE does not pertain to technologies associated with the device, communication, application, or cloud backend layers of the IoT ecosystem. Therefore, it is classified as a non-IoT CVE.",
+  "cve_id": "CVE-2024-34082"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability affects a technology (ZigBee) that is purpose-built for IoT and is commonly adopted in IoT deployments. ZigBee is a specialized low-power communication protocol used within IoT ecosystems, and the affected product, EmberZNet, is used in ZigBee implementations. Therefore, it directly impacts the IoT communication layer.",
+  "cve_id": "CVE-2024-7322"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The affected products are network switches, which are general-purpose network infrastructure devices. These devices are not purpose-built for IoT nor are they commonly adopted specifically in IoT deployments. Switches are used in a wide range of network setups, including but not limited to IoT environments. Therefore, the vulnerability described does not specifically impact the IoT ecosystem as per the given classification criteria.",
+  "cve_id": "CVE-2024-8456"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "InstantCMS is a content management system that is typically used for website development and management. It is not specifically designed for IoT purposes, nor is it commonly adopted in IoT deployments. Since it is a general-purpose software used for web applications and not an active or functional element of an IoT system, it does not fit into the defined IoT-specific CVE categories. Therefore, this CVE is classified as non-IoT.",
+  "cve_id": "CVE-2018-14382"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The vulnerability is associated with the Nesote Inout Search Engine AI Edition, which is a search engine platform. There is no indication that this product is purpose-built for IoT or commonly adopted in IoT deployments. The description does not mention any relation to IoT-specific technologies or functionalities, and search engines are generally considered general-purpose software, not specific to IoT. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2023-3685"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects openHAB, which is an open source automation software designed for smart home environments, making it part of the IoT ecosystem. The vulnerability involves XML external entity (XXE) attacks that affect the application's ability to securely parse XML data. openHAB is used to orchestrate and control various IoT devices and services, which aligns it with the application layer of the IoT ecosystem. The listed add-ons and the types of devices they control further indicate its relevance to IoT usage.",
+  "cve_id": "CVE-2021-21266"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects the Cisco IoT Field Network Director (IoT-FND), which is a purpose-built IoT application for managing IoT networks and devices. This aligns with the application layer of the IoT ecosystem, as it involves orchestration systems and user interfaces specific to IoT. The vulnerability pertains to the web UI of the IoT-FND, which is an active, functional element of an IoT system, thus classifying it as an IoT-specific CVE.",
+  "cve_id": "CVE-2020-26079"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects the Bosch Smart Camera App, which is a mobile application designed for interacting with Bosch smart cameras, a device within the IoT ecosystem. The app facilitates user interaction with the IoT device, placing it in the application layer. The improper TLS certificate checks present a security issue directly impacting the IoT system's communication security, making it IoT-specific.",
+  "cve_id": "CVE-2019-7728"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "Tridium Niagara is a framework that enables building management and automation, which is commonly used in IoT deployments for smart building and industrial control systems. The vulnerability affects the software component of this framework, which is part of the application layer in the IoT ecosystem. Since it is purpose-built for IoT and is an active, functional element of an IoT system, it is classified as an IoT-specific CVE.",
+  "cve_id": "CVE-2018-18985"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability affects Bluetooth Low Energy (BLE) communication, which is a specialized low-power protocol commonly used in IoT devices for connectivity. The affected products are Sciener-based locks, which are IoT devices used for smart locking solutions. The vulnerability lies in the processing of plaintext messages over BLE, directly impacting the communication layer of the IoT ecosystem.",
+  "cve_id": "CVE-2023-7009"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "Contiki-NG is specifically designed for IoT devices, as it is an operating system tailored for constrained devices in the IoT ecosystem. The vulnerability affects the ability of the operating system to handle 6LoWPAN packets, which are relevant to IoT communication protocols. Therefore, the CVE is IoT-specific and pertains to the device layer, as it impacts the operating system used by IoT hardware.",
+  "cve_id": "CVE-2021-21280"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The vulnerability described affects RuvarOA, which appears to be a software application. The description does not provide evidence that RuvarOA is purpose-built for IoT or commonly adopted in IoT deployments. Moreover, the context of the vulnerability (SQL injection) and the affected component (a web application interface) suggests it is more relevant to general-purpose applications rather than being an integral part of an IoT-specific ecosystem. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2024-25507"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "Home Assistant is an open-source platform specifically designed for home automation, which is a core application of the IoT ecosystem. The described vulnerability affects the Home Assistant login page, part of the application layer, which provides user interfaces and orchestration systems for IoT. The vulnerability allows for arbitrary JavaScript execution, potentially leading to unauthorized access and control of the IoT system managed by Home Assistant. Therefore, it is classified as an IoT-specific CVE affecting the application component.",
+  "cve_id": "CVE-2023-41895"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects the Emmanuel MyDomoAtHome (MDAH) REST API, which is used in conjunction with Domoticz, a home automation system. This indicates that the product is part of the IoT ecosystem, specifically in the application layer, as it involves orchestration or control systems for smart home devices. The vulnerability involves improper access control enforcement, which is a common issue in IoT application layers where security is critical for managing device interactions and data.",
+  "cve_id": "CVE-2020-21990"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The vulnerability described affects the matrix-appservice-irc, which is a Node.js IRC bridge for Matrix. This is a software component used for bridging IRC channels to the Matrix protocol, primarily used for communication purposes and not specifically tailored for IoT ecosystems. While it resides in the application layer, it is not a purpose-built or commonly adopted technology for IoT deployments. Therefore, this CVE is classified as nonIoT.",
+  "cve_id": "CVE-2023-38690"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability is found in Eclipse Wakaama, which is a lightweight M2M (LWM2M) implementation. LWM2M is a protocol designed specifically for IoT device management and communication. This protocol is purpose-built for IoT ecosystems to facilitate communication between devices and servers. The CVE affects the communication layer by mishandling options in the LWM2M server, leading to a memory leak. Therefore, it is classified as an IoT-specific CVE within the communication component.",
+  "cve_id": "CVE-2019-9004"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The CVE describes a vulnerability in Bitdefender GravityZone Update Server and Endpoint Security products for Linux and Windows. These are general-purpose security software products, primarily used for endpoint protection on computers and servers. There is no indication that they are purpose-built for IoT or commonly adopted in IoT deployments. Additionally, the affected products are not described as active, functional elements of an IoT system. Therefore, this CVE does not fit the characteristics of an IoT-specific vulnerability.",
+  "cve_id": "CVE-2024-2223"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability described is related to Nintex Automation, which is a software solution for process automation and workflow management. This does not fall into any of the defined IoT ecosystem components (device, communication, application, or cloud backend) as it's not purpose-built for IoT nor commonly adopted in IoT deployments. It is more related to general IT software systems.",
+  "cve_id": "CVE-2025-27926"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "VxWorks is a real-time operating system that is widely used in embedded systems, which are often components of IoT devices. The specific vulnerability is related to the IGMPv3 client component, which is part of the network communication stack. This vulnerability can affect the communication layer of IoT devices that utilize VxWorks for their network operations. Therefore, this CVE is IoT-specific as it impacts the communication component of the IoT ecosystem.",
+  "cve_id": "CVE-2019-12259"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability affects the Cisco IoT Field Network Director (IoT-FND), which is a purpose-built system for managing IoT networks. The vulnerability is in the UDP protocol implementation, which is part of the communication layer, facilitating data transfer between devices. Since the product is specifically designed for IoT network management, it is an active, functional element of an IoT system, making this an IoT-specific CVE.",
+  "cve_id": "CVE-2019-1644"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "BusyBox is a general-purpose software suite that provides several stripped-down Unix tools in a single executable file, commonly used in embedded Linux systems. While BusyBox can be found in some IoT devices due to its lightweight nature, it is not purpose-built for IoT nor is it exclusively or predominantly used in IoT deployments. The CVE describes a vulnerability in the netstat utility, which is a general network utility, not specific to IoT applications. Therefore, this CVE does not meet the criteria for being classified as IoT-specific.",
+  "cve_id": "CVE-2024-58251"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "Zephyr OS is a real-time operating system designed for resource-constrained devices, commonly used in IoT applications. The vulnerability affects IP packet handling in Zephyr OS, which is relevant to the device layer of the IoT ecosystem. Zephyr OS is purpose-built for IoT and is an active, functional element in many IoT systems.",
+  "cve_id": "CVE-2023-7060"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "LuaJIT is a general-purpose Just-In-Time Compiler for the Lua programming language. The vulnerability described involves a type confusion issue in LuaJIT, which is not specifically designed or commonly adopted for IoT environments. Additionally, the affected products listed, 'luajit:luajit' and 'moonjit_project:moonjit', are not inherently IoT-specific technologies. Therefore, it does not fit the criteria for an IoT-specific CVE as it does not affect a technology purpose-built for IoT or commonly adopted in IoT deployments.",
+  "cve_id": "CVE-2019-19391"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability affects the ChargePoint Home Flex, which is a device commonly used in IoT deployments for electric vehicle charging. The specific flaw exists within the Bluetooth Low Energy (BLE) interface, a low-power communication protocol frequently used in IoT devices. This makes the CVE IoT-specific, as it impacts the communication component of an IoT system.",
+  "cve_id": "CVE-2024-7392"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The vulnerability is in the riot-compiler, which is a general-purpose JavaScript tool used for compiling Riot.js components. There is no indication that this tool is purpose-built for IoT or commonly adopted in IoT deployments. It does not appear to be an active, functional element of an IoT system, therefore it is classified as non-IoT.",
+  "cve_id": "CVE-2016-10527"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The described vulnerability affects the PHPGurukul Hospital Management System, which is a general-purpose software application and not inherently part of the IoT ecosystem. There is no indication that the system or its components are specifically designed for or commonly deployed in IoT environments. Therefore, it does not meet the criteria for being classified as an IoT-specific CVE.",
+  "cve_id": "CVE-2024-0363"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "Domoticz is a home automation system that is commonly used in IoT deployments for managing smart devices and systems within a home. It provides user interfaces and orchestration services, fitting the description of the application layer in the IoT ecosystem. The vulnerability, an SQL injection, affects the software's web server component, which is part of the application layer. Therefore, it is classified as an IoT-specific CVE affecting the application component.",
+  "cve_id": "CVE-2019-10664"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "HarmonyOS is a general-purpose operating system developed by Huawei and is intended for a wide range of devices, from smartphones to tablets and other consumer electronics. The CVE description mentions a vulnerability in the screen projection module, which is not specific to IoT devices or technologies. Given the general-purpose nature of the affected product, it is classified as non-IoT.",
+  "cve_id": "CVE-2023-44107"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "NanoMQ is a lightweight MQTT broker designed specifically for IoT environments, which makes it purpose-built for IoT. MQTT is a protocol commonly used for communication between IoT devices. The vulnerability affects the communication layer as it involves the processing of MQTT messages, which is directly related to the data transfer and connectivity aspect of IoT.",
+  "cve_id": "CVE-2023-34488"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The affected product, Wireless IP Camera 360, is a physical device that collects sensory data and performs actuation tasks, fitting the description of the device layer in the IoT ecosystem. The vulnerability involves a root account with a known password hash, which directly affects the device's operation and security. This product is an active, functional element of an IoT system, and the vulnerability is specific to the IoT technology involved.",
+  "cve_id": "CVE-2017-11632"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects a security camera, which is a physical device intended for IoT use. The GC2 Indoor Security Camera is a functional element of an IoT system, responsible for collecting sensory data (video surveillance). The vulnerability involves unauthorized access to sensitive information (WiFi passphrase) through a hardware interface (UART Debugging Port), which is specific to the device layer of the IoT ecosystem.",
+  "cve_id": "CVE-2024-31799"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability in this CVE pertains to the IBM Security Access Manager Appliance, which is a general-purpose security appliance used for access management and identity protection. There is no specific indication that this appliance is purpose-built for IoT or commonly adopted in IoT deployments. Furthermore, the description doesn't mention any direct relevance to IoT usage or impact on the IoT ecosystem. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2017-1534"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects the OSRAM SYLVANIA Osram Lightify Pro, which is a smart lighting system commonly used within IoT deployments. The vulnerability is found in the username field and Wireless Client Mode configuration page, which are part of the application layer that provides the user interface and configuration functionalities. Since the affected product is an active element of an IoT system, it is classified as IoT-specific.",
+  "cve_id": "CVE-2016-5055"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects the Niagara AX and Niagara 4 Framework, which are used for building management systems including IoT applications. These frameworks are often utilized in IoT deployments for managing and controlling various IoT devices and systems, particularly in industrial and commercial environments. Therefore, they can be considered part of the application layer of the IoT ecosystem.",
+  "cve_id": "CVE-2017-16744"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The CVE is related to K7Computing's antivirus software, which is a general-purpose security application typically used on personal computers and not specifically designed for or commonly used within the IoT ecosystem. The affected products are antivirus and security software suites, which are not classified under any of the defined IoT ecosystem components such as device, communication, application, or cloud backend. Therefore, it is categorized as non-IoT.",
+  "cve_id": "CVE-2018-8725"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The OSRAM SYLVANIA Osram Lightify Home is a smart lighting system, which is a typical example of an IoT device. It involves remote control and interaction with lighting hardware, likely relying on communication technologies to function without significant human intervention. The vulnerability affects the device layer as it allows remote code execution on the device itself.",
+  "cve_id": "CVE-2016-5053"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The CVE affects general-purpose operating systems and hardware platforms (Android for MSM, Firefox OS for MSM, QRD Android) that are commonly used in smartphones and other general computing devices, rather than being purpose-built for IoT. Although these platforms could technically be part of an IoT system, there is insufficient evidence that they are specifically relevant or predominantly used in IoT deployments. Therefore, this vulnerability is classified as non-IoT.",
+  "cve_id": "CVE-2017-11023"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "Home Assistant Core is specifically designed for home automation, which is a key aspect of the IoT ecosystem. It acts as an orchestration system that enables user-space services above the hardware, fitting the definition of the application layer in the IoT ecosystem. The vulnerability involves SSL certificate verification issues that could lead to man-in-the-middle attacks, which directly affects the security of the IoT application. Therefore, this CVE is IoT-specific and pertains to the application component of the IoT ecosystem.",
+  "cve_id": "CVE-2025-25305"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "eprosima Fast DDS is a C++ implementation of the DDS (Data Distribution Service) standard, which is commonly used in IoT deployments for communication between devices. The vulnerability affects the communication layer as it pertains to the validation of access control permissions within the data distribution service. The DDS standard is often used in IoT systems for efficient data exchange and management, making this vulnerability relevant to IoT-specific components.",
+  "cve_id": "CVE-2025-24807"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "RIOT-OS is an operating system specifically designed for IoT devices, which typically have limited resources like power, memory, and computational capacity. The vulnerability described is a buffer overflow in RIOT-OS, which is a core component of many IoT devices. Therefore, this CVE is IoT-specific, as it directly affects a technology that is purpose-built for the IoT ecosystem.",
+  "cve_id": "CVE-2021-31664"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The vulnerability exists in the mudler/localai application, which does not appear to be specifically designed or commonly adopted for IoT deployments. The description does not mention any IoT-specific functionality or deployment context. As the vulnerability is related to a general-purpose application and not an active, functional element of an IoT system or ecosystem, it is classified as non-IoT. The issue is in the application layer, as it involves the application's handling of CSRF tokens.",
+  "cve_id": "CVE-2024-3135"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability is found in Presto Changeo testsitecreator, which appears to be a web-based site creation tool. There is no indication that this product is a purpose-built IoT technology or commonly adopted in IoT deployments. It does not involve physical devices, specialized communication protocols, IoT-focused applications, or cloud services directly related to IoT. Therefore, it does not significantly impact the IoT ecosystem.",
+  "cve_id": "CVE-2023-43981"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The affected products are general-purpose operating systems such as Microsoft Windows 10 and Windows 11. These operating systems are primarily used on personal computers, tablets, and servers, which are not specifically designed for the IoT ecosystem. They do not fit into the IoT-specific components of device, communication, application, or cloud backend as defined in the IoT ecosystem. Since they are not purpose-built for IoT or commonly adopted specifically in IoT deployments, this CVE is classified as non-IoT.",
+  "cve_id": "CVE-2022-21882"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The affected products, Fortinet FortiClientEMS and FortiClient Enterprise Management Server, are primarily related to endpoint security management and are not purpose-built for the IoT ecosystem. They are general-purpose enterprise security solutions not specifically tied to IoT functionalities. Thus, it does not classify as an IoT-specific CVE.",
+  "cve_id": "CVE-2021-36189"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "FreeRTOS is a real-time operating system kernel that is commonly used in IoT devices due to its lightweight nature and suitability for embedded systems. Given that the vulnerability affects FreeRTOS, which is purpose-built for IoT environments, it is classified as an IoT-specific CVE. The kernel plays a crucial role in the device layer, as it manages hardware resources and scheduling for device operations.",
+  "cve_id": "CVE-2021-31571"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability exists in a SCADA (Supervisory Control and Data Acquisition) system, which is commonly used in industrial control systems rather than IoT-specific applications. While SCADA systems can be part of larger IoT ecosystems, they are not purpose-built for IoT. Therefore, this CVE does not directly affect the IoT ecosystem as defined, and there is insufficient evidence of its relevance to typical IoT usage.",
+  "cve_id": "CVE-2020-7558"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects Amazon Fire TV Stick and Insignia TV with FireOS, which are IoT devices categorized under the device layer. These devices are designed for IoT functionalities such as streaming and interacting with other smart home devices. The vulnerability specifically targets a function that could allow arbitrary JavaScript execution on these IoT devices, making it relevant to the IoT ecosystem.",
+  "cve_id": "CVE-2023-1384"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The CVE affects the addon-ssh service of the Home Assistant Community Add-on, which is an application layer component specifically designed for IoT environments. Home Assistant is a widely adopted platform for managing IoT devices, making this vulnerability relevant to the IoT ecosystem.",
+  "cve_id": "CVE-2021-45099"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The CVE affects Mahara, which is an open-source ePortfolio system primarily used for educational purposes. This system does not fit into the defined components of the IoT ecosystem, as it is not a purpose-built IoT technology nor commonly adopted in IoT deployments. Mahara is a general-purpose web application and does not serve as an active, functional element of an IoT system. Hence, this CVE is classified as non-IoT.",
+  "cve_id": "CVE-2020-9282"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The vulnerability described affects IBM Rational Engineering Lifecycle Manager, which is a software tool for managing engineering processes, not explicitly or commonly associated with IoT ecosystems. There is no indication in the description that it is purpose-built for IoT or commonly adopted in IoT deployments. Therefore, this CVE is classified as non-IoT.",
+  "cve_id": "CVE-2017-1359"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects the Samsung SmartThings Hub, which is a device specifically designed for IoT ecosystems as it acts as a central controller for smart home devices. The issue is related to the video-core process of the hub's firmware, which indicates that it is part of the application layer that enables user-space services. Therefore, this CVE is IoT-specific and pertains to the application layer of the IoT ecosystem.",
+  "cve_id": "CVE-2018-3863"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The affected products, 'chirpstack:gateway-bridge' and 'chirpstack:mqtt-forwarder', are part of the communication layer in the IoT ecosystem. These components are designed to facilitate the transfer of data and connectivity for IoT devices, specifically in LoRaWAN networks, which are commonly used in IoT deployments. Therefore, the vulnerability directly impacts the communication technologies that are purpose-built for IoT.",
+  "cve_id": "CVE-2024-29862"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The vulnerability is in Cisco IoT Field Network Director (FND), which is explicitly labeled as an IoT product. The component involved is the REST API, which is a common element of cloud services, and the vulnerability allows access to the back-end database. This aligns with the cloud layer of the IoT ecosystem, where remote or public cloud endpoints offer IoT-focused services. As the vulnerability pertains to a technology purpose-built for IoT and is an active, functional element of an IoT system, it classifies as an IoT-specific CVE.",
+  "cve_id": "CVE-2020-3531"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "RIOT is an operating system designed for IoT devices, and the CVE affects the TCP implementation within RIOT. TCP is a communication protocol, and the vulnerability lies in the communication layer of the IoT ecosystem. Since RIOT is specifically built for IoT deployments, this vulnerability is classified as IoT-specific.",
+  "cve_id": "CVE-2019-15702"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects the Elementor Website Builder plugin, which is a WordPress plugin used for building and designing websites. This plugin is not specific to IoT applications or commonly adopted in IoT deployments. It is a general-purpose software used in web development, and there is no indication that it is an active, functional element of an IoT system. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2022-29455"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The affected product, 'easyappointments', is a general-purpose appointment scheduling software and not inherently part of the IoT ecosystem. There is no indication that it is purpose-built for IoT or commonly adopted in IoT deployments. Therefore, this CVE does not significantly impact the IoT ecosystem.",
+  "cve_id": "CVE-2023-38048"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability described affects the WolfSSL library, specifically the wolfCrypt component, which is a general-purpose cryptographic library used across various platforms including Linux and Windows. While WolfSSL can be used in IoT devices, the description does not specify that it is an IoT-specific vulnerability or that it impacts an IoT ecosystem component directly. Therefore, it is classified as non-IoT since it does not exclusively pertain to technologies purpose-built for IoT or commonly adopted specifically in IoT deployments.",
+  "cve_id": "CVE-2024-1545"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The Zingbox Inspector is a tool used for IoT security and management, making it a purpose-built IoT technology. The vulnerability allows the identification of instances of this tool within a network, which is relevant to the IoT ecosystem as it impacts the management and security of IoT devices and systems. Hence, it fits the criteria for an IoT-specific CVE, particularly affecting the application layer as the Zingbox Inspector functions at the application level to provide IoT-related services.",
+  "cve_id": "CVE-2019-15021"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability affects the Nuki Smart Lock and Bridge devices, which are specifically designed for IoT use as they are involved in smart home automation. The issue involves a lack of certificate validation on HTTP communications, which is related to the communication layer of the IoT ecosystem. These devices and the communication protocols they use are purpose-built for IoT, making this an IoT-specific CVE.",
+  "cve_id": "CVE-2022-32509"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects Lenovo Smart Camera X3, X5, and C2E, which are IoT devices that fall under the device layer of the IoT ecosystem. These smart cameras are purpose-built for IoT as they are designed to collect sensory data and interact with the IoT ecosystem, fitting the definition of an IoT-specific CVE.",
+  "cve_id": "CVE-2021-3617"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "RIOT-OS is an operating system specifically designed for IoT devices, indicating that it is purpose-built for the IoT ecosystem. The vulnerability involves the network stack processing 6LoWPAN frames, a protocol commonly used in IoT deployments for low-power communication. This ties the CVE directly to the communication layer of the IoT ecosystem. The vulnerability impacts the system's ability to handle network frames, crucial for IoT device communication, hence classifying it as IoT-specific.",
+  "cve_id": "CVE-2023-24818"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "Domoticz is a home automation system that serves as an orchestration platform for IoT devices. It is purpose-built for IoT, as it manages and controls various IoT devices within a smart home environment. The XSS vulnerability affects the application's user interface, which is part of the application layer in the IoT ecosystem. Therefore, this CVE is classified as IoT-specific, affecting the application component.",
+  "cve_id": "CVE-2019-15480"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The vulnerability affects WordPress, a general-purpose web publishing platform, which is not purpose-built for IoT or commonly adopted in IoT deployments. WordPress is primarily used for website creation and management, which does not have a direct, significant impact on the IoT ecosystem as defined by the IoT-specific criteria. Thus, it is classified as non-IoT.",
+  "cve_id": "CVE-2024-31211"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "Apache ActiveMQ is a general-purpose message broker that supports various protocols, including MQTT. While MQTT is a protocol commonly used in IoT applications for communication, the specific CVE affects a general-purpose messaging system and not a technology purpose-built for IoT or commonly adopted in IoT-specific deployments. Additionally, the affected product, 'oracle:enterprise_repository', does not indicate an IoT-specific application. Therefore, the CVE is classified as non-IoT.",
+  "cve_id": "CVE-2019-0222"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "Adobe Prelude is a software application used for video editing and post-production workflows. It is not purpose-built for IoT, nor is it commonly adopted in IoT deployments. The vulnerability described does not affect the device, communication, application, or cloud backend layers of the IoT ecosystem. Therefore, it is classified as a non-IoT CVE.",
+  "cve_id": "CVE-2021-40773"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects Acronis Cyber Protect, which is a general-purpose cybersecurity software for protecting Windows and Linux systems. This product is not specific to IoT devices or commonly adopted in IoT deployments. It is used for endpoint protection on general computing devices, which are classified as non-IoT according to the given classification categories.",
+  "cve_id": "CVE-2023-48682"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability is related to a memory corruption issue in the modem firmware due to improper checks when calculating the size of serialized CoAP messages. CoAP (Constrained Application Protocol) is a specialized protocol designed for IoT devices, particularly in constrained environments. The affected products are various Qualcomm modem firmwares, including those used in wearable platforms and IoT devices like Snapdragon Wear. These modems are integral components in IoT ecosystems, facilitating communication between IoT devices. Therefore, this CVE is classified as IoT-specific, impacting the communication layer.",
+  "cve_id": "CVE-2022-33211"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability affects ECOVACS robot lawn mowers and vacuums, which are purpose-built IoT devices. These devices use BLE, a specialized low-power communication protocol, to encrypt messages. The issue involves a shared, static secret key used for BLE GATT communication, which is specific to the communication layer of the IoT ecosystem. An unauthenticated attacker can exploit this within BLE range, directly impacting the IoT system's functionality.",
+  "cve_id": "CVE-2024-12078"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "Adobe Premiere Rush is a general-purpose multimedia editing software, not specifically designed for IoT systems, nor is it commonly adopted in IoT deployments. The vulnerability affects a desktop/mobile application that does not play an active or functional role in an IoT ecosystem. Thus, it is classified as non-IoT.",
+  "cve_id": "CVE-2021-43022"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The CVE affects Cisco Firepower Threat Defense (FTD) Software, which is used for network security purposes such as threat detection and prevention. This software is typically deployed in enterprise network infrastructures and is not specifically designed for IoT ecosystems. The FTD software and Snort 3 detection engine are general-purpose security solutions and do not represent active, functional elements specifically within an IoT system. Therefore, the vulnerability does not significantly impact the IoT ecosystem as defined in the provided categories.",
+  "cve_id": "CVE-2023-20177"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The CVE pertains to a vulnerability in Pivotal Spring Web Flow, which is a framework for building web applications. This technology is not specifically purpose-built for IoT nor is it commonly adopted in IoT deployments. It is a general-purpose application framework and does not actively or functionally serve as an element within an IoT system. Therefore, it falls under the non-IoT category.",
+  "cve_id": "CVE-2017-8039"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability is in the API of Cisco IoT Field Network Director (FND), a product explicitly designed for managing IoT devices and systems. This aligns with the definition of IoT-specific CVEs, as it affects an application layer technology purpose-built for IoT deployments. The vulnerability impacts the ability to manage IoT devices, making it a relevant concern within the IoT ecosystem.",
+  "cve_id": "CVE-2020-3392"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability affects the Nordic Semiconductor Android BLE Library and DFU Library, which are used for BLE communication, a specialized low-power communication protocol in IoT devices. BLE is commonly adopted in IoT deployments for device connectivity. The libraries are relevant to the communication layer of IoT systems, and the issue could lead to insecure communication in IoT applications using these libraries.",
+  "cve_id": "CVE-2020-15509"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability described affects a WordPress plugin used for creating image and video galleries on websites. This plugin is not purpose-built for the IoT ecosystem, nor is it commonly adopted in IoT deployments. It is a general-purpose software component for website content management and does not align with any of the IoT-specific components such as device, communication, application, or cloud backend layers defined in the IoT ecosystem. As such, it is classified as a non-IoT CVE.",
+  "cve_id": "CVE-2024-5424"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The described CVE affects Home Assistant, which is an open source home automation platform. Given its purpose and usage in managing IoT devices and services, it is a technology commonly adopted in IoT deployments. The vulnerability is related to a specific service within Home Assistant that allows interaction with the Supervisor REST API, making it relevant to the application layer of the IoT ecosystem. Therefore, this CVE is classified as IoT-specific.",
+  "cve_id": "CVE-2023-41899"
+},
+{
+  "label": "nonIoT",
+  "component": "cloud backend",
+  "reason": "The vulnerability is related to Oracle Cloud Infrastructure, which is a general-purpose cloud service and not specifically designed or commonly adopted for IoT deployments. While cloud services are part of the IoT cloud layer, this specific vulnerability does not indicate a direct impact on IoT-specific technologies or deployments. Therefore, it falls under the non-IoT category.",
+  "cve_id": "CVE-2022-21503"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "BusyBox is a software suite that provides several Unix utilities in a single executable file and is commonly used in embedded systems. However, it is not purpose-built for IoT nor is it specifically adopted in IoT deployments. It is a general-purpose utility often used across various platforms, including Linux distributions like Ubuntu and Debian, which are not specific to IoT. The vulnerability in BusyBox wget does not specifically target IoT components or systems, hence it is classified as non-IoT.",
+  "cve_id": "CVE-2018-1000517"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "Zephyr is a real-time operating system (RTOS) designed for resource-constrained devices, which are commonly used in IoT environments. The vulnerability involves CoAP (Constrained Application Protocol), a specialized protocol designed for IoT communication. The affected product, Zephyr, is purpose-built for IoT applications, making it an active, functional element of the IoT system.",
+  "cve_id": "CVE-2020-10063"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability described affects a WordPress plugin, which is a general-purpose web application component and not specifically related to IoT technology. The plugin's function as a poll maker does not have a direct or common application within the IoT ecosystem's device, communication, application, or cloud layers. Therefore, it does not significantly impact the IoT ecosystem as defined.",
+  "cve_id": "CVE-2024-9475"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The affected products are industrial relays used for protection and control in power systems. These are specialized equipment used in industrial and utility settings, not typically considered part of the consumer or general IoT ecosystem as defined. They do not fit within the typical IoT device layer characterized by smart home gadgets, sensors, or consumer-level devices. Therefore, the vulnerability is classified as non-IoT.",
+  "cve_id": "CVE-2024-2103"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability is found in the ZigBee firmware update routine of the Samsung SmartThings Hub, which is an IoT-specific device used in smart home ecosystems. ZigBee is a specialized communication protocol commonly used in IoT deployments for device communication. The vulnerability specifically affects the hubCore binary, an integral part of the IoT communication infrastructure, making it relevant to the IoT ecosystem.",
+  "cve_id": "CVE-2018-3926"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability exists in the Samsung SmartThings Hub, which is a device specifically built for IoT ecosystems. The issue is within the HTTP server's credentials handler, which processes user-controlled JSON payloads. This indicates the vulnerability is at the application layer, as it involves user-space services and interfaces. Therefore, it is classified as IoT-specific and pertains to the application component.",
+  "cve_id": "CVE-2018-3875"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability affects the Bluetooth Low Energy (BLE) functionality of the Winco Fireworks FireFly FW-1007 V2.0, which is a specific device. BLE is a specialized low-power protocol often used in IoT devices for communication, aligning with the communication layer of the IoT ecosystem. The affected product, Winco Firefly, appears to be an IoT device given its functionality and context.",
+  "cve_id": "CVE-2019-5014"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects Wireless IP Camera 360 devices, which are part of the device layer in the IoT ecosystem. These cameras are purpose-built for IoT, as they are used for collecting sensory data (visual) and can perform tasks such as video streaming. The issue involves remote attackers discovering RTSP credentials, which is a specific problem related to the configuration and security of IoT devices.",
+  "cve_id": "CVE-2017-11633"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability described affects the FastCGI library used for Perl, which is a general-purpose software component often used in web server environments to interface with applications. There is no indication that this library is purpose-built for IoT or commonly adopted in IoT deployments. The description does not mention its use in any IoT-specific systems or components, nor is there evidence that the vulnerable product (ETHER:FCGI) is an active, functional element of an IoT system. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2025-40907"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects the Cisco IoT Field Network Director (FND), which is specifically designed for managing IoT devices. The SOAP API vulnerability allows unauthorized access and modification of information across different domains. Since the affected product is purpose-built for IoT device management and is a functional element in the IoT ecosystem, it aligns with the definition of an IoT-specific CVE. The issue pertains to the application layer, as it involves the API used for device management operations.",
+  "cve_id": "CVE-2020-26072"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects Oracle WebLogic Server, which is a general-purpose enterprise server used for building and deploying enterprise Java EE applications. It is not purpose-built for IoT nor is it commonly adopted in IoT deployments as an active, functional element of an IoT system. Therefore, this CVE does not meet the criteria for being classified as an IoT-specific CVE.",
+  "cve_id": "CVE-2025-21535"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability is in the Cisco IoT Field Network Director, which is a purpose-built application for managing IoT networks and devices. This makes it an IoT-specific CVE because the affected product is an active, functional element of an IoT system and is commonly adopted in IoT deployments. The vulnerability involves crafting API requests to exploit insufficient file system protections, which is relevant to the application layer of the IoT ecosystem.",
+  "cve_id": "CVE-2020-26078"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The affected products are related to network infrastructure, specifically Aruba Mobility Conductor, Mobility Controllers, WLAN Gateways, and SD-WAN Gateways. These products are typically used in enterprise networking environments and are not specifically purpose-built for IoT or commonly adopted in IoT deployments. Therefore, the CVE is classified as non-IoT as it does not directly impact the IoT ecosystem as defined.",
+  "cve_id": "CVE-2023-35974"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability is related to the ResIOT IoT Platform, which is an IoT-specific technology used for managing IoT devices and networks, including LoRaWAN servers. The vulnerability involves adding new admin users to the platform, which falls under the application layer as it involves user interfaces and orchestration systems that enable user-space services. The ResIOT platform is clearly an active, functional element of the IoT ecosystem, thus making this CVE IoT-specific.",
+  "cve_id": "CVE-2022-34020"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The described vulnerability affects a WordPress plugin used for embedding various media types in WordPress sites. This plugin is not purpose-built for IoT nor is it commonly adopted in IoT deployments. Since WordPress is a general-purpose web platform and not specific to IoT, this vulnerability does not significantly impact the IoT ecosystem. The affected product is a web application component rather than an active, functional element of an IoT system.",
+  "cve_id": "CVE-2024-2128"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects the Intel(R) Converged Security and Manageability Engine (CSME). While CSME is an important component for security and manageability in Intel platforms, it is not purpose-built for IoT nor is it commonly adopted specifically in IoT deployments. CSME is more relevant to general-purpose computing devices such as PCs and servers, which are considered non-IoT according to the classification criteria. Therefore, this CVE does not significantly impact the IoT ecosystem as defined.",
+  "cve_id": "CVE-2020-8761"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The CVE in question involves imcat 4.4, which is a content management system (CMS) and does not appear to be specifically tied to the IoT ecosystem. It is a general-purpose web application vulnerability and lacks evidence of being purpose-built or commonly adopted for IoT deployments. Therefore, it does not significantly impact the IoT ecosystem as defined by the given categories.",
+  "cve_id": "CVE-2018-20605"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "The CVE in question affects Signal Desktop, which is a general-purpose messaging application used on Windows, Linux, and macOS. This software is not purpose-built for IoT or commonly adopted in IoT deployments. Signal Desktop is primarily used on computers, which are classified as non-IoT devices. The vulnerability does not specifically relate to technologies or components within the IoT ecosystem as defined in the categories, such as device, communication, or cloud layer specifically related to IoT.",
+  "cve_id": "CVE-2023-24069"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability described is related to a web application plugin, specifically 'iografica IG Shortcodes', which is not inherently related to IoT. The CVE does not mention any IoT-specific technology or function, nor does it seem to impact any of the four components of the IoT ecosystem (device, communication, application, or cloud backend) in a manner specifically relevant to IoT. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2025-30597"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The CVE affects the Sonos Era 100 smart speakers, which are physical devices with IoT capabilities, fitting within the device layer of the IoT ecosystem. These smart speakers are active, functional elements of an IoT system, as they have limited computational capacity and interact with other devices or the network, consistent with the IoT-specific CVE classification. The vulnerability involves the SMB2 protocol handling, which is related to the device's ability to communicate and function within its network, but the primary impact is on the device layer due to direct manipulation of the smart speaker's operation.",
+  "cve_id": "CVE-2024-5267"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The vulnerability is in the Cisco IoT Field Network Director, which is a product specifically designed for managing IoT deployments. As it is purpose-built for IoT and plays a functional role within an IoT ecosystem, this CVE is classified as IoT-specific. The vulnerability affects the cloud layer, as it involves a web interface that remotely manages IoT devices, fitting the definition of a cloud backend in the IoT ecosystem.",
+  "cve_id": "CVE-2019-1957"
+},
+{
+  "label": "IoT",
+  "component": "device",
+  "reason": "The vulnerability affects the Foscam C1 Indoor HD cameras, which are part of the device layer in the IoT ecosystem. These cameras are physical devices designed for IoT use, as they collect sensory data (video) and potentially interact with other devices through a network. The vulnerability is specific to the web management interface of these cameras, which are active, functional elements of an IoT system. Therefore, this is classified as an IoT-specific CVE affecting the device component.",
+  "cve_id": "CVE-2017-2846"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The CVE affects Z-Wave devices, which are purpose-built for IoT and commonly used in IoT deployments for wireless communication. The vulnerability involves the use of a known, shared network key, which relates directly to the communication layer of the IoT ecosystem. Z-Wave is a specialized protocol for low-power wireless communication, making it an integral part of the communication layer in IoT systems.",
+  "cve_id": "CVE-2013-20003"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The affected product, 'Microsoft PC Manager', is a general-purpose software product intended for managing personal computers. It does not belong to any of the specified IoT ecosystem components (device, communication, application, or cloud backend) and is not purpose-built for IoT nor commonly adopted in IoT deployments. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2025-21322"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability affects the Constrained Application Protocol (CoAP) implementation in the Cisco IoT Field Network Director, which is a purpose-built technology for the IoT ecosystem. CoAP is specifically designed for constrained devices and is commonly adopted in IoT deployments to facilitate communication between devices. The vulnerability allows an unauthenticated remote attacker to disrupt communication to IoT endpoints, which directly impacts the IoT ecosystem. Therefore, this CVE is classified as IoT-specific and pertains to the communication component.",
+  "cve_id": "CVE-2020-3162"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects a specific application ('Sonia') within Dahua IP camera products, which are designed for IoT purposes. These cameras are functional elements of an IoT system, used for remote monitoring and control. The vulnerability involves a stack buffer overflow in the Sonia web interface, part of the application layer that enables user interaction with the device. This aligns with the definition of IoT-specific CVEs, as the technology is purpose-built for IoT and directly impacts the IoT ecosystem.",
+  "cve_id": "CVE-2017-3223"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects Micro Focus Operation Bridge Reporter, which is a general-purpose IT operations management tool rather than a purpose-built IoT technology or a commonly adopted component in IoT deployments. There is no clear evidence that this product is an active or functional element of an IoT system, making it nonIoT.",
+  "cve_id": "CVE-2021-22502"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability described affects the Time Slots Booking Calendar 4.0, which is a web-based application for booking time slots. This does not fall under any of the four defined components of the IoT ecosystem (device, communication, application, or cloud layer) as it is not purpose-built for IoT nor commonly adopted in IoT deployments. The application seems to be more relevant to general web applications rather than IoT-specific applications. As such, it is classified as nonIoT.",
+  "cve_id": "CVE-2023-48828"
+},
+{
+  "label": "IoT",
+  "component": "cloud backend",
+  "reason": "The vulnerability is associated with the Cisco IoT Control Center, which is a cloud-based management platform specifically designed for managing IoT devices and services. The fact that it is part of the Cisco IoT ecosystem and provides IoT-focused services indicates that it plays an active role in the IoT ecosystem. Therefore, this vulnerability is considered IoT-specific, affecting the cloud backend component of the IoT ecosystem.",
+  "cve_id": "CVE-2022-20916"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects a WordPress plugin, which is not specifically designed for IoT systems. WordPress is a general-purpose platform for building websites and is not purpose-built for the IoT ecosystem. Therefore, this CVE is classified as non-IoT since it does not impact any of the IoT-specific components such as device, communication, application, or cloud backend in the IoT ecosystem.",
+  "cve_id": "CVE-2021-24612"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability is related to moziloCMS, which is a content management system (CMS). CMS platforms are typically used for general web content management and not specifically designed or commonly adopted for IoT deployments. There is no evidence suggesting that moziloCMS is a purpose-built technology for IoT or is actively used as a functional element within an IoT system. Therefore, the CVE does not significantly impact the IoT ecosystem, classifying it as non-IoT.",
+  "cve_id": "CVE-2024-2245"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability exists in the ZigBee Installation Toolkit, which is associated with the ZigBee protocol. ZigBee is a specialized low-power communication protocol commonly used in IoT deployments for device-to-device communication. Therefore, this vulnerability is relevant to the communication layer of the IoT ecosystem and is classified as an IoT-specific CVE.",
+  "cve_id": "CVE-2020-7476"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The Metform Elementor Contact Form Builder for WordPress is a plugin used for creating contact forms on websites. It is not purpose-built for IoT, nor is it commonly adopted in IoT deployments. The vulnerability does not affect any technologies belonging to the device, communication, application, or cloud backend layers of the IoT ecosystem as defined. Therefore, it is classified as non-IoT.",
+  "cve_id": "CVE-2023-0689"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability is associated with Cisco IoT Field Network Director, which is a tool specifically designed for managing IoT networks. The CVE affects the access control functionality of this IoT-specific product. Since the product is purpose-built for IoT and plays an active role in managing IoT systems, the CVE is classified as an IoT-specific CVE. The vulnerability relates to the application layer because it involves improper access control, which is typically a concern handled at the application or service level.",
+  "cve_id": "CVE-2020-26077"
+},
+{
+  "label": "nonIoT",
+  "component": "application",
+  "reason": "SapphireIMS is an IT service management software, primarily used for IT infrastructure management, and not specifically for IoT purposes. The vulnerability described affects the application's user account management functionality, which is typical of general-purpose IT software. Therefore, it is classified as non-IoT because it does not pertain to technologies purpose-built for IoT or commonly adopted in IoT deployments.",
+  "cve_id": "CVE-2017-16631"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability is related to the uncontrolled deserialization of a pickled object in the Redis Wrapper library, which is a general-purpose software library for handling Redis operations. There is no specific indication that this library is purpose-built for IoT or is commonly adopted in IoT deployments. Redis is a general-purpose technology used across various domains, not specifically tied to IoT. Therefore, this CVE does not fit the criteria for an IoT-specific CVE.",
+  "cve_id": "CVE-2019-17206"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability is in the web-based management interface of Cisco IoT Field Network Director (IoT-FND), which is designed specifically for managing IoT networks. The description specifies that the affected products are part of an IoT system, indicating that the vulnerable product is an active, functional element of the IoT ecosystem. Additionally, the web-based management interface falls under the application layer, as it provides user-space services for managing IoT devices and networks.",
+  "cve_id": "CVE-2018-0270"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "IBM EntireX is a middleware product that facilitates communication between different software applications. It is not specifically designed for IoT environments nor is it commonly adopted in IoT deployments. Additionally, the description indicates that it is a general-purpose software product, rather than an active, functional element of an IoT system. Therefore, it falls under the category of non-IoT CVE.",
+  "cve_id": "CVE-2025-0158"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "The vulnerability affects the Cisco IoT Field Network Director (IoT-FND), which is explicitly part of the IoT ecosystem. The IoT-FND is used for managing IoT devices and networks, making it a functional element of an IoT system. The issue is related to the TCP throttling process within the IoT-FND, which aligns with the application layer of the IoT ecosystem as it deals with orchestration systems and local controllers that enable user-space services. Therefore, it falls under the IoT-specific CVE category.",
+  "cve_id": "CVE-2017-6780"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability is related to a WordPress plugin, which is primarily used for managing content on websites and not specifically designed or commonly adopted for IoT systems. As such, it does not affect technologies within the defined IoT ecosystem components, nor is it a purpose-built IoT technology. Thus, it is classified as non-IoT.",
+  "cve_id": "CVE-2021-25065"
+},
+{
+  "label": "IoT",
+  "component": "communication",
+  "reason": "The vulnerability exists in the Eclipse IoT Cyclone DDS project, which is a data distribution service (DDS) commonly used for communication in IoT systems. DDS is a protocol specifically designed for real-time, scalable, and high-performance communication, which aligns with the communication layer of the IoT ecosystem. The affected product is a functional element of an IoT system, making this CVE IoT-specific.",
+  "cve_id": "CVE-2020-18734"
+},
+{
+  "label": "nonIoT",
+  "component": "",
+  "reason": "The vulnerability affects the Cisco Evolved Programmable Network Manager (EPNM) and Cisco Prime Infrastructure, which are network management tools. These tools are used for managing network infrastructure and are not purpose-built for IoT nor commonly adopted in IoT deployments. They are general-purpose network management solutions and do not align with the defined components of the IoT ecosystem, such as device, communication, application, or cloud backend layers specific to IoT. Therefore, this CVE is classified as non-IoT.",
+  "cve_id": "CVE-2024-20514"
+},
+{
+  "label": "nonIoT",
+  "component": "unsure",
+  "reason": "The CVE describes a vulnerability in the `zip` library for Rust, which is a general-purpose library for handling ZIP files. There is no specific indication that this library is purpose-built for IoT or commonly adopted in IoT deployments. The vulnerability does not specifically target IoT devices or systems, nor does it seem to significantly impact the IoT ecosystem. Therefore, it is classified as nonIoT.",
+  "cve_id": "CVE-2025-29787"
+},
+{
+  "label": "IoT",
+  "component": "application",
+  "reason": "Zingbox Inspector is a network security solution designed specifically for IoT environments. The vulnerability is in the management interface, which is part of the application layer providing user interfaces and orchestration systems for IoT devices. Since the product is purpose-built for IoT and functions as an active element within the IoT ecosystem, the CVE is classified as IoT-specific.",
+  "cve_id": "CVE-2019-15016"
+}]

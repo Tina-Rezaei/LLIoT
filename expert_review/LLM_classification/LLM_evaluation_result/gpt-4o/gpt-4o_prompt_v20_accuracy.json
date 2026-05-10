@@ -1,0 +1,23 @@
+{
+  "model": "gpt-4o",
+  "prompt": "prompt_v20",
+  "label_accuracy": 97.58,
+  "component_accuracy": 61.03,
+  "per_component_accuracy": {
+    "device": 81.4,
+    "cloud backend": 56.25,
+    "communication": 60.53,
+    "unsure": 0.0,
+    "application": 50.0,
+    "": 0.0
+  },
+  "precision": 97.28,
+  "recall": 98.62,
+  "f1_score": 97.95,
+  "label_total": 289,
+  "component_total": 136,
+  "true_positives": 143,
+  "false_positives": 4,
+  "false_negatives": 2,
+  "label_unsure": 1
+}

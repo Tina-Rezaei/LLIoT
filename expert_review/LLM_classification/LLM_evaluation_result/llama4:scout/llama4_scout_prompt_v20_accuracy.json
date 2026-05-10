@@ -1,0 +1,23 @@
+{
+  "model": "llama4:scout",
+  "prompt": "prompt_v20",
+  "label_accuracy": 92.39,
+  "component_accuracy": 52.55,
+  "per_component_accuracy": {
+    "device": 97.73,
+    "cloud backend": 31.25,
+    "communication": 13.16,
+    "unsure": 0.0,
+    "application": 59.38,
+    "": 0.0
+  },
+  "precision": 87.8,
+  "recall": 99.31,
+  "f1_score": 93.2,
+  "label_total": 289,
+  "component_total": 137,
+  "true_positives": 144,
+  "false_positives": 20,
+  "false_negatives": 1,
+  "label_unsure": 1
+}

@@ -1,0 +1,22 @@
+{
+  "model": "o3",
+  "prompt": "prompt_v20",
+  "label_accuracy": 99.31,
+  "component_accuracy": 66.42,
+  "per_component_accuracy": {
+    "device": 90.91,
+    "cloud backend": 37.5,
+    "communication": 55.26,
+    "unsure": 0.0,
+    "application": 72.73
+  },
+  "precision": 100.0,
+  "recall": 99.31,
+  "f1_score": 99.65,
+  "label_total": 289,
+  "component_total": 137,
+  "true_positives": 144,
+  "false_positives": 0,
+  "false_negatives": 1,
+  "label_unsure": 1
+}

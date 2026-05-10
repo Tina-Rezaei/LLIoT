@@ -1,0 +1,2155 @@
+{
+  "CVE-2019-9750": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "communication",
+      "reason": "The vulnerability affects the IoTivity platform, which is purpose-built for IoT, specifically in the CoAP server interface. CoAP is a protocol designed for IoT communication, making this vulnerability specific to the IoT ecosystem.",
+      "category": "os",
+      "sector": "other",
+      "cve_id": "CVE-2019-9750"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 2,
+        "cve_id": "CVE-2019-9750",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "It uses the interface of a server to execute DDoS on an IoT specific software"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 2,
+        "cve_id": "CVE-2019-9750",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "Apmplification attack possible by the could backend of some systems. Related to IoT because this backend service is for IoT devices, attack is not IoT specific."
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 2,
+        "cve_id": "CVE-2019-9750",
+        "manual_review_label": "IoT specific",
+        "notes": "backend issue it seems",
+        "affected_component": "cloud backend"
+      }
+    }
+  },
+  "CVE-2022-39368": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "communication",
+      "reason": "Eclipse Californium is a Java implementation of the Constrained Application Protocol (CoAP), which is a specialized protocol designed specifically for IoT environments to enable communication between devices and cloud services. It is purpose-built for IoT, and the vulnerability affects a functional element of an IoT system.",
+      "category": "os",
+      "sector": "other",
+      "cve_id": "CVE-2022-39368"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 4,
+        "cve_id": "CVE-2022-39368",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "Flaw in the handshake protocol"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 4,
+        "cve_id": "CVE-2022-39368",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "This is a cloud back-end application for iot data"
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 4,
+        "cve_id": "CVE-2022-39368",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "Californium seems to be IoT cloud specific software"
+      }
+    }
+  },
+  "CVE-2023-38372": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability affects the IBM Watson IoT Platform, which is a cloud backend service providing IoT-specific functionalities such as device management and remote control. The CVE is IoT-specific because it involves impersonation within an IoT-focused platform.",
+      "category": "cloud services",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2023-38372"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 10,
+        "cve_id": "CVE-2023-38372",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "The vulnerability is specific to the IBM Watson IoT platform"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 10,
+        "cve_id": "CVE-2023-38372",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "Issue with the Watson IoT backend."
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 10,
+        "cve_id": "CVE-2023-38372",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "missusing auth tokens"
+      }
+    }
+  },
+  "CVE-2018-16598": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "device",
+      "reason": "The vulnerability affects FreeRTOS, which is a real-time operating system specifically designed for microcontrollers and small devices commonly used in IoT applications. The issue is related to the FreeRTOS+TCP, which is used for network communication in IoT environments.",
+      "category": "os",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2018-16598"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 15,
+        "cve_id": "CVE-2018-16598",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "FreeRTOS is associated to IoT devices"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 15,
+        "cve_id": "CVE-2018-16598",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "Operating system for low power devices. Not exclusively IoT but does impact IoT devices that run this."
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 15,
+        "cve_id": "CVE-2018-16598",
+        "manual_review_label": "Not sure",
+        "notes": "RTOS is a real time os, can be used for Iot but doesn't have to. not sure"
+      }
+    }
+  },
+  "CVE-2019-12101": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "communication",
+      "reason": "LibNyoci is an IoT-specific library designed for constrained environments and supports CoAP, a protocol often used in IoT communications. The vulnerability affects how this library decodes CoAP options, which is relevant to IoT communication protocols.",
+      "category": "protocol libraries",
+      "sector": "other",
+      "cve_id": "CVE-2019-12101"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 17,
+        "cve_id": "CVE-2019-12101",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "libnyoci is used in embedded devices and sensors"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 17,
+        "cve_id": "CVE-2019-12101",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "Library for embedded devices."
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 17,
+        "cve_id": "CVE-2019-12101",
+        "manual_review_label": "Not sure",
+        "notes": "LibNyoci, is software that can be used in IoT devices, but doesn't have to"
+      }
+    }
+  },
+  "CVE-2018-8119": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability affects the Azure IoT SDK, which is purpose-built for IoT and used in the deployment context of IoT systems. The SDK facilitates communication and provisioning for IoT devices via the AMQP protocol, making it an active component of IoT systems.",
+      "category": "os",
+      "sector": "other",
+      "cve_id": "CVE-2018-8119"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 21,
+        "cve_id": "CVE-2018-8119",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "Its about Azure IoT"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 21,
+        "cve_id": "CVE-2018-8119",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "Issue with message queue library for IoT devices"
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 21,
+        "cve_id": "CVE-2018-8119",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "bug in a message protocol implementation"
+      }
+    }
+  },
+  "CVE-2019-5432": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "communication",
+      "reason": "The vulnerability affects the MQTT protocol, which is commonly used for communication in IoT systems. The mqtt-packet module is specifically related to handling MQTT packets, indicating its relevance to IoT-specific communication technologies.",
+      "category": "protocol",
+      "sector": "other",
+      "cve_id": "CVE-2019-5432"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 44,
+        "cve_id": "CVE-2019-5432",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "MQTT is a communication protocol used in IoT"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 44,
+        "cve_id": "CVE-2019-5432",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "Issue with MQTT broker which might be used for IoT applications."
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 44,
+        "cve_id": "CVE-2019-5432",
+        "manual_review_label": "Not IoT related",
+        "notes": "MQTT can be used in Iot but doesn't have to"
+      }
+    }
+  },
+  "CVE-2021-40831": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability affects the AWS IoT Device SDK, which is specifically designed for IoT applications and facilitates communication between IoT devices and cloud services. The issue is related to the handling of TLS certificates, which impacts the security of cloud-based communications in IoT environments.",
+      "category": "os",
+      "sector": "other",
+      "cve_id": "CVE-2021-40831"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 48,
+        "cve_id": "CVE-2021-40831",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "It's an issue with the AWS SDK for IoT devices"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 48,
+        "cve_id": "CVE-2021-40831",
+        "manual_review_label": "Not sure",
+        "notes": "Issue with software on mac os. Not directly IoT related but as this is an SDK for IoT applications it might cause make a supply chain attack possible?"
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 48,
+        "cve_id": "CVE-2021-40831",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "not sure in which category IoT SDK falls"
+      }
+    }
+  },
+  "CVE-2023-41894": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The vulnerability affects Home Assistant, which is a purpose-built platform for IoT home automation. It directly impacts the functionality and security of an IoT system by allowing unauthorized access to webhooks, which are part of the application layer. The product is actively used in IoT contexts.",
+      "category": "orchestration platform",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2023-41894"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 54,
+        "cve_id": "CVE-2023-41894",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Home assistant is an open source software for home automation"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 54,
+        "cve_id": "CVE-2023-41894",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "Home Assistant issue, so IoT related."
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 54,
+        "cve_id": "CVE-2023-41894",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "backend issue"
+      }
+    }
+  },
+  "CVE-2024-48544": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The vulnerability affects Sylvania Smart Home firmware, which is part of a smart home IoT system. The issue is related to the firmware update and download processes, indicating it is an application layer problem. The product is purpose-built for IoT as it pertains to smart home technology.",
+      "category": "lighting",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2024-48544"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 59,
+        "cve_id": "CVE-2024-48544",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "It's a smart home product"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 59,
+        "cve_id": "CVE-2024-48544",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Issue with smarthome android app"
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 59,
+        "cve_id": "CVE-2024-48544",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "bad firmware update procedure"
+      }
+    }
+  },
+  "CVE-2021-40829": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerabilities affect the AWS IoT Device SDK, which is a purpose-built technology for IoT systems, used for connecting devices to AWS IoT services. The issue involves TLS hostname verification, which is critical for secure communication in IoT cloud backends.",
+      "category": "os",
+      "sector": "other",
+      "cve_id": "CVE-2021-40829"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 63,
+        "cve_id": "CVE-2021-40829",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "It's specific to the AWS IoT services"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 63,
+        "cve_id": "CVE-2021-40829",
+        "manual_review_label": "Not sure",
+        "notes": "This problem might allow a supply chain attack as this affects software used to create IoT software."
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 63,
+        "cve_id": "CVE-2021-40829",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "development SDK bug"
+      }
+    }
+  },
+  "CVE-2021-22547": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability is in the Google Cloud IoT Device SDK for Embedded C, which is purpose-built for IoT and used in IoT deployment contexts. It affects the cloud backend layer as it involves the SDK used for cloud connectivity and management of IoT devices.",
+      "category": "os",
+      "sector": "other",
+      "cve_id": "CVE-2021-22547"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 73,
+        "cve_id": "CVE-2021-22547",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "It's an issue with Google Cloud IoT"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 73,
+        "cve_id": "CVE-2021-22547",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "Issue with device software when using a specific SDK"
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 73,
+        "cve_id": "CVE-2021-22547",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "IoT development SDK bug"
+      }
+    }
+  },
+  "CVE-2020-26075": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The affected product, Cisco IoT Field Network Director, is a purpose-built IoT orchestration system that manages IoT devices, indicating its relevance to the IoT ecosystem. The vulnerability involves the REST API of this application, which is part of the application layer.",
+      "category": "network management",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2020-26075"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 75,
+        "cve_id": "CVE-2020-26075",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "It's about a platform to manage IoT devices"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 75,
+        "cve_id": "CVE-2020-26075",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "issue with a cisco iot back-end service"
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 75,
+        "cve_id": "CVE-2020-26075",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "IoT management platform"
+      }
+    }
+  },
+  "CVE-2023-26494": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "communication",
+      "reason": "The lorawan-stack is a network server specifically designed for managing LoRaWAN networks, which are used for IoT communication. The vulnerability affects the login page of this server, which is a functional component of an IoT communication system.",
+      "category": "network server",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2023-26494"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 76,
+        "cve_id": "CVE-2023-26494",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Lorawand stack is designed and market as an IoT server"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 76,
+        "cve_id": "CVE-2023-26494",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "lorawan network server, so mostly IoT related on the back-end"
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 76,
+        "cve_id": "CVE-2023-26494",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "lorawan is mostly used in IoT, communication protocol bug"
+      }
+    }
+  },
+  "CVE-2024-1578": {
+    "reason": "label mismatch (FP)",
+    "LLM": {
+      "label": "nonIoT",
+      "component": "unsure",
+      "reason": "The affected products are ID card readers, which are general-purpose devices used for identity verification and access control. They are not purpose-built for IoT ecosystems and do not function as active elements within an IoT system.",
+      "category": "sensors",
+      "sector": "other",
+      "cve_id": "CVE-2024-1578"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 82,
+        "cve_id": "CVE-2024-1578",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "I am not 100% sure a card reader should be considered an IoT device, but considering that it obtains data through a sensor and then uploads them online, i think it can fit the definition"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 82,
+        "cve_id": "CVE-2024-1578",
+        "manual_review_label": "Not IoT related",
+        "notes": "Issue with software related to some kind of smart-card reader. I would say not IoT."
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 82,
+        "cve_id": "CVE-2024-1578",
+        "manual_review_label": "Not IoT related",
+        "notes": "tag reader bug"
+      }
+    }
+  },
+  "CVE-2016-5056": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "communication",
+      "reason": "The vulnerability is related to the Osram Lightify Pro, which is part of a smart lighting system used in IoT environments. The use of only 8 hex digits for a PSK indicates a weakness in the communication security mechanism of this IoT device, specifically related to key management and encryption protocols. This is typical of IoT-specific vulnerabilities.",
+      "category": "lighting",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2016-5056"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 92,
+        "cve_id": "CVE-2016-5056",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "It's an issue affecting smart lights"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 92,
+        "cve_id": "CVE-2016-5056",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "Issue with the default wifi password for some OSRAM devices"
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 92,
+        "cve_id": "CVE-2016-5056",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "bad key security"
+      }
+    }
+  },
+  "CVE-2020-27275": {
+    "reason": "label mismatch (FN)",
+    "LLM": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "DOPSoft is a software application used to program and control Human-Machine Interfaces (HMIs) which are commonly used in industrial IoT environments. The vulnerability affects the application layer of the IoT ecosystem, as it pertains to software used for orchestrating IoT devices.",
+      "category": "industrial control systems",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2020-27275"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 93,
+        "cve_id": "CVE-2020-27275",
+        "manual_review_label": "Not IoT related",
+        "notes": "It's not an IoT specific application"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 93,
+        "cve_id": "CVE-2020-27275",
+        "manual_review_label": "Not sure",
+        "notes": "PLC programmer, I would say not IoT but some people might consider industrial control things to be IoT..."
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 93,
+        "cve_id": "CVE-2020-27275",
+        "manual_review_label": "Not sure",
+        "notes": "seems to be iot design software, so not an iot device directly"
+      }
+    }
+  },
+  "CVE-2024-48786": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The vulnerability affects the SwitchBot application, which is purpose-built for IoT, functioning as a control interface for IoT devices. The issue lies in the firmware update process managed by the application, indicating its role in the IoT ecosystem.",
+      "category": "actuators",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2024-48786"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 97,
+        "cve_id": "CVE-2024-48786",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "Switchbot is used in smart homes"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 97,
+        "cve_id": "CVE-2024-48786",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "IoT thing that can press a button"
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 97,
+        "cve_id": "CVE-2024-48786",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "bad firmware update process"
+      }
+    }
+  },
+  "CVE-2024-32134": {
+    "reason": "label mismatch (FN)",
+    "LLM": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The affected products include IFTTT and similar platforms, which are used for orchestration in IoT environments, making them relevant to the IoT application layer.",
+      "category": "orchestration platforms",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2024-32134"
+    },
+    "human": {
+      "Reviewer4": {
+        "username": "Reviewer4",
+        "cveIndex": 98,
+        "cve_id": "CVE-2024-32134",
+        "manual_review_label": "Not IoT related",
+        "notes": "These are integration platforms that can be used with, but are not strictly associated to IoT systems"
+      },
+      "Reviewer5": {
+        "username": "Reviewer5",
+        "cveIndex": 98,
+        "cve_id": "CVE-2024-32134",
+        "manual_review_label": "Not IoT related",
+        "notes": "wordpress plugin"
+      },
+      "Reviewer6": {
+        "username": "Reviewer6",
+        "cveIndex": 98,
+        "cve_id": "CVE-2024-32134",
+        "manual_review_label": "Not IoT related",
+        "notes": "SQL injection"
+      }
+    }
+  },
+  "CVE-2020-26076": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability affects Cisco IoT Field Network Director, which is a purpose-built technology for IoT deployments. It manages IoT devices and networks, making it an active, functional element of an IoT system. The vulnerability involves remote, unauthenticated access to sensitive database information, indicating a cloud backend layer issue.",
+      "category": "network management",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2020-26076"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 1,
+        "cve_id": "CVE-2020-26076",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "It's a software that causes the vulnerability to be present"
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 1,
+        "cve_id": "CVE-2020-26076",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "This is a vulnerability of a management system for IoT devices. I do not find a clear indication that this is a cloud-based system (hence the Not sure). It is a backend system for sure"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 1,
+        "cve_id": "CVE-2020-26076",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "IoT Field Network Director contains statistics on connected IoT devices. This exploit allows for unauthorized access into the database containing IoT device information.\r\nThis software does not run on the IoT device but on some central machine, like a VM or in the cloud, which is why I am classifying it as a cloud backend vulnerability"
+      }
+    }
+  },
+  "CVE-2018-16523": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "device",
+      "reason": "The vulnerability affects FreeRTOS, which is a real-time operating system commonly used in IoT devices. It is specifically designed for low-power, resource-constrained devices typical in IoT applications.",
+      "category": "os",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2018-16523"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 6,
+        "cve_id": "CVE-2018-16523",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "Since vulnerability exploited by TCP/IP "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 6,
+        "cve_id": "CVE-2018-16523",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "FreeRTOS: Real-time operating system for microcontrollers and small microprocessors\r\nWittenstein has been collaborating with FreeRTOS"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 6,
+        "cve_id": "CVE-2018-16523",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "FreeRTOS is designed for devices with limited power, which includes IoT devices.\r\nThis vulnerability describes a flow in the protocol design of the TCP/IP component"
+      }
+    }
+  },
+  "CVE-2020-12884": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "device",
+      "reason": "The vulnerability affects Arm Mbed OS, which is an operating system specifically designed for IoT devices. It facilitates connectivity and processing for IoT applications, and its deployment context is IoT-centric.",
+      "category": "os",
+      "sector": "other",
+      "cve_id": "CVE-2020-12884"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 9,
+        "cve_id": "CVE-2020-12884",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "Vulnerability in CoAP "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 9,
+        "cve_id": "CVE-2020-12884",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "Arm Mbed OS is an OS for microcontrollers (hence IoT)\r\nCoAP library is a library for resource constraints applications. It seems quite low-level, so I indicated device "
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 9,
+        "cve_id": "CVE-2020-12884",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "CoAP is a protocol designed for resource constrained devices.\r\nThis describes a vulnerability in the protocol design, which is the communication layer"
+      }
+    }
+  },
+  "CVE-2021-40830": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability affects the AWS IoT Device SDK, which is purpose-built for IoT and used in IoT systems, specifically affecting the handling of TLS handshakes in the context of IoT device communication. The vulnerability is relevant to the IoT ecosystem as it impacts secure communication between IoT devices and their cloud services.",
+      "category": "os",
+      "sector": "other",
+      "cve_id": "CVE-2021-40830"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 11,
+        "cve_id": "CVE-2021-40830",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Caused by AWS IoT Device SDK"
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 11,
+        "cve_id": "CVE-2021-40830",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "AWS IoT Device SDK is built for embedded applications; MQTT is also widely used in IoT. In combination with AWS IoT Device SDK, I say IoT specific"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 11,
+        "cve_id": "CVE-2021-40830",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "The AWS IoT Device SDK is used for IoT devices. This attack allows for compromising the CA on IoT devices"
+      }
+    }
+  },
+  "CVE-2022-31544": {
+    "reason": "label mismatch (FN)",
+    "LLM": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The affected product, 'xtomo:robo-tom', is likely a specialized application within an IoT system. The CVE is related to the application's use of the Flask send_file function, which suggests it is a part of the application layer. The use of 'robo' in the product name implies functionality related to robotics or automation, which are common in IoT settings.",
+      "category": "actuators",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2022-31544"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 12,
+        "cve_id": "CVE-2022-31544",
+        "manual_review_label": "Not sure",
+        "notes": "Its a lightweight python framework for web development, not specifically mentioned for IoT devices "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 12,
+        "cve_id": "CVE-2022-31544",
+        "manual_review_label": "Not sure",
+        "notes": "There is really almost anything to find about RBTM and the repository is gone. "
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 12,
+        "cve_id": "CVE-2022-31544",
+        "manual_review_label": "Not IoT related",
+        "notes": "Flask is a web framework, unrelated to IoT"
+      }
+    }
+  },
+  "CVE-2019-14458": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "device",
+      "reason": "The vulnerability affects a VIVOTEK IP Camera, which is a physical device that collects sensory data and interacts within an IoT ecosystem, fitting the description of the device layer. The vulnerability is specific to IoT as the product is an active element of an IoT system.",
+      "category": "cameras",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2019-14458"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 18,
+        "cve_id": "CVE-2019-14458",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "Caused due to manipulation of http header"
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 18,
+        "cve_id": "CVE-2019-14458",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "This is about a camera that allows interaction via HTTP, thus IoT. However there is too little information to know if the vulnerability happens at the Device level or Application level"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 18,
+        "cve_id": "CVE-2019-14458",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "IP camera is an IoT device (after confirmation with other experts in the field) (Pascal, and GUstavo)."
+      }
+    }
+  },
+  "CVE-2022-39865": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The vulnerability is in the SmartThings application, which is purpose-built for IoT and serves as an orchestration system for smart home devices, fitting the definition of the application layer in the IoT ecosystem.",
+      "category": "application",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2022-39865"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 19,
+        "cve_id": "CVE-2022-39865",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "Vulnerability in broadcast protocol "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 19,
+        "cve_id": "CVE-2022-39865",
+        "manual_review_label": "Not sure",
+        "notes": "Samsung SmartThings is an app to manage IoT devices, however the CVE does not specify which sensitive information are accessed. So this could just be a vulnerability about an IoT app, but that has nothing to do with IoT"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 19,
+        "cve_id": "CVE-2022-39865",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "SmartThings is a home automation software used for managing IoT devices"
+      }
+    }
+  },
+  "CVE-2020-18735": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "communication",
+      "reason": "The affected product, Eclipse Cyclone DDS, is a data distribution service specifically designed for IoT environments to handle communication between devices. It is purpose-built for IoT and serves as an active, functional element in the IoT communication layer.",
+      "category": "communication protocol",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2020-18735"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 27,
+        "cve_id": "CVE-2020-18735",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Vulnerability caused due to eclipse IoT cyclone dss application "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 27,
+        "cve_id": "CVE-2020-18735",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "Eclipse Cyclone DDS is a data distribution system. As such is not per se cloud based. Eclipse Cyclone DDS is used in management of IoT systems"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 27,
+        "cve_id": "CVE-2020-18735",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "this software is used in distributed systems like iot and can crash the dds subscriber server to crash"
+      }
+    }
+  },
+  "CVE-2019-12763": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The vulnerability affects an application designed for use with a security camera, which is a purpose-built IoT device. The application is used for managing or interacting with IoT devices, making it an active element in the IoT ecosystem.",
+      "category": "cameras",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2019-12763"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 31,
+        "cve_id": "CVE-2019-12763",
+        "manual_review_label": "Not IoT related",
+        "notes": "Since phones use Android and that doesn't classify as IoT devices "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 31,
+        "cve_id": "CVE-2019-12763",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "this is a app that manages a security camera, so I believe it is part of the IoT ecosystem"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 31,
+        "cve_id": "CVE-2019-12763",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Security Camera CZ is some shitty IoT application to use unused mobile phones as cameras.\r\nIt is a software that can be installed through the android playstore, therefore this vulnerability lies in the application layer."
+      }
+    }
+  },
+  "CVE-2019-5160": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability affects the Cloud Connectivity functionality of a firmware used in an IoT device, WAGO PFC200, which is designed for industrial automation. The vulnerability involves unauthorized access to cloud services, specifically Azure IoT Hub, indicating its relevance to the IoT ecosystem.",
+      "category": "firmware",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2019-5160"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 36,
+        "cve_id": "CVE-2019-5160",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "Vulnerability in cloud connectivity protocol"
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 36,
+        "cve_id": "CVE-2019-5160",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "Wago produces controllers that have remote access functionality. This is a bug in the Firmware, so I chose Device"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 36,
+        "cve_id": "CVE-2019-5160",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "WAGO has many iot devices that connect to the cloud using the Cloud Connectivity functionality of WAGO PFC200 .\r\nnot sure whether this is application, communication, or cloud backend "
+      }
+    }
+  },
+  "CVE-2019-16754": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "device",
+      "reason": "The vulnerability affects RIOT OS, which is a purpose-built operating system for constrained IoT devices. The MQTT-SN implementation is specifically used for IoT communication, and the affected product is an active component of IoT systems.",
+      "category": "os",
+      "sector": "other",
+      "cve_id": "CVE-2019-16754"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 40,
+        "cve_id": "CVE-2019-16754",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "Error in mqtt-sn implementation "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 40,
+        "cve_id": "CVE-2019-16754",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "It is a CVE about Riot-os (os specifically developed for IoT)"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 40,
+        "cve_id": "CVE-2019-16754",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "RIOT is an OS used in many IoT devices\r\nThis could be commuication related as it is a vulnerability in the MQTT protocol message, but could also be a device (OS) vulnerability."
+      }
+    }
+  },
+  "CVE-2017-7911": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability affects the CyberVision Kaa IoT Platform, which is a purpose-built platform for IoT services, thus making it an active, functional element of an IoT system.",
+      "category": "os",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2017-7911"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 41,
+        "cve_id": "CVE-2017-7911",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Vulnerability in cybervision kaa iot platform "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 41,
+        "cve_id": "CVE-2017-7911",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "This is a bit confusing because in the meantime Kaa IoT seems to have branched out as an independent company, but it does still specialize in IoT, inclusive backend. Since the CVE refers to a platform, I go for backend."
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 41,
+        "cve_id": "CVE-2017-7911",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": " CyberVision Kaa IoT Platform is software for IoT"
+      }
+    }
+  },
+  "CVE-2020-26080": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability affects Cisco IoT Field Network Director, a purpose-built technology for IoT systems, specifically dealing with remote or cloud-based management functions. It is an active part of the IoT ecosystem, handling user management across different domains.",
+      "category": "network management",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2020-26080"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 46,
+        "cve_id": "CVE-2020-26080",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "Since vulnerability exists in network network management system "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 46,
+        "cve_id": "CVE-2020-26080",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "This is a vulnerability of a management system for IoT devices. I do not find a clear indication that this is a cloud-based system (hence the Not sure). It is a backend system for sure"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 46,
+        "cve_id": "CVE-2020-26080",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Cisco IoT Field Network Director is iot related. this is a vunlerability in the software"
+      }
+    }
+  },
+  "CVE-2021-40828": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability affects AWS IoT Device SDKs, which are purpose-built for IoT applications and are a functional part of IoT systems. The issue relates to the server certificate hostname verification during TLS handshake, which is a cloud backend security concern.",
+      "category": "os",
+      "sector": "other",
+      "cve_id": "CVE-2021-40828"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 47,
+        "cve_id": "CVE-2021-40828",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Vulnerability in AWS Iot sdk"
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 47,
+        "cve_id": "CVE-2021-40828",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "AWS IoT Device SDK v2 takes care of communication between an IoT device and the backend. The vulnerability is in the use of the communication protocol."
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 47,
+        "cve_id": "CVE-2021-40828",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "AWS IoT Device SDK v2 is software for iot"
+      }
+    }
+  },
+  "CVE-2017-9315": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "device",
+      "reason": "The vulnerability affects Dahua IP cameras, which are purpose-built IoT devices used in surveillance and security systems. These cameras are active, functional elements of an IoT system, collecting and transmitting data. The vulnerability lies in the algorithm used for resetting admin passwords, implicating the device layer.",
+      "category": "cameras",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2017-9315"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 49,
+        "cve_id": "CVE-2017-9315",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "Vaulneroblily in protocol"
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 49,
+        "cve_id": "CVE-2017-9315",
+        "manual_review_label": "Not IoT related",
+        "notes": "The camera is probably an IoT device, but there is nothing specifying that this vulnerability is IoT related. Since the flaw is in the algorithm for password reset, I consider this to be noT IoT"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 49,
+        "cve_id": "CVE-2017-9315",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "IP camera is IoT. I am not sure where this vulnerability lies as it involves multiple components"
+      }
+    }
+  },
+  "CVE-2022-34021": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The vulnerability affects the ResIOT IoT Platform + LoRaWAN Network Server, which is a purpose-built technology for IoT deployments, serving as an orchestration system and local controller.",
+      "category": "platform",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2022-34021"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 53,
+        "cve_id": "CVE-2022-34021",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "MMultiple  vulnerability due to cross site scripting in devices and backend "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 53,
+        "cve_id": "CVE-2022-34021",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "ResIOT IOT Platform + LoRaWAN is an IoT specific platform. the network server is part of backend"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 53,
+        "cve_id": "CVE-2022-34021",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "this is an iot related incident"
+      }
+    }
+  },
+  "CVE-2018-8479": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability affects the Azure IoT Device Provisioning service, which is purpose-built for IoT. It involves the C SDK used in IoT contexts, specifically for provisioning IoT devices, thus qualifying it as an IoT-specific vulnerability. The vulnerable product is an active element of an IoT system.",
+      "category": "os",
+      "sector": "other",
+      "cve_id": "CVE-2018-8479"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 58,
+        "cve_id": "CVE-2018-8479",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Since sppofing causes vulnerability in sdk "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 58,
+        "cve_id": "CVE-2018-8479",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "Azure IoT Device Provisioning is an helper tool for IoT Hub"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 58,
+        "cve_id": "CVE-2018-8479",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "Azure IoT Device Provisioning is iot related. this is a vulnerability in the communication layer as spoofing is possible"
+      }
+    }
+  },
+  "CVE-2022-29556": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability is related to the iot-manager microservice in Northern.tech Mender Enterprise, which is an IoT-specific technology for device management and remote control, fitting the definition of a cloud backend layer vulnerability.",
+      "category": "cloud services",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2022-29556"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 70,
+        "cve_id": "CVE-2022-29556",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "Vulnerability casued due to backend "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 70,
+        "cve_id": "CVE-2022-29556",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "it is a vulnerability in a microservice in a tool for over the air updates"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 70,
+        "cve_id": "CVE-2022-29556",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "iot manager is iot related. this is a sofwtare vulnerability"
+      }
+    }
+  },
+  "CVE-2021-39229": {
+    "reason": "label mismatch (FN)",
+    "LLM": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The vulnerability affects Apprise, which is a library used for sending notifications to services including IFTTT, relevant in IoT contexts. IFTTT is used for automating tasks across IoT devices, making it an active element in IoT systems.",
+      "category": "orchestration",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2021-39229"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 71,
+        "cve_id": "CVE-2021-39229",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Due to IFTTT vulnerability "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 71,
+        "cve_id": "CVE-2021-39229",
+        "manual_review_label": "Not IoT related",
+        "notes": "Apprise is a library for sending notifications to online notification services (e.g. Discord)"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 71,
+        "cve_id": "CVE-2021-39229",
+        "manual_review_label": "Not IoT related",
+        "notes": "apprise is mobile-device related and not iot"
+      }
+    }
+  },
+  "CVE-2024-29195": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability affects the azure-c-shared-utility library used for AMQP/MQTT communication in Azure IoT C SDK, which is purpose-built for IoT communication between IoT Hub and IoT devices. The compromised Azure account and IoT Hub service requirements indicate a direct impact on IoT cloud backend services.",
+      "category": "os",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2024-29195"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 72,
+        "cve_id": "CVE-2024-29195",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Azure iot sdk causesthe vulnerability to be exploited "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 72,
+        "cve_id": "CVE-2024-29195",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "the library might not be ioT specific, but the way the vulnerability is written it focuses mostly on IoT"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 72,
+        "cve_id": "CVE-2024-29195",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "This is IOT related as it is MQTT communicatiosn between Azure cloud and IoT devices.\r\nThe problem lies in the library, which is sfotware (application)"
+      }
+    }
+  },
+  "CVE-2023-5310": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "communication",
+      "reason": "The vulnerability affects Z-Wave SDK, which is a protocol used specifically for IoT devices for communication purposes. The affected product is an active component of an IoT system.",
+      "category": "chipsets",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2023-5310"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 75,
+        "cve_id": "CVE-2023-5310",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "Vulnerability due to controllers and enpoint devices "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 75,
+        "cve_id": "CVE-2023-5310",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "Z-Wave builds controllers and devices for home automation (IoT), the vulnerability seems to be on the devices itself"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 75,
+        "cve_id": "CVE-2023-5310",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "Silicon Labs Z-Wave is for communication between iot devcies\r\nthis is the communication layer"
+      }
+    }
+  },
+  "CVE-2019-15015": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "device",
+      "reason": "The Zingbox Inspector is a purpose-built system for managing IoT devices, and hardcoded credentials in its system software affect its functionality within an IoT context.",
+      "category": "network management",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2019-15015"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 76,
+        "cve_id": "CVE-2019-15015",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "Fault insoftware causes the vulnerability to be exploited "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 76,
+        "cve_id": "CVE-2019-15015",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "It seems there is no zingbox Inspector anymore, but a zingbox IoT guardian. I suspect therefore that the vulnerability is associated with the IoT environment. However it is not clear what such an Inspector does. Application? backend?"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 76,
+        "cve_id": "CVE-2019-15015",
+        "manual_review_label": "Not sure",
+        "notes": "i cant figure out what zingbox inspector is"
+      }
+    }
+  },
+  "CVE-2020-26079": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The vulnerability affects Cisco IoT Field Network Director, which is specifically designed for managing IoT networks, making it IoT-specific. The vulnerability is in the web UI, which is part of the application layer enabling user interactions and management tasks.",
+      "category": "network management",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2020-26079"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 86,
+        "cve_id": "CVE-2020-26079",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Ui needs to be robust to not make passwords visible "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 86,
+        "cve_id": "CVE-2020-26079",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "FND manages IoT devices (IoT specific). it is not a cloud solution, but it is definitely a backend"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 86,
+        "cve_id": "CVE-2020-26079",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "this is a vulnerability in the cloud backend for cisco iot"
+      }
+    }
+  },
+  "CVE-2018-18985": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "Tridium Niagara is a framework used for building management systems that integrate control, monitoring, and automation. It is purpose-built for IoT applications in sectors like industrial and building management, making it an active, functional element of an IoT system. The cross-site scripting vulnerability affects the web applications used for managing these systems, placing it in the application layer.",
+      "category": "automation platforms",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2018-18985"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 88,
+        "cve_id": "CVE-2018-18985",
+        "manual_review_label": "Not sure",
+        "notes": "Maybe it relates to physical security more then iot"
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 88,
+        "cve_id": "CVE-2018-18985",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "Tridium Niagara Enterprise Security manages automation and access control in buildings. this seems IoT to me. it is not clear if it is cloud-based, but it looks like a backend"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 88,
+        "cve_id": "CVE-2018-18985",
+        "manual_review_label": "Not sure",
+        "notes": " Tridium Niagara Enterprise Security is some scary big brother camera surveillance system. it seems to sophisticated for iot. so not sure"
+      }
+    }
+  },
+  "CVE-2020-21990": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The affected product, Emmanuel MyDomoAtHome, is a REST API for the Domoticz ISS Gateway, which is used for home automation. This indicates it is purpose-built for IoT and used in the deployment context of IoT within smart homes. The vulnerability in the REST API affects the application layer of the IoT ecosystem.",
+      "category": "orchestration systems",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2020-21990"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 93,
+        "cve_id": "CVE-2020-21990",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "unauthenticated remote attacker can exploit this, via a specially crafted request to gain access to sensitive information."
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 93,
+        "cve_id": "CVE-2020-21990",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "Domoticz is home automation, MyDomoAtHome is a REST API towards Domoticz. So I did my homework but I am still not sure what precisely this CVE is hinting at. maybe application??"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 93,
+        "cve_id": "CVE-2020-21990",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "MyDomoAtHome is a REST interface for a smart manufcaturere. this is a vulnerability in the REST API implementation in the software"
+      }
+    }
+  },
+  "CVE-2019-9004": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "communication",
+      "reason": "Eclipse Wakaama is an implementation of the Lightweight M2M (LWM2M) protocol, which is designed for IoT device management and communication. The vulnerability affects the LWM2M server, which is a core component in IoT communication and management, specifically designed for IoT purposes.",
+      "category": "os",
+      "sector": "other",
+      "cve_id": "CVE-2019-9004"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 95,
+        "cve_id": "CVE-2019-9004",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Eclipse Wakaama causes this vulnerability "
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 95,
+        "cve_id": "CVE-2019-9004",
+        "manual_review_label": "Not IoT related",
+        "notes": "Eclipse Wakaama covers M2M communication"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 95,
+        "cve_id": "CVE-2019-9004",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": " Eclipse Wakaama is often used for iot devices communications. this is a software vulnerability"
+      }
+    }
+  },
+  "CVE-2019-12259": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "communication",
+      "reason": "VxWorks is a real-time operating system often used in IoT devices and embedded systems, suggesting its relevance to the IoT ecosystem. The vulnerability is associated with the IGMPv3 client component, which is part of network communication protocols used by IoT devices.",
+      "category": "os",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2019-12259"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 98,
+        "cve_id": "CVE-2019-12259",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "Vulnerability in rtos"
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 98,
+        "cve_id": "CVE-2019-12259",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "VxWorks Real-Time Operating System for critical embedded systems. This potentially encompass the IoT"
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 98,
+        "cve_id": "CVE-2019-12259",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "Wind River VxWorks is for embedded systems (iot). this is a vulnearbility in the OS"
+      }
+    }
+  },
+  "CVE-2019-1644": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The vulnerability affects Cisco IoT Field Network Director, a system designed specifically for managing IoT networks, making it an IoT-specific CVE. The issue lies in the UDP protocol implementation within this IoT-focused application, affecting its ability to manage resources effectively.",
+      "category": "network management",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2019-1644"
+    },
+    "human": {
+      "Reviewer1": {
+        "username": "Reviewer1",
+        "cveIndex": 99,
+        "cve_id": "CVE-2019-1644",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "The vulnerability is due to improper resource management for UDP ingress packets"
+      },
+      "Reviewer2": {
+        "username": "Reviewer2",
+        "cveIndex": 99,
+        "cve_id": "CVE-2019-1644",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "Cisco IoT Field Network Director is an IoT management system. It is clearly a backend, but there is no indication that it is cloud-based."
+      },
+      "Reviewer3": {
+        "username": "Reviewer3",
+        "cveIndex": 99,
+        "cve_id": "CVE-2019-1644",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "communication "
+      }
+    }
+  },
+  "CVE-2025-25305": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The vulnerability affects Home Assistant, a platform specifically designed for IoT home automation, which fits within the application layer of the IoT ecosystem. The issue arises from incorrect SSL certificate verification that could lead to man-in-the-middle attacks, impacting the security of IoT operations.",
+      "category": "orchestration systems",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2025-25305"
+    },
+    "human": {
+      "Reviewer7": {
+        "username": "Reviewer7",
+        "cveIndex": 17,
+        "cve_id": "CVE-2025-25305",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": " Home Assistant is definitly IoT specific. Man-in-the-middle attacks due to missing SSL certificate verification => communicaiton"
+      },
+      "Reviewer8": {
+        "username": "Reviewer8",
+        "cveIndex": 17,
+        "cve_id": "CVE-2025-25305",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Related to homeassistant so application layer"
+      },
+      "Reviewer9": {
+        "username": "Reviewer9",
+        "cveIndex": 17,
+        "cve_id": "CVE-2025-25305",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "Man in the middle over SSL"
+      }
+    }
+  },
+  "CVE-2020-7558": {
+    "reason": "label mismatch (FP)",
+    "LLM": {
+      "label": "nonIoT",
+      "component": "unsure",
+      "reason": "The vulnerability affects IGSS Definition, which is part of a SCADA system. While SCADA systems can be part of IoT deployments, the description does not provide sufficient evidence that this specific vulnerability is IoT-specific or that the product is purpose-built for IoT. SCADA systems are often used in industrial settings, but they are not exclusively IoT technologies.",
+      "category": "os",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2020-7558"
+    },
+    "human": {
+      "Reviewer7": {
+        "username": "Reviewer7",
+        "cveIndex": 25,
+        "cve_id": "CVE-2020-7558",
+        "manual_review_label": "Not IoT related",
+        "notes": "IGSS seems to be related to SCADA system which is not IoT."
+      },
+      "Reviewer8": {
+        "username": "Reviewer8",
+        "cveIndex": 25,
+        "cve_id": "CVE-2020-7558",
+        "manual_review_label": "Not IoT related",
+        "notes": "exe, for windows, not iot"
+      },
+      "Reviewer9": {
+        "username": "Reviewer9",
+        "cveIndex": 25,
+        "cve_id": "CVE-2020-7558",
+        "manual_review_label": "Not sure",
+        "notes": "SCADA system can related to IoT but doesn't have to"
+      }
+    }
+  },
+  "CVE-2018-3863": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "application",
+      "reason": "The vulnerability affects the Samsung SmartThings Hub, which is a purpose-built device for IoT ecosystems, specifically smart homes. The vulnerability is in the video-core process of the hub's firmware, which is part of the application layer responsible for processing user inputs and data. The SmartThings Hub plays an active role in the IoT system by managing and controlling smart devices.",
+      "category": "controllers",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2018-3863"
+    },
+    "human": {
+      "Reviewer7": {
+        "username": "Reviewer7",
+        "cveIndex": 30,
+        "cve_id": "CVE-2018-3863",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "SmartThings Hub is IoT specific. vulnerability occurs due to buffer overflow which relates to device component."
+      },
+      "Reviewer8": {
+        "username": "Reviewer8",
+        "cveIndex": 30,
+        "cve_id": "CVE-2018-3863",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "I believe it's a device as it's mentioning firmware"
+      },
+      "Reviewer9": {
+        "username": "Reviewer9",
+        "cveIndex": 30,
+        "cve_id": "CVE-2018-3863",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "bufferoverflow in http over ioT"
+      }
+    }
+  },
+  "CVE-2020-3531": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability affects Cisco IoT Field Network Director, which is a purpose-built IoT product used for managing IoT network devices. It involves a REST API vulnerability related to backend database access, which is typical for cloud backend services in IoT systems.",
+      "category": "network management",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2020-3531"
+    },
+    "human": {
+      "Reviewer7": {
+        "username": "Reviewer7",
+        "cveIndex": 32,
+        "cve_id": "CVE-2020-3531",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "the vulnerability is related to Cisco IoT Field Network Director (FND) which is a software plaform for managing multiservice Field Area Networks (FANs)."
+      },
+      "Reviewer8": {
+        "username": "Reviewer8",
+        "cveIndex": 32,
+        "cve_id": "CVE-2020-3531",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "Iot related but not sure about the part"
+      },
+      "Reviewer9": {
+        "username": "Reviewer9",
+        "cveIndex": 32,
+        "cve_id": "CVE-2020-3531",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "iot network csrf vulnerability"
+      }
+    }
+  },
+  "CVE-2019-15702": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "device",
+      "reason": "RIOT-OS is a purpose-built operating system for IoT devices, specifically designed to run on embedded devices with constrained resources. The vulnerability in the TCP implementation affects the device layer, which includes hardware, firmware, or embedded OSes/software.",
+      "category": "os",
+      "sector": "other",
+      "cve_id": "CVE-2019-15702"
+    },
+    "human": {
+      "Reviewer7": {
+        "username": "Reviewer7",
+        "cveIndex": 33,
+        "cve_id": "CVE-2019-15702",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "Riot-os is widely used for IoT devices and the vulnerability stems from a bug in the tcp implementation, so communication component is the vulnerable component."
+      },
+      "Reviewer8": {
+        "username": "Reviewer8",
+        "cveIndex": 33,
+        "cve_id": "CVE-2019-15702",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "TCP"
+      },
+      "Reviewer9": {
+        "username": "Reviewer9",
+        "cveIndex": 33,
+        "cve_id": "CVE-2019-15702",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "riot os is iot related"
+      }
+    }
+  },
+  "CVE-2021-3617": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "device",
+      "reason": "The vulnerability affects Lenovo Smart Cameras, which are purpose-built IoT devices designed for smart home environments. These devices collect sensory data and perform actuation tasks, fitting the definition of the device layer in the IoT ecosystem.",
+      "category": "cameras",
+      "sector": "smart homes iot",
+      "cve_id": "CVE-2021-3617"
+    },
+    "human": {
+      "Reviewer7": {
+        "username": "Reviewer7",
+        "cveIndex": 39,
+        "cve_id": "CVE-2021-3617",
+        "manual_review_label": "IoT specific",
+        "affected_component": "unsure",
+        "notes": "smart camera is an iot device. Not sure if the vulnerability occurs due to communication or device fault."
+      },
+      "Reviewer8": {
+        "username": "Reviewer8",
+        "cveIndex": 39,
+        "cve_id": "CVE-2021-3617",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "As mentioned it's in network component"
+      },
+      "Reviewer9": {
+        "username": "Reviewer9",
+        "cveIndex": 39,
+        "cve_id": "CVE-2021-3617",
+        "manual_review_label": "IoT specific",
+        "affected_component": "communication",
+        "notes": "network configuration issue in iot device"
+      }
+    }
+  },
+  "CVE-2022-33211": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "communication",
+      "reason": "The vulnerability affects Qualcomm modem firmware, which is used in IoT devices to facilitate communication via CoAP, a protocol commonly used in IoT applications. These modems are integral to IoT systems, particularly in wearable and other low-power devices.",
+      "category": "modem",
+      "sector": "other",
+      "cve_id": "CVE-2022-33211"
+    },
+    "human": {
+      "Reviewer7": {
+        "username": "Reviewer7",
+        "cveIndex": 46,
+        "cve_id": "CVE-2022-33211",
+        "manual_review_label": "Not IoT related",
+        "notes": "modems are not considered as IoT devices."
+      },
+      "Reviewer8": {
+        "username": "Reviewer8",
+        "cveIndex": 46,
+        "cve_id": "CVE-2022-33211",
+        "manual_review_label": "Not IoT related",
+        "notes": "A modem is not considered as IoT due to definition"
+      },
+      "Reviewer9": {
+        "username": "Reviewer9",
+        "cveIndex": 46,
+        "cve_id": "CVE-2022-33211",
+        "manual_review_label": "IoT specific",
+        "affected_component": "device",
+        "notes": "qualcomm could be on the hardware of iot products"
+      }
+    }
+  },
+  "CVE-2020-26072": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The affected product is Cisco IoT Field Network Director, which is purpose-built for IoT and provides IoT-specific services such as device management. The vulnerability in the SOAP API affects the management of IoT devices.",
+      "category": "network infrastructure",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2020-26072"
+    },
+    "human": {
+      "Reviewer7": {
+        "username": "Reviewer7",
+        "cveIndex": 65,
+        "cve_id": "CVE-2020-26072",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "cisco IoT FND is a software plaform for managing multiservice Field Area Networks (FANs). Therefore, the vulnerability is related to application layer"
+      },
+      "Reviewer8": {
+        "username": "Reviewer8",
+        "cveIndex": 65,
+        "cve_id": "CVE-2020-26072",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Soap API authorizans seems to be in issue in the application layer"
+      },
+      "Reviewer9": {
+        "username": "Reviewer9",
+        "cveIndex": 65,
+        "cve_id": "CVE-2020-26072",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "issue on the backend API that affects IoT devices."
+      }
+    }
+  },
+  "CVE-2020-26078": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The affected product, Cisco IoT Field Network Director, is purpose-built for IoT as it is specifically designed to manage IoT field networks, indicating a clear relevance to the IoT ecosystem. The vulnerability involves crafting API requests, which is typical of cloud backend vulnerabilities.",
+      "category": "network management",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2020-26078"
+    },
+    "human": {
+      "Reviewer7": {
+        "username": "Reviewer7",
+        "cveIndex": 67,
+        "cve_id": "CVE-2020-26078",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Cisco IoT Field Network Director is iot specific and it is an application designed for iot and orchestration, so the vulnerable component is application."
+      },
+      "Reviewer8": {
+        "username": "Reviewer8",
+        "cveIndex": 67,
+        "cve_id": "CVE-2020-26078",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Not sure application or device, but applications seems closer"
+      },
+      "Reviewer9": {
+        "username": "Reviewer9",
+        "cveIndex": 67,
+        "cve_id": "CVE-2020-26078",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "issue on the backend API that affects IoT devices."
+      }
+    }
+  },
+  "CVE-2020-26077": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability affects Cisco IoT Field Network Director, which is purpose-built for IoT and is an active component of an IoT system. The vulnerability relates to improper access control in an IoT-specific service, fulfilling the criteria for an IoT-specific CVE.",
+      "category": "network management",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2020-26077"
+    },
+    "human": {
+      "Reviewer7": {
+        "username": "Reviewer7",
+        "cveIndex": 89,
+        "cve_id": "CVE-2020-26077",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Cisco IoT Field Network Director (FND) is IoT specific. It is more like an application self-hosted on personal servers, so not cloud=> application"
+      },
+      "Reviewer8": {
+        "username": "Reviewer8",
+        "cveIndex": 89,
+        "cve_id": "CVE-2020-26077",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "The issue is in the logic of FND, thus not communication. Still a small chance for being device"
+      },
+      "Reviewer9": {
+        "username": "Reviewer9",
+        "cveIndex": 89,
+        "cve_id": "CVE-2020-26077",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "issue on the backend API that affects IoT devices."
+      }
+    }
+  },
+  "CVE-2018-0270": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "The vulnerability is in the Cisco IoT Field Network Director, which is a purpose-built IoT technology used for managing IoT networks, thus relevant to the IoT ecosystem. The vulnerability affects the web-based management interface, which is part of the cloud backend layer.",
+      "category": "network infrastructure",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2018-0270"
+    },
+    "human": {
+      "Reviewer7": {
+        "username": "Reviewer7",
+        "cveIndex": 92,
+        "cve_id": "CVE-2018-0270",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "Cisco IoT Field Network Director is IoT specific and is an application."
+      },
+      "Reviewer8": {
+        "username": "Reviewer8",
+        "cveIndex": 92,
+        "cve_id": "CVE-2018-0270",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "The interface is on affected devices, thus it's not a cloud backend. As it's software I think application layer, but device is also possible"
+      },
+      "Reviewer9": {
+        "username": "Reviewer9",
+        "cveIndex": 92,
+        "cve_id": "CVE-2018-0270",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "issue on the backend API that affects IoT devices."
+      }
+    }
+  },
+  "CVE-2019-15016": {
+    "reason": "component mismatch",
+    "gpt-4o": {
+      "label": "IoT",
+      "component": "cloud backend",
+      "reason": "Zingbox Inspector is a security solution designed for IoT environments, which indicates its deployment context and purpose-built nature for IoT. The vulnerability affects the management interface, likely part of the cloud backend services managing IoT devices.",
+      "category": "network security",
+      "sector": "industrial iot",
+      "cve_id": "CVE-2019-15016"
+    },
+    "human": {
+      "Reviewer7": {
+        "username": "Reviewer7",
+        "cveIndex": 99,
+        "cve_id": "CVE-2019-15016",
+        "manual_review_label": "IoT specific",
+        "affected_component": "cloud backend",
+        "notes": "zingbox is a company that provides security for IoT infrastructures. The sql injection happens due to improper input validation in the backend that causes an unsaitized data going to the backend database."
+      },
+      "Reviewer8": {
+        "username": "Reviewer8",
+        "cveIndex": 99,
+        "cve_id": "CVE-2019-15016",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "The web app panel is similar to the application; thus, I think the affected component is application, yet not 100% sure"
+      },
+      "Reviewer9": {
+        "username": "Reviewer9",
+        "cveIndex": 99,
+        "cve_id": "CVE-2019-15016",
+        "manual_review_label": "IoT specific",
+        "affected_component": "application",
+        "notes": "zingbox seems to manage iot devices through application"
+      }
+    }
+  }
+}
