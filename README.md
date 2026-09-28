@@ -109,7 +109,7 @@ LLIoT/
 python expert_review/sampling_CVEs/dictionary_based_sampling.py
 
 # Run LLM classification (requires Ollama)
-python expert_review/LLM_classification/classification.py <model-name> <prompt-file>
+python -m expert_review.LLM_classification.classification <model-name> <prompt-file> [--no-think] [--run N] [--workers N] [--num-ctx N]
 
 # Evaluate LLM accuracy against ground truth
 python expert_review/LLM_classification/llm_evaluation.py
